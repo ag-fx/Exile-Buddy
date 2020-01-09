@@ -1,0 +1,3994 @@
+[
+  {
+	"name": "Animate Weapon",
+	"slot": "Green",
+	"tags": [
+	  "DURATION",
+	  "MINION",
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "ingredient": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "ingredient": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Arctic Armour",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "DURATION",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Artillery Ballista",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "TOTEM",
+	  "AOE",
+	  "FIRE",
+	  "PROJECTILE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Barrage",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Bear Trap",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "DURATION",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blade Furry",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "CHANNELLING",
+	  "PHYSICAL",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blade Vortex",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "PHYSICAL"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Bladefall",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blast Rain",
+	"slot": "Green",
+	"tags": [
+	  "FIRE",
+	  "ATTACK",
+	  "AOE",
+	  "PROJECTILE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blink Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MINION",
+	  "DURATION",
+	  "MOVEMENT",
+	  "TRAVEL",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blood Rage",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "DURATION",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Burning Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "FIRE",
+	  "DURATION",
+	  "BOW"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Caustic Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "AOE",
+	  "DURATION",
+	  "CHAOS",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"RANGER"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Charged Dash",
+	"slot": "Green",
+	"tags": [
+	  "MOVEMENT",
+	  "AOE",
+	  "CHANNELLING",
+	  "ATTACK",
+	  "LIGHTNING",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cobra Lash",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cremation",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE",
+	  "DURATION",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cyclone",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "MOVEMENT",
+	  "CHANNELLING",
+	  "PHYSICAL",
+	  "MELEE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Dash",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "MOVEMENT",
+	  "TRAVEL",
+	  "BLINK"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Desecrate",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Detonate Dead",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Double Strike",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MELEE",
+	  "STRIKE",
+	  "PHYSICAL"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Dual Strike",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MELEE",
+	  "STRIKE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Elemental Hit",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "MELEE",
+	  "STRIKE",
+	  "FIRE",
+	  "COLD",
+	  "LIGHTNING",
+	  "AOE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ensnaring Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "AOE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ethereal Knives",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Explosive Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "AOE",
+	  "DURATION",
+	  "FIRE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Explosive Trap",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "AOE",
+	  "FIRE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Fire Trap",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "DURATION",
+	  "AOE",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Flamethrower Trap",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "DURATION",
+	  "AOE",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Flicker Strike",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MELEE",
+	  "STRIKE",
+	  "MOVEMENT",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Frenzy",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "MELEE",
+	  "STRIKE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Frost Blades",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "MELEE",
+	  "STRIKE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Galvanic Arrow",
+	"slot": "Green",
+	"tags": [
+	  "LIGHTNING",
+	  "ATTACK",
+	  "PROJECTILE",
+	  "AOE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Grace",
+	"slot": "Green",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Haste",
+	"slot": "Green",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Hatred",
+	"slot": "Green",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Herald of Agony",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "HERALD",
+	  "MINION",
+	  "CHAOS",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Herald of Ice",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "COLD",
+	  "HERALD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ice Shot",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "AOE",
+	  "COLD",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ice Trap",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "AOE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lacerate",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "PHYSICAL",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lancing Steel",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lightning Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "PROJECTILE",
+	  "LIGHTNING",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lightning Strike",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "MELEE",
+	  "STRIKE",
+	  "LIGHTNING"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Mirror Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MINION",
+	  "DURATION",
+	  "MOVEMENT",
+	  "TRAVEL",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Pestilent Strike",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MELEE",
+	  "STRIKE",
+	  "AOE",
+	  "DURATION",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Phase Run",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "DURATION",
+	  "MOVEMENT",
+	  "PHYSICAL",
+	  "TRAVEL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Plague Bearer",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "CHAOS",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Poacher's Mark",
+	"slot": "Green",
+	"tags": [
+	  "CURSE",
+	  "SPELL",
+	  "AOE",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Precision",
+	"slot": "Green",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Projectile Weakness",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Puncture",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "DURATION",
+	  "MELEE",
+	  "STRIKE",
+	  "PHYSICAL",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Purity of Ice",
+	"slot": "Green",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Rain of Arrows",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "PROJECTILE",
+	  "BOW"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Reave",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "MELEE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Riposte",
+	"slot": "Green",
+	"tags": [
+	  "TRIGGER",
+	  "ATTACK",
+	  "MELEE",
+	  "STRIKE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Scourge Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "CHANNELLING",
+	  "CHAOS",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Seismic Trap",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "DURATION",
+	  "AOE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Shattering Steel",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "AOE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Shrapnel Ballista",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "TOTEM",
+	  "PHYSICAL",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Siege Ballista",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "TOTEM",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Smoke Mine",
+	"slot": "Green",
+	"tags": [
+	  "MINE",
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "MOVEMENT",
+	  "TRAVEL",
+	  "BLINK"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Spectral Shield Throw",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Spectral Throw",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Split Arrow",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "PHYSICAL",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Ice Golem",
+	"slot": "Green",
+	"tags": [
+	  "COLD",
+	  "MINION",
+	  "SPELL",
+	  "GOLEM"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Temporal Chains",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Tornado Shot",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Toxic Rain",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "CHAOS",
+	  "DURATION",
+	  "PROJECTILE",
+	  "BOW"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Unearth",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "AOE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Venom Gyre",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Viper Strike",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "DURATION",
+	  "MELEE",
+	  "STRIKE",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Volatile Dead",
+	"slot": "Green",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Whirling Blades",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MOVEMENT",
+	  "TRAVEL",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Wild Strike",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "MELEE",
+	  "STRIKE",
+	  "LIGHTNING",
+	  "COLD",
+	  "FIRE",
+	  "PROJECTILE",
+	  "AOE",
+	  "CHAINING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Withering Step",
+	"slot": "Green",
+	"tags": [
+	  "TRAVEL",
+	  "AOE",
+	  "CHAOS",
+	  "MOVEMENT",
+	  "BLINK",
+	  "SPELL",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Arc",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "CHAINING",
+	  "LIGHTNING"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Arctic Breath",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "DURATION",
+	  "AOE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Armageddon Brand",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE",
+	  "DURATION",
+	  "BRAND"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Assassin's Mark",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ball Lightning",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "AOE",
+	  "LIGHTNING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Bane",
+	"slot": "Blue",
+	"tags": [
+	  "CHAOS",
+	  "TRIGGER",
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blight",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "CHAOS",
+	  "AOE",
+	  "CHANNELLING",
+	  "DURATION"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Bodyswap",
+	"slot": "Blue",
+	"tags": [
+	  "MOVEMENT",
+	  "SPELL",
+	  "AOE",
+	  "FIRE",
+	  "TRAVEL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Bone Offering",
+	"slot": "Blue",
+	"tags": [
+	  "MINION",
+	  "SPELL",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Brand Recall",
+	"slot": "Blue",
+	"tags": [
+	  "BRAND",
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Clarity",
+	"slot": "Blue",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cold Snap",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "COLD",
+	  "DURATION"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Conductivity",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE",
+	  "LIGHTNING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Contagion",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Conversion Trap",
+	"slot": "Blue",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Convocation",
+	"slot": "Blue",
+	"tags": [
+	  "MINION",
+	  "SPELL",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Dark Pact",
+	"slot": "Blue",
+	"tags": [
+	  "MINION",
+	  "SPELL",
+	  "AOE",
+	  "CHAINING",
+	  "CHAOS",
+	  "NOVA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Despair",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Discharge",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE",
+	  "COLD",
+	  "LIGHTNING",
+	  "NOVA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Discipline",
+	"slot": "Blue",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Divine Ire",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "SPELL",
+	  "AOE",
+	  "CHANNELLING",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Elemental Weakness",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Enfeeble",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Essence Drain",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "DURATION",
+	  "CHAOS",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Fireball",
+	"slot": "Blue",
+	"tags": [
+	  "PROJECTILE",
+	  "SPELL",
+	  "AOE",
+	  "FIRE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Firestorm",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Flame Dash",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "MOVEMENT",
+	  "DURATION",
+	  "FIRE",
+	  "TRAVEL",
+	  "BLINK"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Flame Surge",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Flameblast",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE",
+	  "CHANNELLING"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Flammability",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Flesh Offering",
+	"slot": "Blue",
+	"tags": [
+	  "MINION",
+	  "SPELL",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Freezing Pulse",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Frost Bomb",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Frost Wall",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "DURATION",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Frostbite",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CURSE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Frostblink",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "MOVEMENT",
+	  "DURATION",
+	  "COLD",
+	  "TRAVEL",
+	  "BLINK",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Frostbolt",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Glacial Cascade",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "COLD",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Herald of Thunder",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "LIGHTNING",
+	  "HERALD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ice Nova",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "COLD",
+	  "NOVA"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ice Spear",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Icicle Mine",
+	"slot": "Blue",
+	"tags": [
+	  "MINE",
+	  "SPELL",
+	  "PROJECTILE",
+	  "COLD",
+	  "AURA",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Incinerate",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "FIRE",
+	  "CHANNELLING",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Kinetic Blast",
+	"slot": "Blue",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lightning Spire Trap",
+	"slot": "Blue",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "DURATION",
+	  "AOE",
+	  "LIGHTNING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lightning Tendrils",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "LIGHTNING",
+	  "CHANNELLING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lightning Trap",
+	"slot": "Blue",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "PROJECTILE",
+	  "LIGHTNING"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lightning Warp",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "MOVEMENT",
+	  "LIGHTNING",
+	  "TRAVEL"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Magma Orb",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE",
+	  "PROJECTILE",
+	  "CHAINING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Malevolence",
+	"slot": "Blue",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Orb of Storms",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "SPELL",
+	  "DURATION",
+	  "AOE",
+	  "CHAINING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Power Siphon",
+	"slot": "Blue",
+	"tags": [
+	  "ATTACK",
+	  "PROJECTILE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Purifying Flame",
+	"slot": "Blue",
+	"tags": [
+	  "FIRE",
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Purity of Elements",
+	"slot": "Blue",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Purity of Lightning",
+	"slot": "Blue",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE",
+	  "LIGHTNING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Pyroclast Mine",
+	"slot": "Blue",
+	"tags": [
+	  "MINE",
+	  "SPELL",
+	  "PROJECTILE",
+	  "FIRE",
+	  "AOE",
+	  "AURA",
+	  "NOVA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Raise Spectre",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Raise Zombie",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Righteous Fire",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "FIRE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Scorching Ray",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "FIRE",
+	  "DURATION",
+	  "CHANNELLING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Shock Nova",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "LIGHTNING",
+	  "AOE",
+	  "NOVA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Siphoning Trap",
+	"slot": "Blue",
+	"tags": [
+	  "TRAP",
+	  "SPELL",
+	  "DURATION",
+	  "AOE",
+	  "COLD"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Soulrend",
+	"slot": "Blue",
+	"tags": [
+	  "CHAOS",
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Spark",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "PROJECTILE",
+	  "DURATION",
+	  "LIGHTNING"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Spirit Offering",
+	"slot": "Blue",
+	"tags": [
+	  "MINION",
+	  "SPELL",
+	  "DURATION",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Storm Brand",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "SPELL",
+	  "AOE",
+	  "CHAINING",
+	  "DURATION",
+	  "BRAND"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Storm Burst",
+	"slot": "Blue",
+	"tags": [
+	  "AOE",
+	  "SPELL",
+	  "LIGHTNING",
+	  "CHANNELLING",
+	  "DURATION",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Storm Call",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "LIGHTNING"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Stormblast Mine",
+	"slot": "Blue",
+	"tags": [
+	  "MINE",
+	  "SPELL",
+	  "AOE",
+	  "LIGHTNING",
+	  "AURA",
+	  "NOVA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Carrion Golem",
+	"slot": "Blue",
+	"tags": [
+	  "PHYSICAL",
+	  "MINION",
+	  "SPELL",
+	  "GOLEM"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Chaos Golem",
+	"slot": "Blue",
+	"tags": [
+	  "CHAOS",
+	  "MINION",
+	  "SPELL",
+	  "GOLEM"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Holy Relic",
+	"slot": "Blue",
+	"tags": [
+	  "MINION",
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Lightning Golem",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "MINION",
+	  "SPELL",
+	  "GOLEM"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Raging Spirit",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "MINION",
+	  "DURATION",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Skeletons",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "MINION",
+	  "DURATION"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Skitterbots",
+	"slot": "Blue",
+	"tags": [
+	  "TRAP",
+	  "MINE",
+	  "SPELL",
+	  "MINION",
+	  "COLD",
+	  "LIGHTNING",
+	  "AOE",
+	  "AURA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Tempest Shield",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "LIGHTNING",
+	  "CHAINING",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Vortex",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "COLD",
+	  "DURATION",
+	  "NOVA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Wave of Conviction",
+	"slot": "Blue",
+	"tags": [
+	  "FIRE",
+	  "LIGHTNING",
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Winter Orb",
+	"slot": "Blue",
+	"tags": [
+	  "COLD",
+	  "SPELL",
+	  "CHANNELLING",
+	  "AOE",
+	  "DURATION",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Wither",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "AOE",
+	  "DURATION",
+	  "CHAOS",
+	  "CHANNELLING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Wrath",
+	"slot": "Blue",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE",
+	  "LIGHTNING"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Zealotry",
+	"slot": "Blue",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Abyssal Cry",
+	"slot": "Red",
+	"tags": [
+	  "WARCRY",
+	  "AOE",
+	  "DURATION",
+	  "CHAOS"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ancestral Protector",
+	"slot": "Red",
+	"tags": [
+	  "ATTACK",
+	  "TOTEM",
+	  "MELEE",
+	  "STRIKE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Detonate Mines",
+	"slot": "White",
+	"tags": [
+	  "MINE",
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Portal",
+	"slot": "White",
+	"tags": [
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 5,
+		  "ingredient": "The Realm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Added Cold Damage Support",
+	"slot": "Green",
+	"tags": [
+	  "COLD",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Additional Accuracy Support",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Advanced Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Arrow Nova Support",
+	"slot": "Green",
+	"tags": [
+	  "BOW",
+	  "ATTACK",
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Barrage Support",
+	"slot": "Green",
+	"tags": [
+	  "BOW",
+	  "ATTACK",
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blind Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Block Chance Reduction Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cast on Critical Strike Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "SPELL",
+	  "TRIGGER"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cast on Death Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "SPELL",
+	  "TRIGGER"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Chain Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "CHAINING",
+	  "PROJECTILE"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Chance to Flee Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Charged Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "TRAP"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Close Combat Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "MELEE",
+	  "ATTACK",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cluster Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "TRAP",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cold Penetration Support",
+	"slot": "Green",
+	"tags": [
+	  "COLD",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Culling Strike Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Deadly Ailments Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Enhance Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Faster Attacks Support",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Faster Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Fork Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Greater Multiple Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Greater Volley Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Hypothermia Support",
+	"slot": "Green",
+	"tags": [
+	  "COLD",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ice Bite Support",
+	"slot": "Green",
+	"tags": [
+	  "COLD",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Impale Support",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "PHYSICAL",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lesser Multiple Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lesser Poison Support",
+	"slot": "Green",
+	"tags": [
+	  "CHAOS",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Mana Leech Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Mirage Archer Support",
+	"slot": "Green",
+	"tags": [
+	  "BOW",
+	  "ATTACK",
+	  "SUPPORT",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Multiple Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "TRAP"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Nightblade Support",
+	"slot": "Green",
+	"tags": [
+	  "ATTACK",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Onslaught Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Pierce Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Point Blank Support",
+	"slot": "Green",
+	"tags": [
+	  "PROJECTILE",
+	  "ATTACK",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Poison Support",
+	"slot": "Green",
+	"tags": [
+	  "CHAOS",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Slower Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Swift Affliction Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "DURATION"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Swift Assembly Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "TRAP",
+	  "MINE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Trap and Mine Damage Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "TRAP",
+	  "MINE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Trap Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "TRAP"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Vicious Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "PROJECTILE",
+	  "ATTACK",
+	  "PHYSICAL",
+	  "CHAOS",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Vile Toxins Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Void Manipulation Support",
+	"slot": "Green",
+	"tags": [
+	  "CHAOS",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Volley Support",
+	"slot": "Green",
+	"tags": [
+	  "SUPPORT",
+	  "PROJECTILE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Withering Touch Support",
+	"slot": "Green",
+	"tags": [
+	  "CHAOS",
+	  "PHYSICAL",
+	  "ATTACK",
+	  "SUPPORT",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Added Chaos Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "CHAOS",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Added Lightning Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Arcane Surge Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "SPELL",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blasphemy Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "AURA"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Blastchain Mine Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Bonechill Support",
+	"slot": "Blue",
+	"tags": [
+	  "COLD",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cast When Stunned Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "SPELL",
+	  "TRIGGER"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Cast While Channelling Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "CHANNELLING",
+	  "SPELL",
+	  "TRIGGER"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Charged Mines Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Combustion Support",
+	"slot": "Blue",
+	"tags": [
+	  "FIRE",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Concentrated Effect Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Controlled Destruction Support",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Curse On Hit Support",
+	"slot": "Blue",
+	"tags": [
+	  "CURSE",
+	  "TRIGGER",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Deathmark Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINION",
+	  "SPELL",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Decay Support",
+	"slot": "Blue",
+	"tags": [
+	  "CHAOS",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Efficacy Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Elemental Army Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Elemental Focus Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Elemental Proliferation Support",
+	"slot": "Blue",
+	"tags": [
+	  "COLD",
+	  "FIRE",
+	  "LIGHTNING",
+	  "SUPPORT",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Energy Leech Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Enlighten Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Faster Casting Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Feeding Frenzy Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINION",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "High-Impact Mine Support",
+	"slot": "Blue",
+	"tags": [
+	  "MINE",
+	  "SUPPORT",
+	  "AOE",
+	  "AURA"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Ignite Proliferation Support",
+	"slot": "Blue",
+	"tags": [
+	  "FIRE",
+	  "SUPPORT",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Immolate Support",
+	"slot": "Blue",
+	"tags": [
+	  "FIRE",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Increased Area of Effect Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "AOE"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Increased Critical Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Increased Critical Strikes Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Infernal Legion Support",
+	"slot": "Blue",
+	"tags": [
+	  "FIRE",
+	  "AOE",
+	  "SUPPORT",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Infused Channelling Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "CHANNELLING",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Innervate Support",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "SUPPORT",
+	  "DURATION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Intensify Support",
+	"slot": "Blue",
+	"tags": [
+	  "AOE",
+	  "SPELL",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Item Rarity Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Lightning Penetration Support",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Meat Shield Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Minefield Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINE"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Minion Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINION"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Minion Life Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Minion Speed Support",
+	"slot": "Blue",
+	"tags": [
+	  "MOVEMENT",
+	  "SUPPORT",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Physical to Lightning Support",
+	"slot": "Blue",
+	"tags": [
+	  "LIGHTNING",
+	  "PHYSICAL",
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Power Charge On Critical Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Spell Cascade Support",
+	"slot": "Blue",
+	"tags": [
+	  "AOE",
+	  "SPELL",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Spell Echo Support",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Summon Phantasm Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Unbound Ailments Support",
+	"slot": "Blue",
+	"tags": [
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Unleash Support",
+	"slot": "Blue",
+	"tags": [
+	  "SPELL",
+	  "SUPPORT"
+	],
+	"hasAwakened": true,
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  },
+  {
+	"name": "Spell Totem Support",
+	"slot": "Red",
+	"tags": [
+	  "SUPPORT",
+	  "SPELL",
+	  "TOTEM"
+	],
+	"acquisition": {
+	  "recipes": [],
+	  "vendors": [],
+	  "quests": []
+	}
+  }
+]
