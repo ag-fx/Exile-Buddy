@@ -26,6 +26,7 @@
 		  "ingredient": "Gemcutter's Promise"
 		}
 	  ],
+	  "quests": [],
 	  "vendors": [
 		{
 		  "vendor": "Nessa",
@@ -65,8 +66,7 @@
 			"SCION"
 		  ]
 		}
-	  ],
-	  "quests": []
+	  ]
 	}
   },
   {
@@ -79,8 +79,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -96,8 +96,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -110,8 +110,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -125,8 +125,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -141,8 +141,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -157,8 +157,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -171,8 +171,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -187,8 +187,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -204,8 +204,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -218,8 +218,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -244,6 +244,7 @@
 		  "ingredient": "Gemcutter's Promise"
 		}
 	  ],
+	  "quests": [],
 	  "vendors": [
 		{
 		  "vendor": "Nessa",
@@ -284,8 +285,7 @@
 			"SCION"
 		  ]
 		}
-	  ],
-	  "quests": []
+	  ]
 	}
   },
   {
@@ -310,6 +310,15 @@
 		  "ingredient": "Gemcutter's Promise"
 		}
 	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"RANGER"
+		  ]
+		}
+	  ],
 	  "vendors": [
 		{
 		  "vendor": "Nessa",
@@ -350,15 +359,6 @@
 			"SCION"
 		  ]
 		}
-	  ],
-	  "quests": [
-		{
-		  "act": 1,
-		  "quest": "Enemy at the Gate",
-		  "classes": [
-			"RANGER"
-		  ]
-		}
 	  ]
 	}
   },
@@ -375,8 +375,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -389,8 +389,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -405,8 +405,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -423,8 +423,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -438,8 +438,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -453,8 +453,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -468,8 +468,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -484,8 +484,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -498,8 +498,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -518,8 +518,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -533,8 +533,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -547,8 +547,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -564,8 +564,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -580,8 +580,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -596,8 +596,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -612,8 +612,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -628,8 +628,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -644,8 +644,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -660,8 +660,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -676,8 +676,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -691,8 +691,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -706,8 +706,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -721,8 +721,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -737,8 +737,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -752,8 +752,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -768,8 +768,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -783,8 +783,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -798,8 +798,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -812,8 +812,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -828,8 +828,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -845,8 +845,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -862,8 +862,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -879,8 +879,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -895,8 +895,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -909,8 +909,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -924,8 +924,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -938,8 +938,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -953,8 +953,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -971,8 +971,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -986,8 +986,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1002,8 +1002,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1017,8 +1017,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1033,8 +1033,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1049,8 +1049,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1065,8 +1065,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1080,8 +1080,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1096,8 +1096,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1111,8 +1111,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1129,8 +1129,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1143,8 +1143,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1157,8 +1157,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1172,8 +1172,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1187,8 +1187,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1202,8 +1202,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1216,8 +1216,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1233,8 +1233,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1248,8 +1248,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1262,8 +1262,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1278,8 +1278,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1292,8 +1292,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1307,8 +1307,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1327,8 +1327,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1345,8 +1345,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1360,8 +1360,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1376,8 +1376,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1392,8 +1392,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1407,8 +1407,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1422,8 +1422,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1439,8 +1439,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1456,8 +1456,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1472,8 +1472,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1486,8 +1486,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1499,8 +1499,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1514,8 +1514,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1530,8 +1530,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1546,8 +1546,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1561,8 +1561,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1575,8 +1575,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1589,8 +1589,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1606,8 +1606,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1622,8 +1622,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1639,8 +1639,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1654,8 +1654,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1670,8 +1670,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1685,8 +1685,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1700,8 +1700,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1716,8 +1716,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1732,8 +1732,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1747,8 +1747,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1764,8 +1764,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1778,8 +1778,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1794,8 +1794,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1810,8 +1810,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1824,8 +1824,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1838,8 +1838,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1853,8 +1853,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1867,8 +1867,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1883,8 +1883,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1901,8 +1901,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1915,8 +1915,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1930,8 +1930,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1946,8 +1946,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1962,8 +1962,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1976,8 +1976,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -1993,8 +1993,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2008,8 +2008,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2022,8 +2022,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2038,8 +2038,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2053,8 +2053,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2069,8 +2069,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2087,8 +2087,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2103,8 +2103,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2117,8 +2117,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2133,8 +2133,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2147,8 +2147,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2163,8 +2163,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2177,8 +2177,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2192,8 +2192,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2210,8 +2210,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2223,8 +2223,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2236,8 +2236,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2251,8 +2251,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2266,8 +2266,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2281,8 +2281,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2297,8 +2297,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2313,8 +2313,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2329,8 +2329,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2344,8 +2344,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2361,8 +2361,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2378,8 +2378,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2394,8 +2394,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2411,8 +2411,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2426,8 +2426,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2441,8 +2441,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2454,8 +2454,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2469,8 +2469,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2484,8 +2484,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2499,8 +2499,8 @@
 	"hasVaal": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2518,8 +2518,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2533,8 +2533,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2549,8 +2549,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2566,8 +2566,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2583,8 +2583,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2599,8 +2599,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2614,8 +2614,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2628,8 +2628,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2643,8 +2643,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2658,8 +2658,643 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ancestral Warchief",
+	"slot": "Red",
+	"tags": [
+	  "ATTACK",
+	  "TOTEM",
+	  "AOE",
+	  "MELEE"
+	],
+	"hasVaal": true,
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"MARAUDER"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Anger",
+	"slot": "Red",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE",
+	  "FIRE"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "ingredient": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"MARAUDER",
+			"SCION"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Animate Guardian",
+	"slot": "Red",
+	"tags": [
+	  "SPELL",
+	  "MINION"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "ingredient": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "ingredient": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Berserk",
+	"slot": "Red",
+	"tags": [
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "ingredient": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"MARAUDER"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Petarus and Vanja",
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Bladestorm",
+	"slot": "Red",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "DURATION",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"DUELIST"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"DUELIST",
+			"MARAUDER",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blood and Sand",
+	"slot": "Red",
+	"tags": [
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"DUELIST"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Chain Hook",
+	"slot": "Red",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "MOVEMENT",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"MARAUDER"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"DUELIST",
+			"MARAUDER",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Cleave",
+	"slot": "Red",
+	"tags": [
+	  "ATTACK",
+	  "AOE",
+	  "PHYSICAL",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"DUELIST"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Consecrated Path",
+	"slot": "Red",
+	"tags": [
+	  "FIRE",
+	  "ATTACK",
+	  "AOE",
+	  "MOVEMENT",
+	  "DURATION",
+	  "MELEE"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"TEMPLAR"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
 	}
   },
   {
@@ -2676,6 +3311,7 @@
 		  "ingredient": "Gemcutter's Promise"
 		}
 	  ],
+	  "quests": [],
 	  "vendors": [
 		{
 		  "vendor": "Lilly Roth",
@@ -2691,8 +3327,7 @@
 			"SCION"
 		  ]
 		}
-	  ],
-	  "quests": []
+	  ]
 	}
   },
   {
@@ -2712,8 +3347,8 @@
 		  "ingredient": "Gemcutter's Promise"
 		}
 	  ],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2726,8 +3361,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2739,8 +3374,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2752,8 +3387,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2768,8 +3403,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2783,8 +3418,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2795,8 +3430,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2808,8 +3443,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2823,8 +3458,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2837,8 +3472,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2852,8 +3487,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2864,8 +3499,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2877,8 +3512,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2892,8 +3527,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2905,8 +3540,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2919,8 +3554,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2931,8 +3566,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2944,8 +3579,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2956,8 +3591,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2969,8 +3604,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2982,8 +3617,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -2996,8 +3631,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3010,8 +3645,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3023,8 +3658,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3036,8 +3671,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3049,8 +3684,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3063,8 +3698,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3076,8 +3711,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3089,8 +3724,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3101,8 +3736,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3116,8 +3751,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3129,8 +3764,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3142,8 +3777,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3154,8 +3789,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3167,8 +3802,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3181,8 +3816,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3194,8 +3829,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3207,8 +3842,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3221,8 +3856,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3235,8 +3870,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3249,8 +3884,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3262,8 +3897,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3279,8 +3914,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3291,8 +3926,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3305,8 +3940,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3318,8 +3953,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3334,8 +3969,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3348,8 +3983,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3362,8 +3997,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3376,8 +4011,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3390,8 +4025,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3403,8 +4038,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3416,8 +4051,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3430,8 +4065,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3446,8 +4081,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3459,8 +4094,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3472,8 +4107,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3485,8 +4120,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3499,8 +4134,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3514,8 +4149,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3529,8 +4164,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3542,8 +4177,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3555,8 +4190,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3568,8 +4203,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3581,8 +4216,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3597,8 +4232,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3609,8 +4244,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3621,8 +4256,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3634,8 +4269,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3648,8 +4283,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3663,8 +4298,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3677,8 +4312,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3690,8 +4325,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3704,8 +4339,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3716,8 +4351,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3728,8 +4363,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3743,8 +4378,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3757,8 +4392,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3771,8 +4406,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3785,8 +4420,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3797,8 +4432,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3811,8 +4446,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3824,8 +4459,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3837,8 +4472,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3851,8 +4486,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3864,8 +4499,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3878,8 +4513,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3892,8 +4527,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3904,8 +4539,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3919,8 +4554,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3933,8 +4568,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3946,8 +4581,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3959,8 +4594,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3973,8 +4608,8 @@
 	"hasAwakened": true,
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   },
   {
@@ -3987,8 +4622,8 @@
 	],
 	"acquisition": {
 	  "recipes": [],
-	  "vendors": [],
-	  "quests": []
+	  "quests": [],
+	  "vendors": []
 	}
   }
 ]
