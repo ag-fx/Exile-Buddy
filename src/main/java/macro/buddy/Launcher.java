@@ -1,14 +1,11 @@
 package macro.buddy;
 
 import macro.buddy.builds.*;
-import macro.buddy.gems.GemInfo;
-import macro.buddy.gems.GemUtils;
-import macro.buddy.ui.GemsUI;
+import macro.buddy.ui.builds.BuildUI;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Macro303 on 2019-Nov-29.
@@ -18,6 +15,10 @@ public class Launcher {
 
 	public static void main(String[] args) {
 		BuildUtils.loadBuilds();
-		new GemsUI().init(args);
+		if(BuildUtils.getBuilds().size() == 0) {
+			LOGGER.warn("No Builds found, creating a template build");
+			new BuildInfo("Template", ClassTag.SCION, AscendencyTag.ASCENDANT, new ArrayList<>(), new ArrayList<>()).save();
+		}
+		new BuildUI().init(args);
 	}
 }

@@ -1,4 +1,4 @@
-package macro.buddy.ui;
+package macro.buddy.ui.new_build;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -9,10 +9,11 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.StringConverter;
+import macro.buddy.ClassTag;
 import macro.buddy.builds.AscendencyTag;
 import macro.buddy.builds.BuildInfo;
 import macro.buddy.builds.BuildUtils;
-import macro.buddy.ClassTag;
+import macro.buddy.ui.builds.GemPane;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -23,35 +24,19 @@ import java.util.ResourceBundle;
 /**
  * Created by Macro303 on 2019-Dec-03
  */
-public class GemsController implements Initializable {
-	private static final Logger LOGGER = LogManager.getLogger(GemsController.class);
-	@FXML
-	private ComboBox<BuildInfo> buildCombo;
+public class NewBuildController implements Initializable {
+	private static final Logger LOGGER = LogManager.getLogger(NewBuildController.class);
 	@FXML
 	private TextField buildName;
 	@FXML
 	private ComboBox<ClassTag> classCombo;
 	@FXML
 	private ComboBox<AscendencyTag> ascendencyCombo;
-	@FXML
-	private VBox buildGems;
 
 	private Stage stage = null;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		buildCombo.getItems().setAll(BuildUtils.getBuilds());
-		buildCombo.setConverter(new StringConverter<BuildInfo>() {
-			@Override
-			public String toString(BuildInfo object) {
-				return object.getName() + " [" + object.getClassTag() + (object.getAscendency() == AscendencyTag.NONE ? "" : "/" + object.getAscendency().name()) + "]";
-			}
-
-			@Override
-			public BuildInfo fromString(String string) {
-				return null;
-			}
-		});
 		classCombo.getItems().setAll(ClassTag.values());
 	}
 
@@ -59,33 +44,12 @@ public class GemsController implements Initializable {
 		this.stage = stage;
 	}
 
-	public void setBuild(BuildInfo build) {
-		buildGems.getChildren().clear();
-		buildGems.setFillWidth(true);
-		build.getLinks().forEach(link -> {
-			HBox linkBox = new HBox();
-			linkBox.setSpacing(5.0);
-			link.forEach(gem -> {
-				GemBox grid = new GemBox(build, BuildUtils.getGem(gem));
-
-				linkBox.getChildren().add(grid);
-			});
-			buildGems.getChildren().add(linkBox);
-		});
-	}
-
-	public void addBuild() {
+	public void addBuild(ActionEvent event) {
 		if (buildName.getText() == null || buildName.getText().trim().isEmpty())
 			return;
 		BuildInfo newInfo = new BuildInfo(buildName.getText(), classCombo.getValue(), ascendencyCombo.getValue(), new ArrayList<>(), new ArrayList<>());
 		newInfo.save();
 		BuildUtils.loadBuilds();
-		buildCombo.getItems().setAll(BuildUtils.getBuilds());
-		buildCombo.getSelectionModel().select(newInfo);
-	}
-
-	public void buildSelection(ActionEvent event) {
-		setBuild(buildCombo.getValue());
 	}
 
 	public void classSelection(ActionEvent event) {

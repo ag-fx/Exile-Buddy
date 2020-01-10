@@ -20,3 +20,4 @@ out/
 *.json
 *.csv
 !gems/
+!Gems.json

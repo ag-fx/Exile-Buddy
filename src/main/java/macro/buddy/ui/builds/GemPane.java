@@ -1,4 +1,4 @@
-package macro.buddy.ui;
+package macro.buddy.ui.builds;
 
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
@@ -11,7 +11,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
-import javafx.scene.text.Font;
 import javafx.util.Duration;
 import macro.buddy.Util;
 import macro.buddy.builds.BuildGem;
@@ -26,12 +25,12 @@ import java.util.Optional;
 /**
  * Created by Macro303 on 2020-Jan-07
  */
-public class GemBox extends GridPane {
-	private static final Logger LOGGER = LogManager.getLogger(GemBox.class);
+public class GemPane extends GridPane {
+	private static final Logger LOGGER = LogManager.getLogger(GemPane.class);
 	private BuildInfo build;
 	private Optional<BuildGem> gem;
 
-	public GemBox(BuildInfo build, Optional<BuildGem> gem) {
+	public GemPane(BuildInfo build, Optional<BuildGem> gem) {
 		this.build = build;
 		this.gem = gem;
 		initialize();
