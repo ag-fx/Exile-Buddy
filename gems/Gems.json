@@ -3331,6 +3331,304 @@
 	}
   },
   {
+	"name": "Decoy Totem",
+	"slot": "Red",
+	"tags": [
+	  "TOTEM",
+	  "SPELL",
+	  "AOE"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "ingredient": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"DUELIST",
+			"MARAUDER",
+			"SCION"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Determination",
+	"slot": "Red",
+	"tags": [
+	  "AURA",
+	  "SPELL",
+	  "AOE",
+	  "PHYSICAL"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "ingredient": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"MARAUDER"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Devouring Totem",
+	"slot": "Red",
+	"tags": [
+	  "TOTEM",
+	  "SPELL"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "ingredient": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"WITCH",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Dominating Blow",
+	"slot": "Red",
+	"tags": [
+	  "ATTACK",
+	  "MINION",
+	  "DURATION",
+	  "MELEE",
+	  "STRIKE"
+	],
+	"acquisition": {
+	  "recipes": [
+		{
+		  "amount": 6,
+		  "ingredient": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "ingredient": "The Summoner"
+		},
+		{
+		  "amount": 3,
+		  "ingredient": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"TEMPLAR"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"WITCH",
+			"SHADOW",
+			"RANGER",
+			"DUELIST",
+			"MARAUDER",
+			"TEMPLAR",
+			"SCION"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
 	"name": "Portal",
 	"slot": "White",
 	"tags": [
