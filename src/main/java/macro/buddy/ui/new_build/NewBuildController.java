@@ -1,5 +1,6 @@
 package macro.buddy.ui.new_build;
 
+import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -13,6 +14,7 @@ import macro.buddy.ClassTag;
 import macro.buddy.builds.AscendencyTag;
 import macro.buddy.builds.BuildInfo;
 import macro.buddy.builds.BuildUtils;
+import macro.buddy.ui.BuildSelector;
 import macro.buddy.ui.builds.GemPane;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -24,7 +26,7 @@ import java.util.ResourceBundle;
 /**
  * Created by Macro303 on 2019-Dec-03
  */
-public class NewBuildController implements Initializable {
+public class NewBuildController extends BuildSelector implements Initializable {
 	private static final Logger LOGGER = LogManager.getLogger(NewBuildController.class);
 	@FXML
 	private TextField buildName;
@@ -37,11 +39,19 @@ public class NewBuildController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		classCombo.getItems().setAll(ClassTag.values());
+		super.init();
+		classCombo.setItems(FXCollections.observableArrayList(ClassTag.values()));
 	}
 
 	public void setStage(Stage stage) {
 		this.stage = stage;
+	}
+
+	public void classSelection(ActionEvent event) {
+		if (classCombo.getValue() != null) {
+			ascendencyCombo.setDisable(false);
+			ascendencyCombo.setItems(FXCollections.observableList(AscendencyTag.values(classCombo.getValue())));
+		}
 	}
 
 	public void addBuild(ActionEvent event) {
@@ -49,14 +59,22 @@ public class NewBuildController implements Initializable {
 			return;
 		BuildInfo newInfo = new BuildInfo(buildName.getText(), classCombo.getValue(), ascendencyCombo.getValue(), new ArrayList<>(), new ArrayList<>());
 		newInfo.save();
-		BuildUtils.loadBuilds();
+		buildList.add(newInfo);
+		buildCombo.getSelectionModel().select(newInfo);
 	}
 
-	public void classSelection(ActionEvent event) {
-		ascendencyCombo.setDisable(false);
-		ascendencyCombo.getItems().setAll(AscendencyTag.values(classCombo.getValue()));
-	}
-
-	public void ascendencySelection(ActionEvent event) {
+	@Override
+	public void updateDisplay(){
+		if (buildCombo.getValue() == null) {
+			LOGGER.info("Clearing Display");
+			//Clear Display
+			return;
+		}
+		buildName.clear();
+		classCombo.getSelectionModel().clearSelection();
+		classCombo.setValue(null);
+		ascendencyCombo.getSelectionModel().clearSelection();
+		ascendencyCombo.setValue(null);
+		LOGGER.info("Updating Build to: {}", buildCombo.getValue().getName());
 	}
 }

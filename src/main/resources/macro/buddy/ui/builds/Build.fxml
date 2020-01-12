@@ -10,7 +10,7 @@
 			<Label text="Exile Buddy" minWidth="175" id="title"/>
 			<Separator HBox.hgrow="ALWAYS" visible="false"/>
 			<ComboBox fx:id="buildCombo" onAction="#buildSelection" promptText="Build" visibleRowCount="5"/>
-			<Button minWidth="100" mnemonicParsing="false" onAction="#addBuild" text="Add Build"/>
+			<Button minWidth="100" mnemonicParsing="false" onAction="#updateBuild" text="Add/Update Builds"/>
 			<BorderPane.margin>
 				<Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
 			</BorderPane.margin>

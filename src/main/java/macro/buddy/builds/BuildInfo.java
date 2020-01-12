@@ -28,6 +28,8 @@ public class BuildInfo implements Comparable<BuildInfo> {
 	public BuildInfo(@JsonProperty("name") String name, @JsonProperty("class") ClassTag classTag, @JsonProperty("ascendency") AscendencyTag ascendency, @JsonProperty("links") List<List<String>> links, @JsonProperty("updates") List<UpdateGem> updates) {
 		this.name = name;
 		this.classTag = classTag;
+		if (ascendency == null)
+			ascendency = AscendencyTag.NONE;
 		this.ascendency = ascendency;
 		this.links = links;
 		this.updates = updates;
