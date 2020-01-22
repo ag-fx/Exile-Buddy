@@ -1,6 +1,7 @@
 package github.macro.build_info;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import github.macro.Util;
@@ -12,6 +13,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -37,10 +39,19 @@ public class BuildInfo {
 		this.equipment = equipment;
 	}
 
+	public BuildInfo(String name, ClassTag classTag, Ascendency ascendency) {
+		this.name = name;
+		this.classTag = classTag;
+		this.ascendency = ascendency;
+		this.gemBuild = new GemBuild(new ArrayList<>(), new ArrayList<>());
+		this.equipment = new ArrayList<>();
+	}
+
 	public String getName() {
 		return name;
 	}
 
+	@JsonGetter("class")
 	public ClassTag getClassTag() {
 		return classTag;
 	}
@@ -49,6 +60,7 @@ public class BuildInfo {
 		return ascendency;
 	}
 
+	@JsonGetter("gems")
 	public GemBuild getGemBuild() {
 		return gemBuild;
 	}

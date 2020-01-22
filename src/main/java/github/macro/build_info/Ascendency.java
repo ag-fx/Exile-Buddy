@@ -42,8 +42,9 @@ public enum Ascendency {
 				return Arrays.asList(INQUISTOR, HIEROPHANT, GUARDIAN);
 			case SCION:
 				return Collections.singletonList(ASCENDANT);
+			default:
+				return new ArrayList<>();
 		}
-		return new ArrayList<>();
 	}
 
 	public static Optional<Ascendency> value(String name) {

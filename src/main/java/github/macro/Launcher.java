@@ -32,9 +32,9 @@ public class Launcher extends Application {
 	public void start(Stage primaryStage) {
 		SelectorModel model = new SelectorModel();
 		SelectorController controller = new SelectorController(model);
-		SelectorView view = new SelectorView(controller, model);
+		SelectorView view = new SelectorView(controller, model, primaryStage);
 
-		Scene scene = new Scene(view.asParent(), 400, 400);
+		Scene scene = new Scene(view.asParent(), 700, 200);
 		scene.getStylesheets().add(getClass().getResource("Dark-Theme.css").toExternalForm());
 		scene.getStylesheets().add(getClass().getResource("Custom.css").toExternalForm());
 		primaryStage.setScene(scene);

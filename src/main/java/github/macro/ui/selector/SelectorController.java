@@ -13,6 +13,6 @@ public class SelectorController {
 	}
 
 	public void updateBuild(BuildInfo build){
-		model.setSelected(build);
+		model.setSelectedBuild(build);
 	}
 }
