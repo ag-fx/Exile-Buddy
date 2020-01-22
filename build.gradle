@@ -1,7 +1,6 @@
 plugins {
 	id 'application'
 	id 'idea'
-	id 'maven'
 	id 'com.github.ben-manes.versions' version '0.27.0'
 	id 'org.openjfx.javafxplugin' version '0.0.8'
 }
@@ -12,7 +11,7 @@ repositories {
 	jcenter()
 }
 
-mainClassName = "macro.buddy.Launcher"
+mainClassName = "github.macro.Launcher"
 def loggerVersion = '2.13.0'
 def jacksonVersion = '2.10.2'
 
@@ -44,7 +43,7 @@ run {
 
 javafx {
 	version = "11.0.2"
-	modules = [ 'javafx.controls', 'javafx.fxml' ]
+	modules = [ 'javafx.controls' ]
 }
 
 def isNonStable = { String version ->
