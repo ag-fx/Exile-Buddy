@@ -1,12 +1,9 @@
 package github.macro.build_info;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonGetter;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import github.macro.Util;
 import github.macro.build_info.gems.GemBuild;
-import github.macro.build_info.gems.GemInfo;
 import github.macro.build_info.gems.UpdateGem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,36 +11,36 @@ import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 /**
  * Created by Macro303 on 2019-Dec-02
  */
-public class BuildInfo {
-	@JsonIgnore
-	private static final Logger LOGGER = LogManager.getLogger(BuildInfo.class);
+@JsonDeserialize(using = BuildDeserializer.class)
+@JsonSerialize(using = BuildSerializer.class)
+public class Build {
+	private static final Logger LOGGER = LogManager.getLogger(Build.class);
 	private final String name;
 	private final ClassTag classTag;
 	private final Ascendency ascendency;
 	private final GemBuild gemBuild;
 	private final List<String> equipment;
 
-	@JsonCreator
-	public BuildInfo(@JsonProperty("name") String name, @JsonProperty("class") String classTag, @JsonProperty("ascendency") String ascendency, @JsonProperty("gems") GemBuild gemBuild, @JsonProperty("equipment") List<String> equipment) {
+	public Build(String name, ClassTag classTag, Ascendency ascendency, GemBuild gemBuild, List<String> equipment) {
 		this.name = name;
-		this.classTag = ClassTag.value(classTag).orElseThrow(() -> new NullPointerException("Invalid Class Provided"));
-		this.ascendency = Ascendency.value(ascendency).orElseThrow(() -> new NullPointerException("Invalid Ascendency Provided"));
+		this.classTag = classTag;
+		this.ascendency = ascendency;
 		this.gemBuild = gemBuild;
 		this.equipment = equipment;
 	}
 
-	public BuildInfo(String name, ClassTag classTag, Ascendency ascendency) {
+	public Build(String name, ClassTag classTag, Ascendency ascendency) {
 		this.name = name;
 		this.classTag = classTag;
 		this.ascendency = ascendency;
-		this.gemBuild = new GemBuild(new ArrayList<>(), new ArrayList<>());
+		this.gemBuild = new GemBuild(Arrays.asList(Util.getClassGems(classTag), Collections.singletonList(Util.gemByName("Portal"))), Collections.singletonList(new UpdateGem(Util.gemByName("Empower Support"), Util.gemByName("Enhance Support"), "Gems are all Max Level")));
 		this.equipment = new ArrayList<>();
 	}
 
@@ -51,7 +48,6 @@ public class BuildInfo {
 		return name;
 	}
 
-	@JsonGetter("class")
 	public ClassTag getClassTag() {
 		return classTag;
 	}
@@ -60,7 +56,6 @@ public class BuildInfo {
 		return ascendency;
 	}
 
-	@JsonGetter("gems")
 	public GemBuild getGemBuild() {
 		return gemBuild;
 	}

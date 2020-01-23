@@ -1,16 +1,14 @@
 package github.macro.build_info.gems;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 import java.util.SortedSet;
-import java.util.TreeSet;
-import java.util.stream.Collectors;
 
 /**
  * Created by Macro303 on 2019-Nov-29.
  */
-public class GemInfo {
+@JsonDeserialize(using = GemDeserializer.class)
+public class Gem {
 	private final String name;
 	private final Slot slot;
 	private final SortedSet<GemTag> tags;
@@ -18,11 +16,10 @@ public class GemInfo {
 	private final boolean isAwakened;
 	private final Acquisition acquisition;
 
-	@JsonCreator
-	public GemInfo(@JsonProperty("name") String name, @JsonProperty("slot") String slot, @JsonProperty("tags") SortedSet<String> tags, @JsonProperty("isVaal") boolean isVaal, @JsonProperty("isAwakened") boolean isAwakened, @JsonProperty("acquisition") Acquisition acquisition) {
+	public Gem(String name, Slot slot, SortedSet<GemTag> tags, boolean isVaal, boolean isAwakened, Acquisition acquisition) {
 		this.name = name;
-		this.slot = Slot.value(slot).orElseThrow(() -> new NullPointerException("Invalid Slot provided"));
-		this.tags = tags.stream().map(tag -> GemTag.value(tag).orElseThrow(() -> new NullPointerException("Invalid Gem Tag provided"))).collect(Collectors.toCollection(TreeSet::new));
+		this.slot = slot;
+		this.tags = tags;
 		this.isVaal = isVaal;
 		this.isAwakened = isAwakened;
 		this.acquisition = acquisition;

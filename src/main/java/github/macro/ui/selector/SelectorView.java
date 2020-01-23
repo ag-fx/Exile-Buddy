@@ -1,9 +1,9 @@
 package github.macro.ui.selector;
 
 import github.macro.build_info.Ascendency;
-import github.macro.build_info.BuildInfo;
+import github.macro.build_info.Build;
 import github.macro.build_info.ClassTag;
-import github.macro.build_info.gems.GemBuild;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -18,8 +18,6 @@ import javafx.util.StringConverter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-
 /**
  * Created by Macro303 on 2020-Jan-22.
  */
@@ -30,7 +28,7 @@ public class SelectorView {
 	private SelectorModel model;
 
 	private BorderPane root;
-	private ComboBox<BuildInfo> selectionComboBox;
+	private ComboBox<Build> selectionComboBox;
 	private TextField nameTextField;
 	private ComboBox<ClassTag> classComboBox;
 	private ComboBox<Ascendency> ascendencyComboBox;
@@ -49,6 +47,7 @@ public class SelectorView {
 
 	private void createView() {
 		root = new BorderPane();
+		root.setPadding(new Insets(10.0));
 		root.setTop(createTopView());
 		root.setCenter(createCenterView());
 //		selectionComboBox = new ComboBox<>(model.buildsProperty());
@@ -75,7 +74,7 @@ public class SelectorView {
 		return titleBox;
 	}
 
-	private VBox createCenterView(){
+	private VBox createCenterView() {
 		var vBox = new VBox(5.0);
 		vBox.setAlignment(Pos.TOP_CENTER);
 
@@ -87,14 +86,14 @@ public class SelectorView {
 		model.selectedBuildProperty().bind(selectionComboBox.valueProperty());
 		selectionComboBox.setConverter(new StringConverter<>() {
 			@Override
-			public String toString(BuildInfo build) {
+			public String toString(Build build) {
 				if (build != null)
 					return build.display();
 				return null;
 			}
 
 			@Override
-			public BuildInfo fromString(String string) {
+			public Build fromString(String string) {
 				return null;
 			}
 		});
@@ -124,6 +123,7 @@ public class SelectorView {
 		HBox.setHgrow(nameTextField, Priority.ALWAYS);
 		classComboBox = new ComboBox<>(model.classListProperty());
 		classComboBox.setPromptText("Class");
+		classComboBox.setButtonCell(new ListCell<>());
 		model.selectedClassProperty().bind(classComboBox.valueProperty());
 		ascendencyComboBox = new ComboBox<>(model.ascendencyListProperty());
 		ascendencyComboBox.setPromptText("Ascendency");
@@ -133,13 +133,11 @@ public class SelectorView {
 		createButton.setMinWidth(100.0);
 		createButton.setOnAction(event -> {
 			LOGGER.info("Created Build: {} [{}/{}]", nameTextField.textProperty().get(), model.getSelectedClass(), model.getSelectedAscendency());
-			var newBuild = new BuildInfo(nameTextField.textProperty().get(), model.getSelectedClass(), model.getSelectedAscendency());
+			var newBuild = new Build(nameTextField.textProperty().get(), model.getSelectedClass(), model.getSelectedAscendency());
 			newBuild.save();
 			model.buildListProperty().add(newBuild);
 			ascendencyComboBox.getSelectionModel().clearSelection();
-			ascendencyComboBox.getSelectionModel().select(null);
 			classComboBox.getSelectionModel().clearSelection();
-			classComboBox.getSelectionModel().select(null);
 			nameTextField.setText(null);
 		});
 		createButton.disableProperty().bind(nameTextField.textProperty().isEmpty().or(classComboBox.valueProperty().isNull()).or(ascendencyComboBox.valueProperty().isNull()));
