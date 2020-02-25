@@ -12,6 +12,8 @@ Show what Gems to link and update as you progress as well as include how to get 
  - [OracleJDK: 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
  - [Gradle: 6.0.1](https://gradle.org/)
  - [tornadofx: 1.7.20](https://github.com/edvin/tornadofx)
+ - [unirest-java: 3.6.00](https://github.com/Kong/unirest-java)
+ - [unirest-objectmapper-jackson: 3.6.00](https://github.com/Kong/unirest-java)
  - [jackson-databind: 2.10.2](https://github.com/FasterXML/jackson)
  - [jackson-dataformat-yaml: 2.10.2](https://github.com/FasterXML/jackson-dataformats-text)
  - [jackson-datatype-jdk8: 2.10.2](https://github.com/FasterXML/jackson-modules-java8)
