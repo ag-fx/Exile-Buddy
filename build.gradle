@@ -20,7 +20,7 @@ def unirestVersion = '3.6.00'
 
 dependencies {
 	implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
-	implementation group: 'no.tornado', name:'tornadofx', version: "1.7.20"
+	implementation group: 'no.tornado', name: 'tornadofx', version: "1.7.20"
 	implementation group: 'com.konghq', name: 'unirest-java', version: "$unirestVersion"
 	implementation group: 'com.konghq', name: 'unirest-objectmapper-jackson', version: "$unirestVersion"
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: "$jacksonVersion"
