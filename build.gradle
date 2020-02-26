@@ -70,29 +70,60 @@ clean {
 	delete 'release'
 }
 
-task moveReleaseScripts(type: Copy){
+task moveReleaseScripts(type: Copy) {
 	from 'scripts'
 	into "$buildDir/libs"
 }
 
-task moveReleaseGems(type: Copy){
+task moveReleaseGems(type: Copy) {
 	from 'gems'
 	into "$buildDir/libs/gems"
 }
 
-task moveReleaseEquipment(type: Copy){
+task moveReleaseEquipment(type: Copy) {
 	from 'equipment'
 	into "$buildDir/libs/equipment"
 }
 
-task release(type: Zip) {
+task fullRelease(type: Zip) {
 	dependsOn 'shadowJar', 'moveReleaseScripts', 'moveReleaseGems', 'moveReleaseEquipment'
 
 	from "$buildDir/libs"
 	include '*'
 	include '*/*'
+	archiveFileName = 'Exile-Buddy-all.zip'
+	destinationDir(file('release'))
+}
+
+task jarRelease(type: Zip) {
+	dependsOn 'shadowJar', 'moveReleaseScripts'
+
+	from "$buildDir/libs"
+	include '*.jar'
+	include '*.sh'
+	include '*.bat'
 	archiveFileName = 'Exile-Buddy.zip'
 	destinationDir(file('release'))
+}
+
+task gemRelease(type: Zip) {
+	from "gems"
+	include '*'
+	include '*/*'
+	archiveFileName = 'Exile-Buddy-gems.zip'
+	destinationDir(file('release'))
+}
+
+task equipmentRelease(type: Zip) {
+	from 'equipment'
+	include '*'
+	include '*/*'
+	archiveFileName = 'Exile-Buddy-equipment.zip'
+	destinationDir(file('release'))
+}
+
+task release {
+	dependsOn 'fullRelease', 'jarRelease', 'gemRelease', 'equipmentRelease'
 }
 
 def isNonStable = { String version ->

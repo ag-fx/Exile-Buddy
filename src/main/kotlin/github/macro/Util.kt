@@ -12,16 +12,10 @@ import github.macro.build_info.equipment.EquipmentInfo
 import github.macro.build_info.gems.Gem
 import github.macro.build_info.gems.Slot
 import github.macro.build_info.gems.Slot.*
-import github.macro.config.Config
 import javafx.animation.KeyFrame
 import javafx.animation.Timeline
 import javafx.scene.control.Tooltip
 import javafx.util.Duration
-import kong.unirest.GenericType
-import kong.unirest.HttpResponse
-import kong.unirest.Unirest
-import kong.unirest.UnirestException
-import org.apache.logging.log4j.Level
 import org.apache.logging.log4j.LogManager
 import java.io.File
 import java.io.IOException
@@ -65,21 +59,6 @@ object Util {
 		} catch (ioe: IOException) {
 			LOGGER.error("Unable to Load Equipment: $ioe")
 			emptyList<EquipmentInfo>()
-		}
-	}
-
-	init {
-		Unirest.config().enableCookieManagement(false)
-		if (Config.INSTANCE.proxy.hostName != null && Config.INSTANCE.proxy.port != null)
-			Unirest.config().proxy(Config.INSTANCE.proxy.hostName, Config.INSTANCE.proxy.port!!)
-		Unirest.config().objectMapper = object : kong.unirest.ObjectMapper {
-			override fun writeValue(value: Any?): String {
-				return JSON_MAPPER.writeValueAsString(value)
-			}
-
-			override fun <T : Any?> readValue(value: String?, valueType: Class<T>?): T {
-				return JSON_MAPPER.readValue(value, valueType)
-			}
 		}
 	}
 
