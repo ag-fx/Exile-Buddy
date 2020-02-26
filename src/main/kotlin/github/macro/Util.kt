@@ -123,29 +123,4 @@ object Util {
 		TEMPLAR -> listOf("Glacial Hammer", "Elemental Proliferation Support")
 		SHADOW -> listOf("Viper Strike", "Lesser Poison Support")
 	}.plus("Empower Support").map { gemByName(it) }
-
-	fun httpRequest(url: String, headers: Map<String, String> = HEADERS): String? {
-		val request = Unirest.get(url)
-		request.headers(headers)
-		LOGGER.debug("GET : >>> - ${request.url} - $headers")
-		val response: HttpResponse<String>
-		try {
-			response = request.asString()
-		} catch (ue: UnirestException) {
-			LOGGER.error("Unable to load URL: $ue")
-			return null
-		}
-
-		val level = when {
-			response.status < 100 -> Level.ERROR
-			response.status < 200 -> Level.INFO
-			response.status < 300 -> Level.INFO
-			response.status < 400 -> Level.WARN
-			response.status < 500 -> Level.WARN
-			else -> Level.ERROR
-		}
-		LOGGER.log(level, "GET: ${response.status} ${response.statusText} - ${request.url}")
-		LOGGER.debug("Response: ${response.body}")
-		return if (response.status != 200) null else response.body
-	}
 }
