@@ -21,5 +21,8 @@ out/
 # =====Project=====
 !gems/
 !Gems.json
+!equipment/
+!Equipment.json
 !versions.json
-!.idea/runConfigurations/Create_FatJar.xml
+!.idea/runConfigurations/Create_Release.xml
+release/

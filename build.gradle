@@ -62,11 +62,40 @@ jar {
 shadowJar {
 	archiveBaseName.set('Exile-Buddy')
 	archiveClassifier.set(null)
-	archiveVersion.set("0.0.0")
+	archiveVersion.set(null)
 }
 
 run {
 	standardInput = System.in
+}
+
+clean {
+	delete 'release'
+}
+
+task moveReleaseScripts(type: Copy){
+	from 'scripts'
+	into "$buildDir/libs"
+}
+
+task moveReleaseGems(type: Copy){
+	from 'gems'
+	into "$buildDir/libs/gems"
+}
+
+task moveReleaseEquipment(type: Copy){
+	from 'equipment'
+	into "$buildDir/libs/equipment"
+}
+
+task release(type: Zip) {
+	dependsOn 'shadowJar', 'moveReleaseScripts', 'moveReleaseGems', 'moveReleaseEquipment'
+
+	from "$buildDir/libs"
+	include '*'
+	include '*/*'
+	archiveFileName = 'Exile-Buddy.zip'
+	destinationDir(file('release'))
 }
 
 def isNonStable = { String version ->

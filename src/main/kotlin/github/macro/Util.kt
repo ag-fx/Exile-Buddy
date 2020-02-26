@@ -124,13 +124,13 @@ object Util {
 		SHADOW -> listOf("Viper Strike", "Lesser Poison Support")
 	}.plus("Empower Support").map { gemByName(it) }
 
-	fun <T> httpRequest(url: String, headers: Map<String, String> = HEADERS, klass: GenericType<T>): T? {
+	fun httpRequest(url: String, headers: Map<String, String> = HEADERS): String? {
 		val request = Unirest.get(url)
 		request.headers(headers)
 		LOGGER.debug("GET : >>> - ${request.url} - $headers")
-		val response: HttpResponse<T>
+		val response: HttpResponse<String>
 		try {
-			response = request.asObject(klass)
+			response = request.asString()
 		} catch (ue: UnirestException) {
 			LOGGER.error("Unable to load URL: $ue")
 			return null

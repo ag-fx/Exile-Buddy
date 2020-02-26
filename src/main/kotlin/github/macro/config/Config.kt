@@ -6,7 +6,6 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
 import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module
 import github.macro.Util
-import kong.unirest.GenericType
 import org.apache.logging.log4j.LogManager
 import java.io.File
 import java.nio.file.Files
@@ -17,8 +16,7 @@ import java.nio.file.Paths
  */
 class Config {
 	val proxy: Connection = Connection()
-	var gemVersion: Version = Version("0.0.0")
-	var equipmentVersion: Version = Version("0.0.0")
+	var buddyVersion: Version = Version("0.0.0")
 
 	fun save(): Config {
 		Files.newBufferedWriter(Paths.get(filename)).use {
@@ -52,15 +50,10 @@ class Config {
 
 		fun validateVersions(config: Config = INSTANCE) {
 			val githubVersionURL = "https://raw.githubusercontent.com/Macro303/Exile-Buddy/master/versions.json"
-			val response =
-				Util.httpRequest(url = githubVersionURL, klass = object : GenericType<Map<String, Version>>() {})
-					?: return
+			val response = Version(Util.httpRequest(url = githubVersionURL) ?: "0.0.0")
 			LOGGER.info(response)
-			if (response["gems"] ?: Version("0.0.0") > config.gemVersion) {
-				LOGGER.info("New Gems Version: ${response["gems"]}")
-			}
-			if (response["equipment"] ?: Version("0.0.0") > config.equipmentVersion) {
-				LOGGER.info("New Equipment Version: ${response["equipment"]}")
+			if (response > config.buddyVersion) {
+				LOGGER.info("New version Available: $response")
 			}
 		}
 	}
