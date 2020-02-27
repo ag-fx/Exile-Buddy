@@ -103,7 +103,7 @@
 		  ],
 		  "quest": "Intruders in Black",
 		  "type": "Quest",
-		  "vendor": "Greust"
+		  "vendor": null
 		},
 		{
 		  "act": 2,
@@ -341,7 +341,7 @@
 		  ],
 		  "quest": "Breaking Some Eggs",
 		  "type": "Quest",
-		  "vendor": "Tarkleigh"
+		  "vendor": null
 		},
 		{
 		  "act": 1,
@@ -432,7 +432,7 @@
 		  ],
 		  "quest": "Sever the Right Hand",
 		  "type": "Quest",
-		  "vendor": "Maramoa"
+		  "vendor": null
 		},
 		{
 		  "act": 3,
@@ -514,7 +514,7 @@
 		  ],
 		  "quest": "The Siren's Cadence",
 		  "type": "Quest",
-		  "vendor": "Nessa"
+		  "vendor": null
 		},
 		{
 		  "act": 1,
@@ -602,7 +602,7 @@
 		  ],
 		  "quest": "Sever the Right Hand",
 		  "type": "Quest",
-		  "vendor": "Maramoa"
+		  "vendor": null
 		},
 		{
 		  "act": 3,
@@ -692,7 +692,7 @@
 		  ],
 		  "quest": "Sever the Right Hand",
 		  "type": "Quest",
-		  "vendor": "Maramoa"
+		  "vendor": null
 		},
 		{
 		  "act": 3,
@@ -776,7 +776,7 @@
 		  ],
 		  "quest": "The Caged Brute",
 		  "type": "Quest",
-		  "vendor": "Tarkleigh"
+		  "vendor": null
 		},
 		{
 		  "act": 1,
@@ -867,8 +867,329 @@
 	  "Physical"
 	],
 	"acquisition": {
-	  "rewards": [],
-	  "crafting": []
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist"
+		  ],
+		  "quest": "Intruders in Black",
+		  "type": "Quest",
+		  "vendor": null
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Burning Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Fire",
+	  "Duration",
+	  "Bow"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "Breaking Some Eggs",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Caustic Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Duration",
+	  "Chaos",
+	  "Bow"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Ranger"
+		  ],
+		  "quest": "Enemy at the Gate",
+		  "type": "Quest",
+		  "vendor": null
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "Breaking Some Eggs",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Charged Dash",
+	"slot": "Green",
+	"tags": [
+	  "Movement",
+	  "AoE",
+	  "Channelling",
+	  "Attack",
+	  "Lightning",
+	  "Melee"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "Sever the Right Hand",
+		  "type": "Quest",
+		  "vendor": null
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Sever the Right Hand",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
 	}
   }
 ]
