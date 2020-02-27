@@ -1,0 +1,10614 @@
+[
+  {
+	"name": "Animate Weapon",
+	"slot": "Green",
+	"tags": [
+	  "Duration",
+	  "Minion",
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Arctic Armour",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Duration",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 2,
+		  "quest": "Intruders in Black",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Yeena",
+		  "act": 2,
+		  "quest": "The Root of the Problem",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Artillery Ballista",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Totem",
+	  "AoE",
+	  "Fire",
+	  "Projectile",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Barrage",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Bear Trap",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Duration",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blade Furry",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Channelling",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blade Vortex",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Shadow",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Bladefall",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Shadow",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blast Rain",
+	"slot": "Green",
+	"tags": [
+	  "Fire",
+	  "Attack",
+	  "AoE",
+	  "Projectile",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Ranger",
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blink Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Minion",
+	  "Duration",
+	  "Movement",
+	  "Travel",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Ranger",
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blood Rage",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Duration",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Burning Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Fire",
+	  "Duration",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Caustic Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Duration",
+	  "Chaos",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Ranger"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Charged Dash",
+	"slot": "Green",
+	"tags": [
+	  "Movement",
+	  "AoE",
+	  "Channelling",
+	  "Attack",
+	  "Lightning",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cobra Lash",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cremation",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Duration",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cyclone",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Movement",
+	  "Channelling",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Dash",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Movement",
+	  "Travel",
+	  "Blink"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Desecrate",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Detonate Dead",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Double Strike",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Dual Strike",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Elemental Hit",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Melee",
+	  "Strike",
+	  "Fire",
+	  "Cold",
+	  "Lightning",
+	  "AoE",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ensnaring Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ethereal Knives",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Explosive Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Duration",
+	  "Fire",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Explosive Trap",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Fire Trap",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Duration",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flamethrower Trap",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Duration",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flicker Strike",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Movement",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Frenzy",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Melee",
+	  "Strike",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Frost Blades",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Melee",
+	  "Strike",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Galvanic Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Lightning",
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Grace",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Haste",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Hatred",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Herald of Agony",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Herald",
+	  "Minion",
+	  "Chaos",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Herald of Ice",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Cold",
+	  "Herald"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ice Shot",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Cold",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ice Trap",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "AoE",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lacerate",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lancing Steel",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Projectile",
+	  "Lightning",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Strike",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Melee",
+	  "Strike",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Mirror Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Minion",
+	  "Duration",
+	  "Movement",
+	  "Travel",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Pestilent Strike",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "AoE",
+	  "Duration",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Phase Run",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Duration",
+	  "Movement",
+	  "Physical",
+	  "Travel"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Plague Bearer",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Chaos",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Poacher's Mark",
+	"slot": "Green",
+	"tags": [
+	  "Curse",
+	  "Spell",
+	  "AoE",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Precision",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Projectile Weakness",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Puncture",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Duration",
+	  "Melee",
+	  "Strike",
+	  "Physical",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Purity of Ice",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Rain of Arrows",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Projectile",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Reave",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Riposte",
+	"slot": "Green",
+	"tags": [
+	  "Trigger",
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Scourge Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Channelling",
+	  "Chaos",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Seismic Trap",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Duration",
+	  "AoE",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Shattering Steel",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Shrapnel Ballista",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Totem",
+	  "Physical",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Siege Ballista",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Totem",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Smoke Mine",
+	"slot": "Green",
+	"tags": [
+	  "Mine",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Movement",
+	  "Travel",
+	  "Blink"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spectral Shield Throw",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spectral Throw",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Split Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Physical",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Ice Golem",
+	"slot": "Green",
+	"tags": [
+	  "Cold",
+	  "Minion",
+	  "Spell",
+	  "Golem"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Temporal Chains",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Tornado Shot",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Toxic Rain",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Chaos",
+	  "Duration",
+	  "Projectile",
+	  "Bow"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Unearth",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "AoE",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Venom Gyre",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Viper Strike",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Duration",
+	  "Melee",
+	  "Strike",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Volatile Dead",
+	"slot": "Green",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Whirling Blades",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Movement",
+	  "Travel",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Wild Strike",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Lightning",
+	  "Cold",
+	  "Fire",
+	  "Projectile",
+	  "AoE",
+	  "Chaining"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Withering Step",
+	"slot": "Green",
+	"tags": [
+	  "Travel",
+	  "AoE",
+	  "Chaos",
+	  "Movement",
+	  "Blink",
+	  "Spell",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Arc",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Chaining",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Arctic Breath",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "Duration",
+	  "AoE",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Armageddon Brand",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Duration",
+	  "Brand"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Assassin's Mark",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ball Lightning",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "AoE",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Bane",
+	"slot": "Blue",
+	"tags": [
+	  "Chaos",
+	  "Trigger",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Blight",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Chaos",
+	  "AoE",
+	  "Channelling",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Bodyswap",
+	"slot": "Blue",
+	"tags": [
+	  "Movement",
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Travel"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Bone Offering",
+	"slot": "Blue",
+	"tags": [
+	  "Minion",
+	  "Spell",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Brand Recall",
+	"slot": "Blue",
+	"tags": [
+	  "Brand",
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Clarity",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cold Snap",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Cold",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Conductivity",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Contagion",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Conversion Trap",
+	"slot": "Blue",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Convocation",
+	"slot": "Blue",
+	"tags": [
+	  "Minion",
+	  "Spell",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Dark Pact",
+	"slot": "Blue",
+	"tags": [
+	  "Minion",
+	  "Spell",
+	  "AoE",
+	  "Chaining",
+	  "Chaos",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Despair",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Discharge",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Cold",
+	  "Lightning",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Discipline",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Divine Ire",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Spell",
+	  "AoE",
+	  "Channelling",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Elemental Weakness",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Enfeeble",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Essence Drain",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "Duration",
+	  "Chaos",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Fireball",
+	"slot": "Blue",
+	"tags": [
+	  "Projectile",
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Firestorm",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flame Dash",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Movement",
+	  "Duration",
+	  "Fire",
+	  "Travel",
+	  "Blink"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flame Surge",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flameblast",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Channelling"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flammability",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flesh Offering",
+	"slot": "Blue",
+	"tags": [
+	  "Minion",
+	  "Spell",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Freezing Pulse",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Frost Bomb",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Frost Wall",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Duration",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Frostbite",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Frostblink",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Movement",
+	  "Duration",
+	  "Cold",
+	  "Travel",
+	  "Blink",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Frostbolt",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Glacial Cascade",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Cold",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Herald of Thunder",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Lightning",
+	  "Herald"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ice Nova",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Cold",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ice Spear",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Icicle Mine",
+	"slot": "Blue",
+	"tags": [
+	  "Mine",
+	  "Spell",
+	  "Projectile",
+	  "Cold",
+	  "Aura",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Incinerate",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Fire",
+	  "Channelling",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Kinetic Blast",
+	"slot": "Blue",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Spire Trap",
+	"slot": "Blue",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Duration",
+	  "AoE",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Tendrils",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Lightning",
+	  "Channelling"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Trap",
+	"slot": "Blue",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Projectile",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Warp",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Movement",
+	  "Lightning",
+	  "Travel"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Magma Orb",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Projectile",
+	  "Chaining"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Malevolence",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Orb of Storms",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Spell",
+	  "Duration",
+	  "AoE",
+	  "Chaining"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Power Siphon",
+	"slot": "Blue",
+	"tags": [
+	  "Attack",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Purifying Flame",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Purity of Elements",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Purity of Lightning",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Pyroclast Mine",
+	"slot": "Blue",
+	"tags": [
+	  "Mine",
+	  "Spell",
+	  "Projectile",
+	  "Fire",
+	  "AoE",
+	  "Aura",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Raise Spectre",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Raise Zombie",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Righteous Fire",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Scorching Ray",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Fire",
+	  "Duration",
+	  "Channelling"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Shock Nova",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Lightning",
+	  "AoE",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Siphoning Trap",
+	"slot": "Blue",
+	"tags": [
+	  "Trap",
+	  "Spell",
+	  "Duration",
+	  "AoE",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Soulrend",
+	"slot": "Blue",
+	"tags": [
+	  "Chaos",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spark",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Projectile",
+	  "Duration",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spirit Offering",
+	"slot": "Blue",
+	"tags": [
+	  "Minion",
+	  "Spell",
+	  "Duration",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Storm Brand",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Spell",
+	  "AoE",
+	  "Chaining",
+	  "Duration",
+	  "Brand"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Storm Burst",
+	"slot": "Blue",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Lightning",
+	  "Channelling",
+	  "Duration",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Storm Call",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Stormblast Mine",
+	"slot": "Blue",
+	"tags": [
+	  "Mine",
+	  "Spell",
+	  "AoE",
+	  "Lightning",
+	  "Aura",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Carrion Golem",
+	"slot": "Blue",
+	"tags": [
+	  "Physical",
+	  "Minion",
+	  "Spell",
+	  "Golem"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Chaos Golem",
+	"slot": "Blue",
+	"tags": [
+	  "Chaos",
+	  "Minion",
+	  "Spell",
+	  "Golem"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Holy Relic",
+	"slot": "Blue",
+	"tags": [
+	  "Minion",
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Lightning Golem",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Minion",
+	  "Spell",
+	  "Golem"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Raging Spirit",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Minion",
+	  "Duration",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Skeletons",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Minion",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Skitterbots",
+	"slot": "Blue",
+	"tags": [
+	  "Trap",
+	  "Mine",
+	  "Spell",
+	  "Minion",
+	  "Cold",
+	  "Lightning",
+	  "AoE",
+	  "Aura"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Tempest Shield",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Lightning",
+	  "Chaining",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Vortex",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Cold",
+	  "Duration",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Wave of Conviction",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "Lightning",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Winter Orb",
+	"slot": "Blue",
+	"tags": [
+	  "Cold",
+	  "Spell",
+	  "Channelling",
+	  "AoE",
+	  "Duration",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Wither",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Chaos",
+	  "Channelling"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Wrath",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Lightning"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Zealotry",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Abyssal Cry",
+	"slot": "Red",
+	"tags": [
+	  "Warcry",
+	  "AoE",
+	  "Duration",
+	  "Chaos"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ancestral Protector",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Totem",
+	  "Melee",
+	  "Strike"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ancestral Warchief",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Totem",
+	  "AoE",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Anger",
+	"slot": "Red",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Marauder",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Animate Guardian",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Berserk",
+	"slot": "Red",
+	"tags": [
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Petarus and Vanja",
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Bladestorm",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Duration",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blood and Sand",
+	"slot": "Red",
+	"tags": [
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Chain Hook",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Movement",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Cleave",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Consecrated Path",
+	"slot": "Red",
+	"tags": [
+	  "Fire",
+	  "Attack",
+	  "AoE",
+	  "Movement",
+	  "Duration",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Detonate Mines",
+	"slot": "White",
+	"tags": [
+	  "Mine",
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Decoy Totem",
+	"slot": "Red",
+	"tags": [
+	  "Totem",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Determination",
+	"slot": "Red",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Devouring Totem",
+	"slot": "Red",
+	"tags": [
+	  "Totem",
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Witch",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Dominating Blow",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Minion",
+	  "Duration",
+	  "Melee",
+	  "Strike"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Dread Banner",
+	"slot": "Red",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Duration",
+	  "Aura",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Earthquake",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Duration",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Enduring Cry",
+	"slot": "Red",
+	"tags": [
+	  "Warcry",
+	  "AoE",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 2,
+		  "quest": "Intruders in Black",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Yeena",
+		  "act": 2,
+		  "quest": "The Root of the Problem",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Flesh and Stone",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "Aura",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 2,
+		  "quest": "Intruders in Black",
+		  "classes": [
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Yeena",
+		  "act": 2,
+		  "quest": "The Root of the Problem",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Glacial Hammer",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Cold"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Ground Slam",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Heavy Strike",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Herald of Ash",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Herald",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 2,
+		  "quest": "Intruders in Black",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Yeena",
+		  "act": 2,
+		  "quest": "The Root of the Problem",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Herald of Purity",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "Herald",
+	  "Minion",
+	  "Duration",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 2,
+		  "quest": "Intruders in Black",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Yeena",
+		  "act": 2,
+		  "quest": "The Root of the Problem",
+		  "classes": [
+			"Witch",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Holy Flame Totem",
+	"slot": "Red",
+	"tags": [
+	  "Totem",
+	  "Spell",
+	  "Projectile",
+	  "Fire",
+	  "Channelling",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Witch",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Ice Crash",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Cold",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Immortal Call",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "Duration",
+	  "Guard"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Petarus and Vanja",
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Infernal Blow",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Melee",
+	  "Strike",
+	  "Fire",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Leap Slam",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Movement",
+	  "Travel",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Molten Shell",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Fire",
+	  "Physical",
+	  "Guard"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Molten Strike",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Melee",
+	  "Strike",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Perforate",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Pride",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Aura",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Punishment",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Witch",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Purity of Fire",
+	"slot": "Red",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Rallying Cry",
+	"slot": "Red",
+	"tags": [
+	  "Warcry",
+	  "AoE",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Witch",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Reckoning",
+	"slot": "Red",
+	"tags": [
+	  "Trigger",
+	  "Attack",
+	  "AoE",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Rejuvenation Totem",
+	"slot": "Red",
+	"tags": [
+	  "Totem",
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Searing Blood",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "Totem",
+	  "Fire"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Witch",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Shield Charge",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Movement",
+	  "Travel",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Shockwave Totem",
+	"slot": "Red",
+	"tags": [
+	  "Totem",
+	  "Spell",
+	  "AoE",
+	  "Physical",
+	  "Nova"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Witch",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Smite",
+	"slot": "Red",
+	"tags": [
+	  "Lightning",
+	  "Attack",
+	  "AoE",
+	  "Duration",
+	  "Melee",
+	  "Strike",
+	  "Aura"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Enemy at the Gate",
+		  "classes": [
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Static Strike",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "AoE",
+	  "Duration",
+	  "Lightning",
+	  "Chaining"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Steelskin",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "Duration",
+	  "Guard"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Summon Flame Golem",
+	"slot": "Red",
+	"tags": [
+	  "Fire",
+	  "Minion",
+	  "Spell",
+	  "Golem"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 5,
+		  "card": "The Rite of Elements"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Petarus and Vanja",
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Summon Stone Golem",
+	"slot": "Red",
+	"tags": [
+	  "Minion",
+	  "Spell",
+	  "Golem",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 5,
+		  "card": "The Rite of Elements"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Petarus and Vanja",
+		  "act": 4,
+		  "quest": "Breaking the Seal",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Sunder",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Sweep",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "AoE",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Duelist",
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Siren's Cadence",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Tectonic Slam",
+	"slot": "Red",
+	"tags": [
+	  "Fire",
+	  "Attack",
+	  "AoE",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Marauder",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Sever the Right Hand",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Vengeance",
+	"slot": "Red",
+	"tags": [
+	  "Trigger",
+	  "Attack",
+	  "AoE",
+	  "Physical",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Vigilant Strike",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Melee",
+	  "Strike"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 3,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Vitality",
+	"slot": "Red",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Vulnerability",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "War Banner",
+	"slot": "Red",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Duration",
+	  "Aura",
+	  "Physical"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Duelist"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Breaking Some Eggs",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Warlord's Mark",
+	"slot": "Red",
+	"tags": [
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Curse"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "Lost in Love",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Portal",
+	"slot": "White",
+	"tags": [
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 5,
+		  "card": "The Realm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Blade Vortex",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Physical"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Burning Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Fire",
+	  "Bow",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cyclone",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Duration",
+	  "Melee",
+	  "Movement",
+	  "Channelling",
+	  "Physical"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Detonate Dead",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Double Strike",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Duration",
+	  "Physical"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Grace",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Haste",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Impurity of Ice",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Cold"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Strike",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Duration",
+	  "Lightning",
+	  "Projectile"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Rain of Arrows",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Projectile",
+	  "Bow"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Reave",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Melee"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spectral Throw",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Projectile"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Arc",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "Chaining",
+	  "Lightning",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Blight",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "Chaos",
+	  "AoE",
+	  "Duration",
+	  "Nova",
+	  "Channelling"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Clarity",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cold Snap",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Cold"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Discipline",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Fireball",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Projectile",
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Flameblast",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Channelling"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ice Nova",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Cold",
+	  "Nova"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Impurity of Lightning",
+	"slot": "Blue",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Lightning"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Trap",
+	"slot": "Blue",
+	"tags": [
+	  "Trap",
+	  "Vaal",
+	  "Spell",
+	  "Projectile",
+	  "Duration",
+	  "Lightning"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Warp",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Lightning",
+	  "Movement",
+	  "Travel"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Power Siphon",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Projectile"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Righteous Fire",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Fire",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spark",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "Projectile",
+	  "Duration",
+	  "Lightning"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Storm Call",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Lightning"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Skeletons",
+	"slot": "Blue",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "Minion",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 6,
+		  "card": "The Bones"
+		},
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ancestral Warchief",
+	"slot": "Red",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Totem",
+	  "AoE",
+	  "Melee"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Earthquake",
+	"slot": "Red",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Duration",
+	  "Melee"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Glacial Hammer",
+	"slot": "Red",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Duration",
+	  "AoE",
+	  "Cold"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ground Slam",
+	"slot": "Red",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Physical",
+	  "Melee"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Immortal Call",
+	"slot": "Red",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "Duration",
+	  "Guard"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Impurity of Fire",
+	"slot": "Red",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Fire"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Molten Shell",
+	"slot": "Red",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Fire",
+	  "Physical",
+	  "Guard"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 13,
+		  "card": "The Cataclysm"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Breach",
+	"slot": "White",
+	"tags": [
+	  "Vaal",
+	  "Spell"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Volatile Power"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Added Cold Damage Support",
+	"slot": "Green",
+	"tags": [
+	  "Cold",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Additional Accuracy Support",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Advanced Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Arrow Nova Support",
+	"slot": "Green",
+	"tags": [
+	  "Bow",
+	  "Attack",
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Barrage Support",
+	"slot": "Green",
+	"tags": [
+	  "Bow",
+	  "Attack",
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Blind Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Block Chance Reduction Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cast on Critical Strike Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Spell",
+	  "Trigger"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cast on Death Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Spell",
+	  "Trigger"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Chain Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Chaining",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Chance to Flee Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Charged Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Trap"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Close Combat Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Melee",
+	  "Attack",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cluster Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "Trap",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cold Penetration Support",
+	"slot": "Green",
+	"tags": [
+	  "Cold",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Culling Strike Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Deadly Ailments Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Enhance Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Faster Attacks Support",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Faster Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Fork Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Greater Multiple Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Greater Volley Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Hypothermia Support",
+	"slot": "Green",
+	"tags": [
+	  "Cold",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ice Bite Support",
+	"slot": "Green",
+	"tags": [
+	  "Cold",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Impale Support",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Physical",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lesser Multiple Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lesser Poison Support",
+	"slot": "Green",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Mana Leech Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Mirage Archer Support",
+	"slot": "Green",
+	"tags": [
+	  "Bow",
+	  "Attack",
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Multiple Traps Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Trap"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Nightblade Support",
+	"slot": "Green",
+	"tags": [
+	  "Attack",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Onslaught Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Pierce Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Point Blank Support",
+	"slot": "Green",
+	"tags": [
+	  "Projectile",
+	  "Attack",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Poison Support",
+	"slot": "Green",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Slower Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Swift Affliction Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Swift Assembly Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Trap",
+	  "Mine"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Trap and Mine Damage Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Trap",
+	  "Mine"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Trap Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Trap"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Vicious Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Projectile",
+	  "Attack",
+	  "Physical",
+	  "Chaos",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Vile Toxins Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Void Manipulation Support",
+	"slot": "Green",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Volley Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Withering Touch Support",
+	"slot": "Green",
+	"tags": [
+	  "Chaos",
+	  "Physical",
+	  "Attack",
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Added Chaos Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Added Lightning Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Arcane Surge Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Spell",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Blasphemy Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Aura"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Blastchain Mine Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Mine"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Bonechill Support",
+	"slot": "Blue",
+	"tags": [
+	  "Cold",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cast When Stunned Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Spell",
+	  "Trigger"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cast While Channelling Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Channelling",
+	  "Spell",
+	  "Trigger"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Charged Mines Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Mine"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Combustion Support",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Concentrated Effect Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Controlled Destruction Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Curse On Hit Support",
+	"slot": "Blue",
+	"tags": [
+	  "Curse",
+	  "Trigger",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Deathmark Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion",
+	  "Spell",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Decay Support",
+	"slot": "Blue",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Efficacy Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Elemental Army Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Elemental Focus Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Elemental Proliferation Support",
+	"slot": "Blue",
+	"tags": [
+	  "Cold",
+	  "Fire",
+	  "Lightning",
+	  "Support",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Energy Leech Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Enlighten Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Faster Casting Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Spell"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Feeding Frenzy Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "High-Impact Mine Support",
+	"slot": "Blue",
+	"tags": [
+	  "Mine",
+	  "Support",
+	  "AoE",
+	  "Aura"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Ignite Proliferation Support",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "Support",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Immolate Support",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Increased Area of Effect Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "AoE"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Increased Critical Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Increased Critical Strikes Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Infernal Legion Support",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "AoE",
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Infused Channelling Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Channelling",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Innervate Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Intensify Support",
+	"slot": "Blue",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Item Rarity Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Penetration Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Meat Shield Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Minefield Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Mine"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Minion Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Minion Life Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Minion Speed Support",
+	"slot": "Blue",
+	"tags": [
+	  "Movement",
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Physical to Lightning Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Physical",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Power Charge On Critical Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spell Cascade Support",
+	"slot": "Blue",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spell Echo Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Summon Phantasm Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Unbound Ailments Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Unleash Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Added Fire Damage Support",
+	"slot": "Red",
+	"tags": [
+	  "Fire",
+	  "Physical",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Gift of the Gemling Queen"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Ancestral Call Support",
+	"slot": "Red",
+	"tags": [
+	  "Support",
+	  "Melee",
+	  "Attack",
+	  "Strike"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Gift of the Gemling Queen"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 1,
+		  "quest": "Mercy Mission",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "Mercy Mission",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Ballista Totem Support",
+	"slot": "Red",
+	"tags": [
+	  "Bow",
+	  "Projectile",
+	  "Support",
+	  "Totem"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Gift of the Gemling Queen"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Nessa",
+		  "act": 1,
+		  "quest": "The Caged Brute",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Blood Magic Support",
+	"slot": "Red",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Gift of the Gemling Queen"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Duelist",
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Bloodlust Support",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Physical",
+	  "Support",
+	  "Melee"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Gift of the Gemling Queen"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": [
+		{
+		  "vendor": "Yeena",
+		  "act": 2,
+		  "quest": "Sharp and Cruel",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Yeena",
+		  "act": 2,
+		  "quest": "The Root of the Problem",
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Siosa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Brutality Support",
+	"slot": "Red",
+	"tags": [
+	  "Physical",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Gift of the Gemling Queen"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 4,
+		  "quest": "The Eternal Nightmare",
+		  "classes": [
+			"Marauder"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Petarus and Vanja",
+		  "act": 4,
+		  "quest": "The Eternal Nightmare",
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Burning Damage Support",
+	"slot": "Red",
+	"tags": [
+	  "Fire",
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 9,
+		  "card": "Gift of the Gemling Queen"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Fox"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [
+		{
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Templar"
+		  ]
+		}
+	  ],
+	  "vendors": [
+		{
+		  "vendor": "Clarissa",
+		  "act": 3,
+		  "quest": "A Fixture of Fate",
+		  "classes": [
+			"Witch",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		},
+		{
+		  "vendor": "Lilly Roth",
+		  "act": 6,
+		  "quest": "Fallen from Grace",
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ]
+		}
+	  ]
+	}
+  },
+  {
+	"name": "Empower Support",
+	"slot": "Red",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 11,
+		  "card": "The Dragon's Heart"
+		},
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spell Totem Support",
+	"slot": "Red",
+	"tags": [
+	  "Support",
+	  "Spell",
+	  "Totem"
+	],
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Added Cold Damage Support",
+	"slot": "Green",
+	"tags": [
+	  "Cold",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Arrow Nova Support",
+	"slot": "Green",
+	"tags": [
+	  "Bow",
+	  "Attack",
+	  "Support",
+	  "Projectile"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cast on Critical Strike Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Spell",
+	  "Trigger"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Chain Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Chaining",
+	  "Projectile"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cold Penetration Support",
+	"slot": "Green",
+	"tags": [
+	  "Cold",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Deadly Ailments Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Fork Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Greater Multiple Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Swift Affliction Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Duration"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Vicious Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Projectile",
+	  "Attack",
+	  "Physical",
+	  "Chaos",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Void Manipulation Support",
+	"slot": "Green",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Added Chaos Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Added Lightning Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Blasphemy Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Aura"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Cast While Channelling Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Channelling",
+	  "Spell",
+	  "Trigger"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Controlled Destruction Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Curse On Hit Support",
+	"slot": "Blue",
+	"tags": [
+	  "Curse",
+	  "Trigger",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Elemental Focus Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Increased Area of Effect Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "AoE"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Lightning Penetration Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Minion Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 6,
+		  "card": "The Summoner"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spell Cascade Support",
+	"slot": "Blue",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Spell Echo Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Unbound Ailments Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  },
+  {
+	"name": "Unleash Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"isAwakened": true,
+	"acquisition": {
+	  "divinationCards": [
+		{
+		  "amount": 7,
+		  "card": "Dialla's Subjugation"
+		},
+		{
+		  "amount": 3,
+		  "card": "Gemcutter's Promise"
+		}
+	  ],
+	  "quests": [],
+	  "vendors": []
+	}
+  }
+]

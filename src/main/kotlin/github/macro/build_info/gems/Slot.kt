@@ -10,6 +10,8 @@ enum class Slot {
 	WHITE;
 
 	companion object {
-		fun value(name: String): Slot? = values().firstOrNull { it.name.equals(name, ignoreCase = true) }
+		fun value(name: String): Slot? = values().firstOrNull {
+			it.name.replace("_", " ").equals(name, ignoreCase = true)
+		}
 	}
 }

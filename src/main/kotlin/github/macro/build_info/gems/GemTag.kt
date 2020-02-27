@@ -40,6 +40,8 @@ enum class GemTag {
 	NOVA;
 
 	companion object {
-		fun value(name: String): GemTag? = values().firstOrNull { it.name.equals(name, ignoreCase = true) }
+		fun value(name: String): GemTag? = values().firstOrNull {
+			it.name.replace("_", " ").equals(name, ignoreCase = true)
+		}
 	}
 }

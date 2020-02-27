@@ -13,6 +13,11 @@ class Launcher : App(Selector::class, Styles::class) {
 	init {
 		checkLogLevels()
 		LOGGER.info("Welcome to Exile Buddy")
+		Util.gems.forEach {
+//			if (it.acquisition.cards.size == 0 || it.acquisition.rewards.size == 0)
+//				LOGGER.info("Missing Acquisition for: ${it.getDisplay()}")
+			LOGGER.info(it)
+		}
 		importStylesheet(Launcher::class.java.getResource("Dark-Theme.css").toExternalForm())
 	}
 

@@ -60,7 +60,7 @@ class Build(
 	}
 
 	override fun toString(): String {
-		return "BuildInfo(name=$name, class=$classTag, ascendency=$ascendency, gemBuild=$gemBuild, equipment=$equipment)"
+		return "BuildInfo(name='$name', class=$classTag, ascendency=$ascendency, gemBuild=$gemBuild, equipment=$equipment)"
 	}
 
 	fun display(): String = "$name [$classTag/$ascendency]"

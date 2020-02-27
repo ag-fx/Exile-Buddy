@@ -2,10 +2,12 @@ package github.macro.build_info.gems
 
 import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.core.JsonProcessingException
+import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer
+import github.macro.Util
 import github.macro.build_info.ClassTag
 import javafx.beans.property.SimpleBooleanProperty
 import javafx.beans.property.SimpleListProperty
@@ -83,7 +85,7 @@ class Gem(
 	}
 
 	override fun toString(): String {
-		return "GemInfo(name=$name, slot=$slot, tags=$tags, isVaal=$isVaal, isAwakened=$isAwakened, acquisition=$acquisition)"
+		return "GemInfo(name='$name', slot=$slot, tags=$tags, isVaal=$isVaal, isAwakened=$isAwakened, acquisition=$acquisition)"
 	}
 }
 
@@ -99,29 +101,8 @@ class GemDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeser
 		val isVaal = if (node.has("isVaal")) node["isVaal"].asBoolean(false) else false
 		val isAwakened = if (node.has("isAwakened")) node["isAwakened"].asBoolean(false) else false
 
-		val acquisitionNode = node["acquisition"]
-		val recipes = acquisitionNode["recipes"].mapNotNull {
-			Recipe(
-				amount = it["amount"].asInt(),
-				ingredient = it["ingredient"].asText()
-			)
-		}
-		val quests = acquisitionNode["quests"].mapNotNull {
-			Quest(
-				act = it["act"].asInt(),
-				quest = it["quest"].asText(),
-				classes = it["classes"].mapNotNull { tag -> ClassTag.value(tag.asText()) }.sorted()
-			)
-		}
-		val vendors = acquisitionNode["vendors"].mapNotNull {
-			Vendor(
-				vendor = it["vendor"].asText(),
-				act = it["act"].asInt(),
-				quest = it["quest"].asText(),
-				classes = it["classes"].mapNotNull { tag -> ClassTag.value(tag.asText()) }.sorted()
-			)
-		}
+		val acquisition = Util.JSON_MAPPER.treeToValue(node["acquisition"], Acquisition::class.java)
 
-		return Gem(name, slot, tags, isVaal, isAwakened, Acquisition(recipes, quests, vendors))
+		return Gem(name, slot, tags, isVaal, isAwakened, acquisition = acquisition)
 	}
 }

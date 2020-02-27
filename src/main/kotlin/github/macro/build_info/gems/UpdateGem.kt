@@ -29,6 +29,6 @@ class UpdateGem(
 	}
 
 	override fun toString(): String {
-		return "UpdateGem(oldGem=$oldGem, newGem=$newGem, reason=$reason)"
+		return "UpdateGem(oldGem=$oldGem, newGem=$newGem, reason='$reason')"
 	}
 }
