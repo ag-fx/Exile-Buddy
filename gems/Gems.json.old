@@ -1,23 +1,5 @@
 [
   {
-	"name": "Smoke Mine",
-	"slot": "Green",
-	"tags": [
-	  "Mine",
-	  "Spell",
-	  "AoE",
-	  "Duration",
-	  "Movement",
-	  "Travel",
-	  "Blink"
-	],
-	"acquisition": {
-	  "divinationCards": [],
-	  "quests": [],
-	  "vendors": []
-	}
-  },
-  {
 	"name": "Spectral Shield Throw",
 	"slot": "Green",
 	"tags": [
