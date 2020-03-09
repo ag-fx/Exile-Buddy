@@ -65,7 +65,7 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 				prefWidth = 90.0
 				alignment = Pos.CENTER
 				if (gem?.isVaal == true || gem?.isAwakened == true) {
-					tooltip(text = gem!!.getDisplay()) {
+					tooltip(text = gem!!.getFullname()) {
 						style {
 							fontSize = 10.pt
 						}

@@ -2,20 +2,17 @@ package github.macro.build_info.gems
 
 import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.core.JsonProcessingException
-import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer
 import github.macro.Util
-import github.macro.build_info.ClassTag
 import javafx.beans.property.SimpleBooleanProperty
 import javafx.beans.property.SimpleListProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
 import javafx.collections.FXCollections
-import tornadofx.getValue
-import tornadofx.setValue
+import tornadofx.*
 import java.io.IOException
 
 /**
@@ -58,11 +55,7 @@ class Gem(
 	}
 
 	fun getFilename(): String {
-		var output = name.replace(" ", "_")
-		if (isVaal)
-			output += "[Vaal]"
-		if (isAwakened)
-			output += "[Awakened]"
+		val output = getFullname().replace(" ", "_")
 		return "$output.png"
 	}
 
@@ -73,15 +66,6 @@ class Gem(
 		if (isAwakened)
 			output += "Awakened "
 		return output + name
-	}
-
-	fun getDisplay(): String {
-		var output = name
-		if (isVaal)
-			output += " [Vaal]"
-		if (isAwakened)
-			output += " [Awakened]"
-		return output
 	}
 
 	override fun toString(): String {
