@@ -12,15 +12,12 @@ import com.fasterxml.jackson.databind.deser.std.StdDeserializer
 import com.fasterxml.jackson.databind.ser.std.StdSerializer
 import github.macro.Util
 import github.macro.build_info.equipment.EquipmentInfo
-import github.macro.build_info.gems.GemBuild
-import github.macro.build_info.gems.UpdateGem
 import javafx.beans.property.SimpleListProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
 import javafx.collections.FXCollections
 import org.apache.logging.log4j.LogManager
-import tornadofx.getValue
-import tornadofx.setValue
+import tornadofx.*
 import java.io.File
 import java.io.IOException
 
@@ -30,12 +27,16 @@ import java.io.IOException
 @JsonDeserialize(using = BuildDeserializer::class)
 @JsonSerialize(using = BuildSerializer::class)
 class Build(
+	version: String,
 	name: String,
 	classTag: ClassTag,
 	ascendency: Ascendency,
-	gemBuild: GemBuild,
+	buildGems: BuildGems,
 	equipment: List<EquipmentInfo>
 ) {
+	val versionProperty = SimpleStringProperty()
+	var version by versionProperty
+
 	val nameProperty = SimpleStringProperty()
 	var name by nameProperty
 
@@ -45,32 +46,34 @@ class Build(
 	val ascendencyProperty = SimpleObjectProperty<Ascendency>()
 	var ascendency by ascendencyProperty
 
-	val gemBuildProperty = SimpleObjectProperty<GemBuild>()
-	var gemBuild by gemBuildProperty
+	val buildGemsProperty = SimpleObjectProperty<BuildGems>()
+	var buildGems by buildGemsProperty
 
 	val equipmentProperty = SimpleListProperty<EquipmentInfo>()
 	var equipment by equipmentProperty
 
 	init {
+		this.version = version
 		this.name = name
 		this.classTag = classTag
 		this.ascendency = ascendency
-		this.gemBuild = gemBuild
+		this.buildGems = buildGems
 		this.equipment = FXCollections.observableList(equipment)
 	}
 
 	override fun toString(): String {
-		return "BuildInfo(name='$name', class=$classTag, ascendency=$ascendency, gemBuild=$gemBuild, equipment=$equipment)"
+		return "BuildInfo(version='$version', name='$name', class=$classTag, ascendency=$ascendency, gemBuild=$buildGems, equipment=$equipment)"
 	}
 
-	fun display(): String = "$name [$classTag/$ascendency]"
+	fun display(): String = "{$version}$name [$classTag/$ascendency]"
 
 	fun save() {
 		val folder = File("builds")
 		if (!folder.exists())
 			folder.mkdirs()
 		try {
-			val buildFile = File(folder, name.replace(" ", "_") + ".yaml")
+			val filename = "{$version}${name.replace(" ", "_")}.yaml"
+			val buildFile = File(folder, filename)
 			Util.YAML_MAPPER.writeValue(buildFile, this)
 		} catch (ioe: IOException) {
 			LOGGER.error("Unable to save build: $ioe")
@@ -87,21 +90,20 @@ class BuildDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDes
 	override fun deserialize(parser: JsonParser, ctx: DeserializationContext?): Build? {
 		val node: JsonNode = parser.codec.readTree(parser)
 
-		val name = node["name"].asText()
-		val classTag = ClassTag.value(node["class"].asText()) ?: return null
-		val ascendency = Ascendency.value(node["ascendency"].asText()) ?: return null
-		val links = node["gems"]["links"].map { link -> link.map { Util.gemByName(it.asText()) } }
-		val updates = node["gems"]["updates"].map {
-			val oldGem = Util.gemByName(it["oldGem"].asText())
-			val newGem = Util.gemByName(it["newGem"].asText())
-			val reason = it["reason"].asText()
-			UpdateGem(oldGem, newGem, reason)
-		}
-		val equipment = node["equipment"].mapNotNull { Util.equipmentByName(it.asText()) }
+		val version = node["Version"].asText()
+		val name = node["Name"].asText()
+		val classTag = ClassTag.value(node["Class"].asText()) ?: return null
+		val ascendency = Ascendency.value(node["Ascendency"].asText()) ?: return null
+		val buildGems = Util.YAML_MAPPER.treeToValue(node["Gems"], BuildGems::class.java)
+		val equipment = node["Equipment"].mapNotNull { Util.equipmentByName(it.asText()) }
 
 		return Build(
-			name, classTag, ascendency,
-			GemBuild(links, updates), equipment
+			version = version,
+			name = name,
+			classTag = classTag,
+			ascendency = ascendency,
+			buildGems = buildGems,
+			equipment = equipment
 		)
 	}
 }
@@ -111,24 +113,12 @@ class BuildSerializer @JvmOverloads constructor(t: Class<Build>? = null) : StdSe
 	@Throws(IOException::class, JsonProcessingException::class)
 	override fun serialize(value: Build, parser: JsonGenerator, provider: SerializerProvider?) {
 		parser.writeStartObject()
-		parser.writeStringField("name", value.name)
-		parser.writeStringField("class", value.classTag.name)
-		parser.writeStringField("ascendency", value.ascendency.name)
-		parser.writeObjectFieldStart("gems")
-		value.gemBuild.let {
-			parser.writeObjectField("links", it.links.map { link -> link.map { it?.getFullname() } })
-			parser.writeArrayFieldStart("updates")
-			it.updates.forEach { update ->
-				parser.writeStartObject()
-				parser.writeStringField("oldGem", update.oldGem?.getFullname())
-				parser.writeStringField("newGem", update.newGem?.getFullname())
-				parser.writeStringField("reason", update.reason)
-				parser.writeEndObject()
-			}
-			parser.writeEndArray()
-		}
-		parser.writeEndObject()
-		parser.writeObjectField("equipment", value.equipment.map { it.name })
+		parser.writeStringField("Version", value.version)
+		parser.writeStringField("Name", value.name)
+		parser.writeStringField("Class", value.classTag.name)
+		parser.writeStringField("Ascendency", value.ascendency.name)
+		parser.writeObjectField("Gems", value.buildGems)
+		parser.writeObjectField("Equipment", value.equipment.map { it.name })
 		parser.writeEndObject()
 	}
 }

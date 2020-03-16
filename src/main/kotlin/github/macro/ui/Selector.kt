@@ -4,7 +4,7 @@ import github.macro.Util
 import github.macro.build_info.Ascendency
 import github.macro.build_info.Build
 import github.macro.build_info.ClassTag
-import github.macro.build_info.gems.GemBuild
+import github.macro.build_info.BuildGems
 import github.macro.build_info.gems.UpdateGem
 import javafx.collections.FXCollections
 import javafx.geometry.Pos
@@ -79,6 +79,9 @@ class Selector : View() {
 					}
 				}
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
+					val versionTextfield = textfield {
+						promptText = "PoE Version"
+					}
 					val nameTextfield = textfield {
 						promptText = "Build Name"
 						hgrow = Priority.ALWAYS
@@ -101,21 +104,18 @@ class Selector : View() {
 						minWidth = 100.0
 						action {
 							val info = Build(
+								version = versionTextfield.text,
 								name = nameTextfield.text,
 								classTag = classCombobox.selectedItem!!,
 								ascendency = ascendencyCombobox.selectedItem!!,
-								gemBuild = GemBuild(
-									links = listOf(
-										Util.getClassGems(classTag = classCombobox.selectedItem!!),
-										listOf(Util.gemByName(name = "Portal"))
-									),
-									updates = listOf(
-										UpdateGem(
-											oldGem = Util.gemByName("Empower Support"),
-											newGem = Util.gemByName("Enhance Support"),
-											reason = "Gems are all Max Level"
-										)
-									)
+								buildGems = BuildGems(
+									armourLinks = emptyList(),
+									helmetLinks = emptyList(),
+									gloveLinks = emptyList(),
+									bootLinks = emptyList(),
+									weapon1Links = Util.getClassGems(classTag = classCombobox.selectedItem!!),
+									weapon2Links = emptyList(),
+									updates = emptyList()
 								),
 								equipment = emptyList()
 							)
@@ -127,7 +127,8 @@ class Selector : View() {
 							close()
 						}
 						disableWhen {
-							nameTextfield.textProperty().length().lessThanOrEqualTo(3)
+							versionTextfield.textProperty().length().lessThanOrEqualTo(3)
+								.or(nameTextfield.textProperty().length().lessThanOrEqualTo(3))
 								.or(classCombobox.valueProperty().isNull)
 								.or(ascendencyCombobox.valueProperty().isNull)
 						}

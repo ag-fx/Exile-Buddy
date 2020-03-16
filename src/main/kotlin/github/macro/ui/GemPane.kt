@@ -77,12 +77,12 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 		bottom {
 			hbox(spacing = 5.0) {
 				button(text = "<<") {
-					isVisible = build.gemBuild.updates.any { it.newGem?.equals(gem) ?: false }
+					isVisible = build.buildGems.updates.any { it.newGem?.equals(gem) ?: false }
 					hgrow = Priority.SOMETIMES
 					isFocusTraversable = false
 					action {
 						val oldGem = gem
-						gem = build.gemBuild.updates.firstOrNull { it.newGem?.equals(gem) ?: false }?.oldGem
+						gem = build.buildGems.updates.firstOrNull { it.newGem?.equals(gem) ?: false }?.oldGem
 						LOGGER.info(
 							"Previous Selected, Updated ${oldGem?.getFullname()
 								?: "Missing Gem"} to ${gem?.getFullname() ?: "Missing Gem"}"
@@ -95,12 +95,12 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 					hgrow = Priority.ALWAYS
 				}
 				button(text = ">>") {
-					isVisible = build.gemBuild.updates.any { it.oldGem?.equals(gem) ?: false }
+					isVisible = build.buildGems.updates.any { it.oldGem?.equals(gem) ?: false }
 					hgrow = Priority.SOMETIMES
 					isFocusTraversable = false
 					action {
 						val oldGem = gem
-						gem = build.gemBuild.updates.firstOrNull { it.oldGem?.equals(gem) ?: false }?.newGem
+						gem = build.buildGems.updates.firstOrNull { it.oldGem?.equals(gem) ?: false }?.newGem
 						LOGGER.info(
 							"Next Selected, Updated {} to {}",
 							oldGem?.getFullname() ?: "Missing Gem",
@@ -108,7 +108,7 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 						)
 						initialize()
 					}
-					tooltip(build.gemBuild.updates.firstOrNull { it.oldGem?.equals(gem) ?: false }?.reason) {
+					tooltip(build.buildGems.updates.firstOrNull { it.oldGem?.equals(gem) ?: false }?.reason) {
 						style {
 							fontSize = 10.pt
 						}

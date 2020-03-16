@@ -46,11 +46,34 @@ class Viewer : View() {
 					scrollpane(fitToWidth = true) {
 						hbarPolicy = ScrollPane.ScrollBarPolicy.NEVER
 						vbox(spacing = 5.0, alignment = Pos.TOP_CENTER) {
-							selected.buildProperty.value!!.gemBuild.links.forEach { link ->
-								hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
-									link.forEach { gem ->
-										add(GemPane(selected.buildProperty.value!!, gem))
-									}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT){
+								selected.buildProperty.value!!.buildGems.armourLinks.forEach {
+									add(GemPane(selected.buildProperty.value!!, it))
+								}
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT){
+								selected.buildProperty.value!!.buildGems.helmetLinks.forEach {
+									add(GemPane(selected.buildProperty.value!!, it))
+								}
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT){
+								selected.buildProperty.value!!.buildGems.gloveLinks.forEach {
+									add(GemPane(selected.buildProperty.value!!, it))
+								}
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT){
+								selected.buildProperty.value!!.buildGems.bootLinks.forEach {
+									add(GemPane(selected.buildProperty.value!!, it))
+								}
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT){
+								selected.buildProperty.value!!.buildGems.weapon1Links.forEach {
+									add(GemPane(selected.buildProperty.value!!, it))
+								}
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT){
+								selected.buildProperty.value!!.buildGems.weapon2Links.forEach {
+									add(GemPane(selected.buildProperty.value!!, it))
 								}
 							}
 						}
