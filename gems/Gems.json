@@ -14963,5 +14963,476 @@
 		]
 	  ]
 	}
+  },
+  {
+	"name": "Decoy Totem",
+	"slot": "Red",
+	"tags": [
+	  "Totem",
+	  "Spell",
+	  "AoE"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Scion"
+		  ],
+		  "quest": "Breaking Some Eggs",
+		  "type": "Quest",
+		  "vendor": null
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Breaking Some Eggs",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Determination",
+	"slot": "Red",
+	"tags": [
+	  "Aura",
+	  "Spell",
+	  "AoE",
+	  "Physical"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Marauder"
+		  ],
+		  "quest": "Lost in Love",
+		  "type": "Quest",
+		  "vendor": null
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar"
+		  ],
+		  "quest": "Lost in Love",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Devouring Totem",
+	"slot": "Red",
+	"tags": [
+	  "Totem",
+	  "Spell"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Breaking Some Eggs",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Dominating Blow",
+	"slot": "Red",
+	"tags": [
+	  "Attack",
+	  "Minion",
+	  "Duration",
+	  "Melee",
+	  "Strike"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Templar"
+		  ],
+		  "quest": "Sever the Right Hand",
+		  "type": "Quest",
+		  "vendor": null
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Sever the Right Hand",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Dread Banner",
+	"slot": "Red",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Duration",
+	  "Aura",
+	  "Physical"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Duelist"
+		  ],
+		  "quest": "Lost in Love",
+		  "type": "Quest",
+		  "vendor": null
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Lost in Love",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Detonate Mines",
+	"slot": "White",
+	"tags": [
+	  "Mine",
+	  "Spell"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
   }
 ]
