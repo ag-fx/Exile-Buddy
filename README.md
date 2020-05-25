@@ -1,4 +1,4 @@
-<img src="https://github.com/Macro303/Exile-Buddy/blob/master/logo.png" align="left" width="156" height="112" alt="Exile Buddy Logo"/>
+<img src="https://raw.githubusercontent.com/Macro303/Exile-Buddy/master/logo.png" align="left" width="156" height="112" alt="Exile Buddy Logo"/>
 
 # Exile Buddy
 [![Version](https://img.shields.io/github/tag-pre/Macro303/Exile-Buddy.svg?label=version&style=flat-square)](https://github.com/Macro303/Exile-Buddy/releases)
@@ -16,11 +16,11 @@ Show what Gems to link and update as you progress as well as include how to get 
  - [jackson-databind: 2.11.0](https://github.com/FasterXML/jackson)
  - [jackson-dataformat-yaml: 2.11.0](https://github.com/FasterXML/jackson-dataformats-text)
  - [jackson-datatype-jdk8: 2.11.0](https://github.com/FasterXML/jackson-modules-java8)
- - [log4j-api: 2.13.2](https://logging.apache.org/log4j/2.x/)
- - [log4j-core: 2.13.2 (Runtime)](https://logging.apache.org/log4j/2.x/)
+ - [log4j-api: 2.13.3](https://logging.apache.org/log4j/2.x/)
+ - [log4j-core: 2.13.3 (Runtime)](https://logging.apache.org/log4j/2.x/)
  
 ## Execution
-### Running from source:
+**From Source:**
 ```bash
-$ gradle clean run
+$ gradlew clean run
 ```
