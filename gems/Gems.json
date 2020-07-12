@@ -19003,5 +19003,500 @@
 		]
 	  ]
 	}
+  },
+  {
+	"name": "Blade Vortex",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Physical"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Burning Arrow",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Projectile",
+	  "AoE",
+	  "Fire",
+	  "Bow",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Cyclone",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Duration",
+	  "Melee",
+	  "Movement",
+	  "Channelling",
+	  "Physical"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Detonate Dead",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Fire"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Double Strike",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Duration",
+	  "Physical"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Grace",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Haste",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Impurity of Ice",
+	"slot": "Green",
+	"tags": [
+	  "Aura",
+	  "Vaal",
+	  "Spell",
+	  "AoE",
+	  "Duration",
+	  "Cold"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Lightning Strike",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Melee",
+	  "Strike",
+	  "Duration",
+	  "Lightning"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Rain of Arrows",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Projectile",
+	  "Bow"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Reave",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "AoE",
+	  "Melee"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Spectral Throw",
+	"slot": "Green",
+	"tags": [
+	  "Vaal",
+	  "Attack",
+	  "Projectile"
+	],
+	"isVaal": true,
+	"acquisition": {
+	  "rewards": [],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Volatile Power",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
   }
 ]

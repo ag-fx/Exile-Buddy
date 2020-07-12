@@ -1,40 +1,5 @@
 [
   {
-	"name": "Impurity of Ice",
-	"slot": "Green",
-	"tags": [
-	  "Aura",
-	  "Vaal",
-	  "Spell",
-	  "AoE",
-	  "Duration",
-	  "Cold"
-	],
-	"isVaal": true,
-	"acquisition": {
-	  "divinationCards": [
-		{
-		  "amount": 9,
-		  "card": "Volatile Power"
-		},
-		{
-		  "amount": 6,
-		  "card": "The Fox"
-		},
-		{
-		  "amount": 13,
-		  "card": "The Cataclysm"
-		},
-		{
-		  "amount": 3,
-		  "card": "Gemcutter's Promise"
-		}
-	  ],
-	  "quests": [],
-	  "vendors": []
-	}
-  },
-  {
 	"name": "Impurity of Lightning",
 	"slot": "Blue",
 	"tags": [
