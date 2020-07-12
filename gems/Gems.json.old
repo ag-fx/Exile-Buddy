@@ -1,28 +1,5 @@
 [
   {
-	"name": "Breach",
-	"slot": "White",
-	"tags": [
-	  "Vaal",
-	  "Spell"
-	],
-	"isVaal": true,
-	"acquisition": {
-	  "divinationCards": [
-		{
-		  "amount": 9,
-		  "card": "Volatile Power"
-		},
-		{
-		  "amount": 3,
-		  "card": "Gemcutter's Promise"
-		}
-	  ],
-	  "quests": [],
-	  "vendors": []
-	}
-  },
-  {
 	"name": "Added Cold Damage Support",
 	"slot": "Green",
 	"tags": [
