@@ -76,7 +76,7 @@ public class Build {
 	}
 
 	public String display() {
-		return String.format("%s [%s/%s]", name, classTag, ascendency);
+		return String.format("{%s} %s [%s/%s]", name, classTag, ascendency);
 	}
 
 	public void save() {

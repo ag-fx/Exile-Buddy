@@ -1,6 +1,12 @@
 package github.macro.build_info;
 
-import java.util.*;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Created by Macro303 on 2019-Dec-27
@@ -26,6 +32,7 @@ public enum Ascendency {
 	GUARDIAN,
 	ASCENDANT;
 
+	@NotNull
 	public static List<Ascendency> values(ClassTag classTag) {
 		switch (classTag) {
 			case DUELIST:
@@ -47,7 +54,8 @@ public enum Ascendency {
 		}
 	}
 
-	public static Optional<Ascendency> value(String name) {
-		return Arrays.stream(values()).filter(tag -> tag.name().equalsIgnoreCase(name)).findFirst();
+	@Nullable
+	public static Ascendency value(String name) {
+		return Arrays.stream(values()).filter(tag -> tag.name().equalsIgnoreCase(name)).findFirst().orElse(null);
 	}
 }

@@ -1,8 +1,9 @@
 plugins {
 	id 'application'
 	id 'idea'
-	id 'com.github.ben-manes.versions' version '0.27.0'
-	id 'org.openjfx.javafxplugin' version '0.0.8'
+	id 'com.github.johnrengelman.shadow' version '6.0.0'
+	id 'org.openjfx.javafxplugin' version '0.0.9'
+	id 'com.github.ben-manes.versions' version '0.28.0'
 }
 
 repositories {
@@ -12,15 +13,21 @@ repositories {
 }
 
 mainClassName = "github.macro.Launcher"
-def loggerVersion = '2.13.0'
-def jacksonVersion = '2.10.2'
+def loggerVersion = '2.13.3'
+def jacksonVersion = '2.11.1'
 
 dependencies {
+	implementation group: 'org.jetbrains', name:'annotations', version:"19.0.0"
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: "$jacksonVersion"
 	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: "$jacksonVersion"
 	implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jdk8', version: "$jacksonVersion"
 	implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: "$loggerVersion"
 	runtimeOnly group: 'org.apache.logging.log4j', name: 'log4j-core', version: "$loggerVersion"
+}
+
+javafx {
+	version = "11.0.2"
+	modules = [ 'javafx.controls' ]
 }
 
 compileJava {
@@ -35,44 +42,62 @@ compileTestJava {
 
 jar {
 	manifest.attributes provider: 'gradle'
+	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+shadowJar {
+	archiveBaseName.set('Exile-Buddy')
+	archiveClassifier.set(null)
+	archiveVersion.set(null)
 }
 
 run {
 	standardInput = System.in
 }
 
-javafx {
-	version = "11.0.2"
-	modules = [ 'javafx.controls' ]
+clean {
+	delete 'release'
 }
 
-def isNonStable = { String version ->
-	def stableKeyword = ['RELEASE', 'FINAL', 'GA'].any { it -> version.toUpperCase().contains(it) }
-	def regex = /^[0-9,.v-]+(-r)?$/
-	return !stableKeyword && !(version ==~ regex)
+task copyApplication(type: Copy) {
+	from 'scripts'
+	into "$buildDir/libs"
 }
 
-dependencyUpdates {
-	checkForGradleUpdate = false
+task copyResources(type: Copy) {
+	from 'resources'
+	into "$buildDir/libs/resources"
+}
 
-	// Example 1: reject all non stable versions
-	rejectVersionIf {
-		isNonStable(candidate.version)
-	}
+task fullRelease(type: Zip) {
+	dependsOn 'shadowJar', 'copyApplication', 'copyResources'
 
-	// Example 2: disallow release candidates as upgradable versions from stable versions
-	rejectVersionIf {
-		isNonStable(candidate.version) && !isNonStable(currentVersion)
-	}
+	from "$buildDir/libs"
+	include '**/*'
+	archiveFileName = 'Exile-Buddy.zip'
+	destinationDir(file('release'))
+}
 
-	// Example 3: using the full syntax
-	resolutionStrategy {
-		componentSelection {
-			all {
-				if (isNonStable(candidate.version) && !isNonStable(currentVersion)) {
-					reject('Release candidate')
-				}
-			}
-		}
-	}
+task applicationRelease(type: Zip) {
+	dependsOn 'shadowJar', 'copyApplication'
+
+	from "$buildDir/libs"
+	include '*.jar'
+	include '*.sh'
+	include '*.bat'
+	archiveFileName = 'Exile-Buddy-Application.zip'
+	destinationDir(file('release'))
+}
+
+task resourcesRelease(type: Zip) {
+	dependsOn 'copyResources'
+
+	from "$buildDir/libs/resources"
+	include '**/*'
+	archiveFileName = 'Exile-Buddy-Resources.zip'
+	destinationDir(file('release'))
+}
+
+task release {
+	dependsOn 'fullRelease', 'applicationRelease', 'resourcesRelease'
 }

@@ -11,6 +11,8 @@ import github.macro.build_info.gems.Gem;
 import github.macro.build_info.gems.Slot;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,9 +23,13 @@ import java.util.stream.Collectors;
  * Created by Macro303 on 2019-Nov-29.
  */
 public abstract class Util {
+	@NotNull
 	public static final ObjectMapper JSON_MAPPER = new ObjectMapper();
+	@NotNull
 	public static final ObjectMapper YAML_MAPPER = new ObjectMapper(new YAMLFactory().disable(YAMLGenerator.Feature.WRITE_DOC_START_MARKER));
+	@NotNull
 	public static final List<Gem> gems;
+	@NotNull
 	private static final Logger LOGGER = LogManager.getLogger(Util.class);
 
 	static {
@@ -36,7 +42,7 @@ public abstract class Util {
 
 		List<Gem> temp;
 		try {
-			temp = JSON_MAPPER.readValue(new File("gems", "Gems.json"), new TypeReference<>() {
+			temp = JSON_MAPPER.readValue(new File("resources/Gems", "Gems.json"), new TypeReference<>() {
 			});
 		} catch (IOException ioe) {
 			LOGGER.error("Unable to Load Gems: {}", ioe, ioe);
@@ -45,10 +51,11 @@ public abstract class Util {
 		gems = temp.stream().filter(Objects::nonNull).collect(Collectors.toList());
 	}
 
-	public static String slotToColour(Optional<Slot> slot) {
-		if (slot.isEmpty())
+	@NotNull
+	public static String slotToColour(@Nullable Slot slot) {
+		if (slot == null)
 			return "#999999";
-		switch (slot.get()) {
+		switch (slot) {
 			case RED:
 				return "#DD9999";
 			case GREEN:
@@ -62,11 +69,19 @@ public abstract class Util {
 		}
 	}
 
-	public static Optional<Gem> gemByName(String name) {
-		return gems.stream().filter(gem -> gem.getFullname().equalsIgnoreCase(name)).findFirst();
+	@Nullable
+	public static Gem gemByName(@NotNull String name) {
+		return gems.stream().filter(gem -> {
+			if (gem.isVaal())
+				return name.equalsIgnoreCase("Vaal " + gem.getName());
+			if (gem.isAwakened())
+				return name.equalsIgnoreCase("Awakened " + gem.getName());
+			return name.equalsIgnoreCase(gem.getName());
+		}).findFirst().orElse(null);
 	}
 
-	public static List<Optional<Gem>> getClassGems(ClassTag classTag) {
+	@NotNull
+	public static List<Gem> getClassGems(@NotNull ClassTag classTag) {
 		List<String> gemNames;
 		switch (classTag) {
 			case SCION:
@@ -94,6 +109,6 @@ public abstract class Util {
 				gemNames = Collections.singletonList("Empower Support");
 				break;
 		}
-		return gemNames.stream().map(Util::gemByName).collect(Collectors.toList());
+		return gemNames.stream().map(Util::gemByName).filter(Objects::nonNull).collect(Collectors.toList());
 	}
 }
