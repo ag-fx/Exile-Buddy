@@ -19,6 +19,8 @@ import java.io.IOException
 class Ingredient(
 	name: String,
 	count: Int,
+	level: Int?,
+	quality: Double?,
 	ingredientType: IngredientType
 ) {
 	val nameProperty = SimpleStringProperty()
@@ -27,17 +29,25 @@ class Ingredient(
 	val countProperty = SimpleIntegerProperty()
 	var count by countProperty
 
+	val levelProperty = SimpleObjectProperty<Int?>()
+	var level by levelProperty
+
+	val qualityProperty = SimpleObjectProperty<Double?>()
+	var quality by qualityProperty
+
 	val ingredientTypeProperty = SimpleObjectProperty<IngredientType>()
 	var ingredientType by ingredientTypeProperty
 
 	init {
 		this.name = name
 		this.count = count
+		this.level = level
+		this.quality = quality
 		this.ingredientType = ingredientType
 	}
 
 	override fun toString(): String {
-		return "Ingredient(name=$name, count=$count, type=$ingredientType)"
+		return "Ingredient(name=$name, count=$count, level=$level, quality=$quality, type=$ingredientType)"
 	}
 }
 
@@ -49,8 +59,10 @@ class IngredientDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : S
 
 		val name = node["name"].asText()
 		val count = node["count"].asInt()
+		val level = node["level"]?.asInt()
+		val quality = node["quality"]?.asDouble()
 		val ingredientType = IngredientType.value(node["type"].asText()) ?: return null
 
-		return Ingredient(name = name, count = count, ingredientType = ingredientType)
+		return Ingredient(name = name, count = count, level = level, quality = quality, ingredientType = ingredientType)
 	}
 }

@@ -6,7 +6,8 @@ package github.macro.build_info.gems.ingredient
 enum class IngredientType {
 	DIVINATION_CARD,
 	GEM,
-	CURRENCY;
+	CURRENCY,
+	EQUIPMENT;
 
 	companion object {
 		fun value(name: String): IngredientType? = values().firstOrNull {

@@ -65,14 +65,14 @@ class Build(
 		return "BuildInfo(version='$version', name='$name', class=$classTag, ascendency=$ascendency, gemBuild=$buildGems, equipment=$equipment)"
 	}
 
-	fun display(): String = "{$version}$name [$classTag/$ascendency]"
+	fun display(): String = "{$version} $name [$classTag/$ascendency]"
 
 	fun save() {
 		val folder = File("builds")
 		if (!folder.exists())
 			folder.mkdirs()
 		try {
-			val filename = "{$version}${name.replace(" ", "_")}.yaml"
+			val filename = "{$version} ${name.replace(" ", "_")}.yaml"
 			val buildFile = File(folder, filename)
 			Util.YAML_MAPPER.writeValue(buildFile, this)
 		} catch (ioe: IOException) {
