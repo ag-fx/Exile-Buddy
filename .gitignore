@@ -19,10 +19,7 @@ out/
 *.csv
 
 # =====Project=====
-!gems/
+!resources/
 !Gems.json
-!equipment/
 !Equipment.json
-!versions.json
-!.idea/runConfigurations/Create_Release.xml
 release/
