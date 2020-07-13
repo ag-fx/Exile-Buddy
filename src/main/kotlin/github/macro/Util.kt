@@ -47,7 +47,7 @@ object Util {
 	}
 	val gems: List<Gem> by lazy {
 		try {
-			JSON_MAPPER.readValue(File("gems", "Gems.json"), object : TypeReference<List<Gem>>() {})
+			JSON_MAPPER.readValue(File("resources/Gems", "Gems.json"), object : TypeReference<List<Gem>>() {})
 		} catch (ioe: IOException) {
 			LOGGER.error("Unable to Load Gems: $ioe")
 			emptyList<Gem>()
@@ -55,7 +55,7 @@ object Util {
 	}
 	val equipment: List<EquipmentInfo> by lazy {
 		try {
-			JSON_MAPPER.readValue(File("equipment", "Equipment.json"), object : TypeReference<List<EquipmentInfo>>() {})
+			JSON_MAPPER.readValue(File("resources/Equipment", "Equipment.json"), object : TypeReference<List<EquipmentInfo>>() {})
 		} catch (ioe: IOException) {
 			LOGGER.error("Unable to Load Equipment: $ioe")
 			emptyList<EquipmentInfo>()

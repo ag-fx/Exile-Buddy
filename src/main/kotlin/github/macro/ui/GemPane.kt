@@ -44,7 +44,7 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 
 		top {
 			hbox {
-				val imageFile = File("gems", gem?.getFilename() ?: "Missing Gem")
+				val imageFile = File("resources/Gems", gem?.getFilename() ?: "Missing Gem")
 				if (imageFile.exists())
 					imageview("file:${imageFile.path}") {
 						fitHeight = 80.0
