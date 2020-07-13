@@ -60,12 +60,8 @@ class Gem(
 	}
 
 	fun getFullname(): String {
-		var output = ""
-		if (isVaal)
-			output += "Vaal "
-		if (isAwakened)
-			output += "Awakened "
-		return output + name
+		val suffix = if (isVaal) " [Vaal]" else if (isAwakened) " [Awakened]" else ""
+		return name + suffix
 	}
 
 	override fun toString(): String {

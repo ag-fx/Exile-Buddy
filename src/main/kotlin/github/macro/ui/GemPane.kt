@@ -60,18 +60,10 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 			}
 		}
 		center {
-			label(text = gem?.name ?: "Missing Gem") {
+			label(text = gem?.getFullname() ?: "Missing Gem") {
 				isWrapText = true
 				prefWidth = 90.0
 				alignment = Pos.CENTER
-				if (gem?.isVaal == true || gem?.isAwakened == true) {
-					tooltip(text = gem!!.getFullname()) {
-						style {
-							fontSize = 10.pt
-						}
-					}
-					Util.hackTooltipStartTiming(tooltip)
-				}
 			}
 		}
 		bottom {
@@ -84,8 +76,9 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 						val oldGem = gem
 						gem = build.buildGems.updates.firstOrNull { it.newGem?.equals(gem) ?: false }?.oldGem
 						LOGGER.info(
-							"Previous Selected, Updated ${oldGem?.getFullname()
-								?: "Missing Gem"} to ${gem?.getFullname() ?: "Missing Gem"}"
+							"Previous Selected, Updated {} to {}",
+							oldGem?.getFullname() ?: "Missing Gem",
+							gem?.getFullname() ?: "Missing Gem"
 						)
 						initialize()
 					}

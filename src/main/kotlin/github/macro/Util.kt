@@ -71,7 +71,11 @@ object Util {
 	}
 
 	fun gemByName(name: String): Gem? = gems.firstOrNull {
-		it.getFullname().equals(name, ignoreCase = true)
+		if(it.isVaal)
+			return@firstOrNull "Vaal ${it.name}".equals(name, ignoreCase = true)
+		if (it.isAwakened)
+			return@firstOrNull "Awakened ${it.name}".equals(name, ignoreCase = true)
+		return@firstOrNull it.name.equals(name, ignoreCase = true)
 	}
 
 	fun equipmentByName(name: String): EquipmentInfo? = equipment.firstOrNull {
