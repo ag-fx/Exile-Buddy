@@ -4,8 +4,9 @@ package github.macro.build_info.equipment
  * Created by Macro303 on 2020-Jan-16.
  */
 enum class Slot {
-	WEAPON_1,
-	WEAPON_2,
+	MAIN_HAND,
+	OFF_HAND,
+	BOTH_HANDS,
 	CHEST,
 	BOOTS,
 	GLOVES,

@@ -85,7 +85,7 @@ class GemDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeser
 		val tags = node["tags"].mapNotNull {
 			val temp = GemTag.value(it.asText())
 			if (temp == null)
-				LOGGER.info("Invalid Slot: ${it.asText()}")
+				LOGGER.info("Invalid Gem Tag: ${it.asText()}")
 			temp
 		}.sorted()
 		val isVaal = if (node.has("isVaal")) node["isVaal"].asBoolean(false) else false

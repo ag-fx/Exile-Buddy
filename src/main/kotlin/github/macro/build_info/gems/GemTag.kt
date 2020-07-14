@@ -37,7 +37,8 @@ enum class GemTag {
 	VAAL,
 	PHYSICAL,
 	STRIKE,
-	NOVA;
+	NOVA,
+	SLAM;
 
 	companion object {
 		fun value(name: String): GemTag? = values().firstOrNull {
