@@ -6,12 +6,14 @@ import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer
+import github.macro.build_info.BuildDeserializer
 import github.macro.build_info.ClassTag
 import javafx.beans.property.SimpleIntegerProperty
 import javafx.beans.property.SimpleListProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
 import javafx.collections.FXCollections
+import org.apache.logging.log4j.LogManager
 import tornadofx.*
 import java.io.IOException
 
@@ -24,7 +26,7 @@ class Reward(
 	classes: List<ClassTag>,
 	quest: String,
 	rewardType: RewardType,
-	vendor: String
+	vendor: String?
 ) {
 	val actProperty = SimpleIntegerProperty()
 	var act by actProperty
@@ -63,8 +65,12 @@ class RewardDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDe
 		val act = node["act"].asInt()
 		val classes = node["classes"].mapNotNull { tag -> ClassTag.value(tag.asText()) }.sorted()
 		val quest = node["quest"].asText()
-		val rewardType = RewardType.value(node["type"].asText()) ?: return null
-		val vendor = node["vendor"].asText()
+		val rewardType = RewardType.value(node["type"].asText())
+		if(rewardType == null){
+			LOGGER.warn("Invalid Reward Type: ${node["type"].asText()}")
+			return null
+		}
+		val vendor = node["vendor"]?.asText()
 
 		return Reward(
 			act = act,
@@ -73,5 +79,9 @@ class RewardDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDe
 			rewardType = rewardType,
 			vendor = vendor
 		)
+	}
+
+	companion object {
+		private val LOGGER = LogManager.getLogger(RewardDeserializer::class.java)
 	}
 }

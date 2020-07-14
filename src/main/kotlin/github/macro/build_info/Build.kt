@@ -92,8 +92,16 @@ class BuildDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDes
 
 		val version = node["Version"].asText()
 		val name = node["Name"].asText()
-		val classTag = ClassTag.value(node["Class"].asText()) ?: return null
-		val ascendency = Ascendency.value(node["Ascendency"].asText()) ?: return null
+		val classTag = ClassTag.value(node["Class"].asText())
+		if(classTag == null){
+			LOGGER.info("Invalid Class: ${node["Class"].asText()}")
+			return null
+		}
+		val ascendency = Ascendency.value(node["Ascendency"].asText())
+		if(ascendency == null){
+			LOGGER.info("Invalid Ascendency: ${node["Ascendency"].asText()}")
+			return null
+		}
 		val buildGems = Util.YAML_MAPPER.treeToValue(node["Gems"], BuildGems::class.java)
 		val equipment = node["Equipment"].mapNotNull { Util.equipmentByName(it.asText()) }
 
@@ -105,6 +113,10 @@ class BuildDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDes
 			buildGems = buildGems,
 			equipment = equipment
 		)
+	}
+
+	companion object {
+		private val LOGGER = LogManager.getLogger(BuildDeserializer::class.java)
 	}
 }
 

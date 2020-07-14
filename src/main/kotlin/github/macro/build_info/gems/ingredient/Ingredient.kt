@@ -6,9 +6,12 @@ import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer
+import github.macro.build_info.BuildDeserializer
+import github.macro.build_info.gems.reward.RewardDeserializer
 import javafx.beans.property.SimpleIntegerProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
+import org.apache.logging.log4j.LogManager
 import tornadofx.*
 import java.io.IOException
 
@@ -61,8 +64,16 @@ class IngredientDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : S
 		val count = node["count"].asInt()
 		val level = node["level"]?.asInt()
 		val quality = node["quality"]?.asDouble()
-		val ingredientType = IngredientType.value(node["type"].asText()) ?: return null
+		val ingredientType = IngredientType.value(node["type"].asText())
+		if (ingredientType == null){
+			LOGGER.warn("Invalid Ingredient Type: ${node["type"].asText()}")
+			return null
+		}
 
 		return Ingredient(name = name, count = count, level = level, quality = quality, ingredientType = ingredientType)
+	}
+
+	companion object {
+		private val LOGGER = LogManager.getLogger(IngredientDeserializer::class.java)
 	}
 }

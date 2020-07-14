@@ -12,6 +12,7 @@ import javafx.beans.property.SimpleListProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
 import javafx.collections.FXCollections
+import org.apache.logging.log4j.LogManager
 import tornadofx.*
 import java.io.IOException
 
@@ -76,13 +77,26 @@ class GemDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeser
 		val node: JsonNode = parser.readValueAsTree()
 
 		val name = node["name"].asText()
-		val slot = Slot.value(node["slot"].asText()) ?: return null
-		val tags = node["tags"].mapNotNull { GemTag.value(it.asText()) }.sorted()
+		val slot = Slot.value(node["slot"].asText())
+		if (slot == null) {
+			LOGGER.info("Invalid Slot: ${node["slot"].asText()}")
+			return null
+		}
+		val tags = node["tags"].mapNotNull {
+			val temp = GemTag.value(it.asText())
+			if (temp == null)
+				LOGGER.info("Invalid Slot: ${it.asText()}")
+			temp
+		}.sorted()
 		val isVaal = if (node.has("isVaal")) node["isVaal"].asBoolean(false) else false
 		val isAwakened = if (node.has("isAwakened")) node["isAwakened"].asBoolean(false) else false
 
 		val acquisition = Util.JSON_MAPPER.treeToValue(node["acquisition"], Acquisition::class.java)
 
 		return Gem(name, slot, tags, isVaal, isAwakened, acquisition = acquisition)
+	}
+
+	companion object {
+		private val LOGGER = LogManager.getLogger(GemDeserializer::class.java)
 	}
 }
