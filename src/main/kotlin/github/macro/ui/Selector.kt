@@ -111,7 +111,7 @@ class Selector : View() {
 							close()
 						}
 						disableWhen {
-							versionTextfield.textProperty().length().lessThanOrEqualTo(3)
+							versionTextfield.textProperty().isEmpty
 								.or(nameTextfield.textProperty().length().lessThanOrEqualTo(3))
 								.or(classCombobox.valueProperty().isNull)
 								.or(ascendencyCombobox.valueProperty().isNull)

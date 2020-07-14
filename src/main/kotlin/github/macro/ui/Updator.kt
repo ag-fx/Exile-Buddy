@@ -12,9 +12,9 @@ import java.io.File
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-class Viewer : View() {
+class Updator : View() {
 	private val model: UIModel by inject()
-	private var selected = model.buildProperty.value!!
+	var selected = model.buildProperty.value!!
 
 	override val root = borderpane {
 		prefWidth = 700.0
@@ -73,8 +73,9 @@ class Viewer : View() {
 						}
 						button(text = "Delete") {
 							action {
-								selected.delete()
-								LOGGER.info("Deleting Build: ${selected.display()}")
+								val buildFile = File("builds", selected.filename)
+								buildFile.delete()
+								LOGGER.info("Closing Build: ${selected.display()}")
 								find<Selector>().openWindow(owner = null, resizable = false)
 								close()
 							}
@@ -165,6 +166,6 @@ class Viewer : View() {
 	}
 
 	companion object {
-		private val LOGGER = LogManager.getLogger(Viewer::class.java)
+		private val LOGGER = LogManager.getLogger(Updator::class.java)
 	}
 }

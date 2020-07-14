@@ -61,6 +61,9 @@ class Build(
 		this.equipment = FXCollections.observableList(equipment)
 	}
 
+	val filename: String
+		get() = "{$version}_${name.replace(" ", "_")}.yaml"
+
 	override fun toString(): String {
 		return "BuildInfo(version='$version', name='$name', class=$classTag, ascendency=$ascendency, gemBuild=$buildGems, equipment=$equipment)"
 	}
@@ -72,11 +75,26 @@ class Build(
 		if (!folder.exists())
 			folder.mkdirs()
 		try {
-			val filename = "{$version} ${name.replace(" ", "_")}.yaml"
 			val buildFile = File(folder, filename)
 			Util.YAML_MAPPER.writeValue(buildFile, this)
 		} catch (ioe: IOException) {
 			LOGGER.error("Unable to save build: $ioe")
+		}
+	}
+
+	fun rename(oldName: String) {
+		val oldFile = File("builds", oldName)
+		val newFile = File("builds", filename)
+		oldFile.renameTo(newFile)
+		save()
+	}
+
+	fun delete() {
+		val buildFile = File("builds", filename)
+		try {
+			buildFile.delete()
+		} catch (ioe: IOException) {
+			LOGGER.error("Unable to delete build: $ioe")
 		}
 	}
 
@@ -93,12 +111,12 @@ class BuildDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDes
 		val version = node["Version"].asText()
 		val name = node["Name"].asText()
 		val classTag = ClassTag.value(node["Class"].asText())
-		if(classTag == null){
+		if (classTag == null) {
 			LOGGER.info("Invalid Class: ${node["Class"].asText()}")
 			return null
 		}
 		val ascendency = Ascendency.value(node["Ascendency"].asText())
-		if(ascendency == null){
+		if (ascendency == null) {
 			LOGGER.info("Invalid Ascendency: ${node["Ascendency"].asText()}")
 			return null
 		}
