@@ -7,9 +7,11 @@ import javafx.geometry.Pos
 import javafx.scene.layout.BorderPane
 import javafx.scene.layout.BorderStrokeStyle
 import javafx.scene.layout.Priority
+import javafx.scene.paint.Paint
 import javafx.scene.shape.StrokeLineCap
 import javafx.scene.shape.StrokeLineJoin
 import javafx.scene.shape.StrokeType
+import javafx.scene.text.TextAlignment
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
 import java.io.File
@@ -64,6 +66,8 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 				isWrapText = true
 				prefWidth = 90.0
 				alignment = Pos.CENTER
+				textAlignment = TextAlignment.CENTER
+				textFill = Paint.valueOf(Util.slotToColour(gem?.slot))
 			}
 		}
 		bottom {
