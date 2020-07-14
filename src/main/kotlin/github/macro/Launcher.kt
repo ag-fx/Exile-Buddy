@@ -13,7 +13,8 @@ class Launcher : App(Selector::class, Styles::class) {
 	init {
 		checkLogLevels()
 		LOGGER.info("Welcome to Exile Buddy")
-		importStylesheet(Launcher::class.java.getResource("Dark-Theme.css").toExternalForm())
+//		importStylesheet(Launcher::class.java.getResource("Custom-Dark.css").toExternalForm())
+		importStylesheet(Launcher::class.java.getResource("Modena-Dark.css").toExternalForm())
 	}
 
 	private fun checkLogLevels() {

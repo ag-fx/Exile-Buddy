@@ -3,9 +3,8 @@ package github.macro.ui
 import github.macro.Util
 import github.macro.build_info.Ascendency
 import github.macro.build_info.Build
-import github.macro.build_info.ClassTag
 import github.macro.build_info.BuildGems
-import github.macro.build_info.gems.UpdateGem
+import github.macro.build_info.ClassTag
 import javafx.collections.FXCollections
 import javafx.geometry.Pos
 import javafx.scene.layout.Priority
@@ -20,21 +19,6 @@ import java.io.IOException
 class Selector : View() {
 	private val builds = FXCollections.observableArrayList<Build>()
 	private val ascendencyList = FXCollections.observableArrayList<Ascendency>()
-
-	init {
-		val folder = File("builds")
-		if (!folder.exists())
-			folder.mkdirs()
-		folder.walkTopDown().forEach {
-			if (it.isDirectory)
-				return@forEach
-			try {
-				builds.add(Util.YAML_MAPPER.readValue(it, Build::class.java))
-			} catch (ioe: IOException) {
-				LOGGER.error("Unable to Load Build: ${it.nameWithoutExtension} | $ioe")
-			}
-		}
-	}
 
 	override val root = borderpane {
 		paddingAll = 10.0
@@ -134,6 +118,21 @@ class Selector : View() {
 						}
 					}
 				}
+			}
+		}
+	}
+
+	init {
+		val folder = File("builds")
+		if (!folder.exists())
+			folder.mkdirs()
+		folder.walkTopDown().forEach {
+			if (it.isDirectory)
+				return@forEach
+			try {
+				builds.add(Util.YAML_MAPPER.readValue(it, Build::class.java))
+			} catch (ioe: IOException) {
+				LOGGER.error("Unable to Load Build: ${it.nameWithoutExtension} | $ioe")
 			}
 		}
 	}
