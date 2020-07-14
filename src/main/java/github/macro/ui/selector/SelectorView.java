@@ -24,11 +24,12 @@ import org.apache.logging.log4j.Logger;
 public class SelectorView {
 	private static final Logger LOGGER = LogManager.getLogger(SelectorView.class);
 	private final Stage stage;
-	private SelectorController controller;
-	private SelectorModel model;
+	private final SelectorController controller;
+	private final SelectorModel model;
 
 	private BorderPane root;
 	private ComboBox<Build> selectionComboBox;
+	private TextField versionTextField;
 	private TextField nameTextField;
 	private ComboBox<ClassTag> classComboBox;
 	private ComboBox<Ascendency> ascendencyComboBox;
@@ -118,6 +119,9 @@ public class SelectorView {
 
 		var createBox = new HBox(5.0);
 		createBox.setAlignment(Pos.CENTER);
+		versionTextField = new TextField();
+		versionTextField.setPromptText("PoE Version");
+		HBox.setHgrow(versionTextField, Priority.ALWAYS);
 		nameTextField = new TextField();
 		nameTextField.setPromptText("Build Name");
 		HBox.setHgrow(nameTextField, Priority.ALWAYS);
@@ -133,15 +137,16 @@ public class SelectorView {
 		createButton.setMinWidth(100.0);
 		createButton.setOnAction(event -> {
 			LOGGER.info("Created Build: {} [{}/{}]", nameTextField.textProperty().get(), model.getSelectedClass(), model.getSelectedAscendency());
-			var newBuild = new Build(nameTextField.textProperty().get(), model.getSelectedClass(), model.getSelectedAscendency());
+			var newBuild = new Build(versionTextField.textProperty().get(), nameTextField.textProperty().get(), model.getSelectedClass(), model.getSelectedAscendency());
 			newBuild.save();
 			model.buildListProperty().add(newBuild);
 			ascendencyComboBox.getSelectionModel().clearSelection();
 			classComboBox.getSelectionModel().clearSelection();
 			nameTextField.setText(null);
+			versionTextField.setText(null);
 		});
 		createButton.disableProperty().bind(nameTextField.textProperty().isEmpty().or(classComboBox.valueProperty().isNull()).or(ascendencyComboBox.valueProperty().isNull()));
-		createBox.getChildren().addAll(nameTextField, classComboBox, ascendencyComboBox, createButton);
+		createBox.getChildren().addAll(versionTextField, nameTextField, classComboBox, ascendencyComboBox, createButton);
 
 		vBox.getChildren().addAll(selectionBox, createBox);
 		return vBox;

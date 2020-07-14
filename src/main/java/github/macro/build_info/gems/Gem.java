@@ -1,6 +1,7 @@
 package github.macro.build_info.gems;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import github.macro.build_info.gems.acquisition.Acquisition;
 
 import java.util.SortedSet;
 
@@ -50,41 +51,12 @@ public class Gem {
 	}
 
 	public String getFilename() {
-		var output = name.replaceAll(" ", "_");
-		if (isVaal)
-			output += "[Vaal]";
-		if (isAwakened)
-			output += "[Awakened]";
-		return output + ".png";
+		var output = getFullname().replaceAll(" ", "_");
+		return String.format("%s.png", output);
 	}
 
 	public String getFullname() {
-		var output = "";
-		if (isVaal)
-			output += "Vaal ";
-		if (isAwakened)
-			output += "Awakened ";
-		return output + name;
-	}
-
-	public String getDisplay() {
-		var output = name;
-		if (isVaal)
-			output += " [Vaal]";
-		if (isAwakened)
-			output += " [Awakened]";
-		return output;
-	}
-
-	@Override
-	public String toString() {
-		return "GemInfo{" +
-				"name='" + name + '\'' +
-				", slot='" + slot + '\'' +
-				", tags=" + tags +
-				", isVaal=" + isVaal +
-				", isAwakened=" + isAwakened +
-				", acquisition=" + acquisition +
-				'}';
+		var suffix = isVaal ? " [Vaal]" : isAwakened ? " [Awakened]" : "";
+		return name + suffix;
 	}
 }

@@ -1,39 +1,37 @@
 package github.macro.build_info.gems;
 
-import java.util.Optional;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * Created by Macro303 on 2020-Jan-08.
  */
 public class UpdateGem {
-	private final Optional<Gem> oldGem;
-	private final Optional<Gem> newGem;
+	@Nullable
+	private final Gem oldGem;
+	@Nullable
+	private final Gem newGem;
+	@NotNull
 	private final String reason;
 
-	public UpdateGem(Optional<Gem> oldGem, Optional<Gem> newGem, String reason) {
+	public UpdateGem(@Nullable Gem oldGem, @Nullable Gem newGem, @NotNull String reason) {
 		this.oldGem = oldGem;
 		this.newGem = newGem;
 		this.reason = reason;
 	}
 
-	public Optional<Gem> getOldGem() {
+	@Nullable
+	public Gem getOldGem() {
 		return oldGem;
 	}
 
-	public Optional<Gem> getNewGem() {
+	@Nullable
+	public Gem getNewGem() {
 		return newGem;
 	}
 
+	@NotNull
 	public String getReason() {
 		return reason;
-	}
-
-	@Override
-	public String toString() {
-		return "UpdateGem{" +
-				"oldGem='" + oldGem + '\'' +
-				", newGem='" + newGem + '\'' +
-				", reason='" + reason + '\'' +
-				'}';
 	}
 }

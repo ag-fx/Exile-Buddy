@@ -7,6 +7,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import github.macro.build_info.ClassTag;
+import github.macro.build_info.equipment.EquipmentInfo;
 import github.macro.build_info.gems.Gem;
 import github.macro.build_info.gems.Slot;
 import org.apache.logging.log4j.LogManager;
@@ -30,6 +31,8 @@ public abstract class Util {
 	@NotNull
 	public static final List<Gem> gems;
 	@NotNull
+	public static final List<EquipmentInfo> equipment;
+	@NotNull
 	private static final Logger LOGGER = LogManager.getLogger(Util.class);
 
 	static {
@@ -40,15 +43,25 @@ public abstract class Util {
 		YAML_MAPPER.findAndRegisterModules();
 		YAML_MAPPER.registerModule(new Jdk8Module());
 
-		List<Gem> temp;
+		List<Gem> gem_temp;
 		try {
-			temp = JSON_MAPPER.readValue(new File("resources/Gems", "Gems.json"), new TypeReference<>() {
+			gem_temp = JSON_MAPPER.readValue(new File("resources/Gems", "Gems.json"), new TypeReference<>() {
 			});
 		} catch (IOException ioe) {
 			LOGGER.error("Unable to Load Gems: {}", ioe, ioe);
-			temp = new ArrayList<>();
+			gem_temp = new ArrayList<>();
 		}
-		gems = temp.stream().filter(Objects::nonNull).collect(Collectors.toList());
+		gems = gem_temp.stream().filter(Objects::nonNull).collect(Collectors.toList());
+
+		List<EquipmentInfo> equipment_temp;
+		try {
+			equipment_temp = JSON_MAPPER.readValue(new File("resources/Equipment", "Equipment.json"), new TypeReference<>() {
+			});
+		} catch (IOException ioe) {
+			LOGGER.error("Unable to Load Equipment: {}", ioe, ioe);
+			equipment_temp = new ArrayList<>();
+		}
+		equipment = equipment_temp.stream().filter(Objects::nonNull).collect(Collectors.toList());
 	}
 
 	@NotNull
@@ -77,6 +90,13 @@ public abstract class Util {
 			if (gem.isAwakened())
 				return name.equalsIgnoreCase("Awakened " + gem.getName());
 			return name.equalsIgnoreCase(gem.getName());
+		}).findFirst().orElse(null);
+	}
+
+	@Nullable
+	public static EquipmentInfo equipmentByName(@NotNull String name){
+		return equipment.stream().filter(equipment -> {
+			return name.equalsIgnoreCase(equipment.getName());
 		}).findFirst().orElse(null);
 	}
 

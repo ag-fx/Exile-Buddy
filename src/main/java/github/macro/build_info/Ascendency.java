@@ -56,6 +56,6 @@ public enum Ascendency {
 
 	@Nullable
 	public static Ascendency value(String name) {
-		return Arrays.stream(values()).filter(tag -> tag.name().equalsIgnoreCase(name)).findFirst().orElse(null);
+		return Arrays.stream(values()).filter(tag -> tag.name().replaceAll("_", " ").equalsIgnoreCase(name)).findFirst().orElse(null);
 	}
 }

@@ -3,16 +3,14 @@ package github.macro.build_info;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import github.macro.Util;
-import github.macro.build_info.gems.GemBuild;
-import github.macro.build_info.gems.UpdateGem;
+import github.macro.build_info.equipment.EquipmentInfo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -21,67 +19,80 @@ import java.util.List;
 @JsonDeserialize(using = BuildDeserializer.class)
 @JsonSerialize(using = BuildSerializer.class)
 public class Build {
+	@NotNull
 	private static final Logger LOGGER = LogManager.getLogger(Build.class);
+	@NotNull
+	private final String version;
+	@NotNull
 	private final String name;
+	@NotNull
 	private final ClassTag classTag;
+	@NotNull
 	private final Ascendency ascendency;
-	private final GemBuild gemBuild;
-	private final List<String> equipment;
+	@NotNull
+	private final BuildGems buildGems;
+	@NotNull
+	private final List<EquipmentInfo> equipment;
 
-	public Build(String name, ClassTag classTag, Ascendency ascendency, GemBuild gemBuild, List<String> equipment) {
+	public Build(@NotNull String version, @NotNull String name, @NotNull ClassTag classTag, @NotNull Ascendency ascendency) {
+		this.version = version;
 		this.name = name;
 		this.classTag = classTag;
 		this.ascendency = ascendency;
-		this.gemBuild = gemBuild;
-		this.equipment = equipment;
-	}
-
-	public Build(String name, ClassTag classTag, Ascendency ascendency) {
-		this.name = name;
-		this.classTag = classTag;
-		this.ascendency = ascendency;
-		this.gemBuild = new GemBuild(Arrays.asList(Util.getClassGems(classTag), Collections.singletonList(Util.gemByName("Portal"))), Collections.singletonList(new UpdateGem(Util.gemByName("Empower Support"), Util.gemByName("Enhance Support"), "Gems are all Max Level")));
+		this.buildGems = new BuildGems(new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), new ArrayList<>());
 		this.equipment = new ArrayList<>();
 	}
 
+	public Build(@NotNull String version, @NotNull String name, @NotNull ClassTag classTag, @NotNull Ascendency ascendency, @NotNull BuildGems buildGems) {
+		this.version = version;
+		this.name = name;
+		this.classTag = classTag;
+		this.ascendency = ascendency;
+		this.buildGems = buildGems;
+		this.equipment = new ArrayList<>();
+	}
+
+	@NotNull
+	public String getVersion() {
+		return version;
+	}
+
+	@NotNull
 	public String getName() {
 		return name;
 	}
 
+	@NotNull
 	public ClassTag getClassTag() {
 		return classTag;
 	}
 
+	@NotNull
 	public Ascendency getAscendency() {
 		return ascendency;
 	}
 
-	public GemBuild getGemBuild() {
-		return gemBuild;
+	@NotNull
+	public BuildGems getBuildGems() {
+		return buildGems;
 	}
 
-	public List<String> getEquipment() {
+	@NotNull
+	public List<EquipmentInfo> getEquipment() {
 		return equipment;
 	}
 
-	@Override
-	public String toString() {
-		return "BuildInfo{" +
-				"name='" + name + '\'' +
-				", classTag=" + classTag +
-				", ascendency=" + ascendency +
-				", gemBuild=" + gemBuild +
-				", equipment=" + equipment +
-				'}';
-	}
-
 	public String display() {
-		return String.format("{%s} %s [%s/%s]", name, classTag, ascendency);
+		return String.format("{%s} %s [%s/%s]", version, name, classTag, ascendency);
 	}
 
 	public void save() {
+		var folder = new File("builds");
+		if (!folder.exists())
+			folder.mkdirs();
 		try {
-			File buildFile = new File("builds", name.replaceAll(" ", "_") + ".yaml");
+			var filename = String.format("{%s} %s.yaml", version, name).replaceAll(" ", "_");
+			File buildFile = new File(folder, filename);
 			Util.YAML_MAPPER.writeValue(buildFile, this);
 		} catch (IOException ioe) {
 			LOGGER.error("Unable to save build: " + ioe);
