@@ -7,7 +7,6 @@ import javafx.scene.control.TabPane
 import javafx.scene.layout.Priority
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
-import java.io.File
 
 /**
  * Created by Macro303 on 2020-Jan-13.
@@ -39,7 +38,7 @@ class Viewer : View() {
 					hbox(spacing = 5.0, alignment = Pos.CENTER) {
 						button(text = "Copy") {
 							action {
-								val newBuild = Build(
+								val copiedBuild = Build(
 									version = selected.version,
 									name = selected.name + " Copy",
 									classTag = selected.classTag,
@@ -47,9 +46,11 @@ class Viewer : View() {
 									buildGems = selected.buildGems,
 									equipment = selected.equipment
 								)
-								newBuild.save()
-								LOGGER.info("Closing Build: ${selected.display()}")
-								find<Selector>().openWindow(owner = null, resizable = false)
+								copiedBuild.save()
+								LOGGER.info("Changing Build: ${selected.display()} => ${copiedBuild.display()}")
+								val scope = Scope()
+								setInScope(UIModel(copiedBuild), scope)
+								find<Viewer>(scope).openWindow(owner = null, resizable = false)
 								close()
 							}
 						}
@@ -58,16 +59,7 @@ class Viewer : View() {
 								LOGGER.info("Editing Build: ${selected.display()}")
 								val scope = Scope()
 								setInScope(UIModel(selected), scope)
-								find<Editor>(scope).openWindow(owner = null, resizable = false)
-								close()
-							}
-						}
-						button(text = "Update") {
-							action {
-								LOGGER.info("Updating Build: ${selected.display()}")
-								val scope = Scope()
-								setInScope(UIModel(selected), scope)
-								find<Updator>(scope).openWindow(owner = null, resizable = false)
+								find<DetailsEditor>(scope).openWindow(owner = null, resizable = false)
 								close()
 							}
 						}

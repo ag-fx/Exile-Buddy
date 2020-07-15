@@ -1,7 +1,6 @@
 package github.macro.ui
 
 import github.macro.build_info.Ascendency
-import github.macro.build_info.Build
 import github.macro.build_info.ClassTag
 import javafx.collections.FXCollections
 import javafx.geometry.Pos
@@ -12,7 +11,7 @@ import tornadofx.*
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-class Editor : View() {
+class DetailsEditor : View() {
 	private val model: UIModel by inject()
 	private var selected = model.buildProperty.value!!
 	private val ascendencyList = FXCollections.observableArrayList<Ascendency>()
@@ -80,7 +79,7 @@ class Editor : View() {
 						LOGGER.info("Updating Build: ${selected.display()}")
 						val scope = Scope()
 						setInScope(model, scope)
-						find<Viewer>(scope).openWindow(owner = null, resizable = false)
+						find<BuildEditor>(scope).openWindow(owner = null, resizable = false)
 						close()
 					}
 					disableWhen {
@@ -102,6 +101,6 @@ class Editor : View() {
 	}
 
 	companion object {
-		private val LOGGER = LogManager.getLogger(Editor::class.java)
+		private val LOGGER = LogManager.getLogger(DetailsEditor::class.java)
 	}
 }

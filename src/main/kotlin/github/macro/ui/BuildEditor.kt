@@ -1,18 +1,16 @@
 package github.macro.ui
 
-import github.macro.build_info.Build
 import javafx.geometry.Pos
 import javafx.scene.control.ScrollPane
 import javafx.scene.control.TabPane
 import javafx.scene.layout.Priority
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
-import java.io.File
 
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-class Updator : View() {
+class BuildEditor : View() {
 	private val model: UIModel by inject()
 	var selected = model.buildProperty.value!!
 
@@ -37,46 +35,10 @@ class Updator : View() {
 				vbox(spacing = 5.0, alignment = Pos.CENTER) {
 					label(text = selected.display())
 					hbox(spacing = 5.0, alignment = Pos.CENTER) {
-						button(text = "Copy") {
+						button(text = "Save") {
 							action {
-								val newBuild = Build(
-									version = selected.version,
-									name = selected.name + " Copy",
-									classTag = selected.classTag,
-									ascendency = selected.ascendency,
-									buildGems = selected.buildGems,
-									equipment = selected.equipment
-								)
-								newBuild.save()
 								LOGGER.info("Closing Build: ${selected.display()}")
-								find<Selector>().openWindow(owner = null, resizable = false)
-								close()
-							}
-						}
-						button(text = "Edit") {
-							action {
-								LOGGER.info("Editing Build: ${selected.display()}")
-								val scope = Scope()
-								setInScope(UIModel(selected), scope)
-								find<Editor>(scope).openWindow(owner = null, resizable = false)
-								close()
-							}
-						}
-						button(text = "Update") {
-							action {
-								LOGGER.info("Updating Build: ${selected.display()}")
-								val scope = Scope()
-								setInScope(UIModel(selected), scope)
-								find<Updator>(scope).openWindow(owner = null, resizable = false)
-								close()
-							}
-						}
-						button(text = "Delete") {
-							action {
-								val buildFile = File("builds", selected.filename)
-								buildFile.delete()
-								LOGGER.info("Closing Build: ${selected.display()}")
-								find<Selector>().openWindow(owner = null, resizable = false)
+								find<Viewer>().openWindow(owner = null, resizable = false)
 								close()
 							}
 						}
@@ -161,11 +123,11 @@ class Updator : View() {
 	override fun onDock() {
 		currentWindow?.setOnCloseRequest {
 			LOGGER.info("Closing Build: ${selected.display()}")
-			find<Selector>().openWindow(owner = null, resizable = false)
+			find<Viewer>().openWindow(owner = null, resizable = false)
 		}
 	}
 
 	companion object {
-		private val LOGGER = LogManager.getLogger(Updator::class.java)
+		private val LOGGER = LogManager.getLogger(BuildEditor::class.java)
 	}
 }
