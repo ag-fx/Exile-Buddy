@@ -12,6 +12,7 @@ import github.macro.build_info.equipment.EquipmentInfo
 import github.macro.build_info.gems.Gem
 import github.macro.build_info.gems.Slot
 import github.macro.build_info.gems.Slot.*
+import github.macro.config.Config
 import javafx.animation.KeyFrame
 import javafx.animation.Timeline
 import javafx.scene.control.Tooltip
@@ -55,23 +56,35 @@ object Util {
 	}
 	val equipment: List<EquipmentInfo> by lazy {
 		try {
-			JSON_MAPPER.readValue(File("resources/Equipment", "Equipment.json"), object : TypeReference<List<EquipmentInfo>>() {})
+			JSON_MAPPER.readValue(
+				File("resources/Equipment", "Equipment.json"),
+				object : TypeReference<List<EquipmentInfo>>() {})
 		} catch (ioe: IOException) {
 			LOGGER.error("Unable to Load Equipment: $ioe")
 			emptyList<EquipmentInfo>()
 		}
 	}
 
-	fun slotToColour(slot: Slot?): String = when (slot) {
-		RED -> "#DD9999"
-		GREEN -> "#99DD99"
-		BLUE -> "#9999DD"
-		WHITE -> "#DDDDDD"
-		else -> "#999999"
+	fun slotToColour(slot: Slot?): String = if (Config.INSTANCE.useDarkMode) {
+		when (slot) {
+			RED -> "#BB4444"
+			GREEN -> "#44BB44"
+			BLUE -> "#4444BB"
+			WHITE -> "#BBBBBB"
+			else -> "#444444"
+		}
+	} else {
+		when (slot) {
+			RED -> "#DD2222"
+			GREEN -> "#22DD22"
+			BLUE -> "#2222DD"
+			WHITE -> "#222222"
+			else -> "#DDDDDD"
+		}
 	}
 
 	fun gemByName(name: String): Gem? = gems.firstOrNull {
-		if(it.isVaal)
+		if (it.isVaal)
 			return@firstOrNull "Vaal ${it.name}".equals(name, ignoreCase = true)
 		if (it.isAwakened)
 			return@firstOrNull "Awakened ${it.name}".equals(name, ignoreCase = true)

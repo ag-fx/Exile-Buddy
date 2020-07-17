@@ -115,26 +115,4 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 			}
 		}
 	}
-
-	/*public ImageView getGemImage(){
-		var imageFile = getClass().getResource("placeholder[80x80].png").toExternalForm()
-		if (gem.isPresent()) {
-			var temp = String.format("gems\\%s", gem.get().getFilename())
-			if (new File (temp).exists())
-				imageFile = "file:" + temp
-		}
-		var image = new ImageView (new Image (imageFile))
-		image.setFitHeight(80)
-		image.setFitWidth(80)
-		if (gem.isPresent()) {
-			var display = gem.get().getInfo().getAcquisition().getDisplay(build.getClassTag())
-			if (display.length() > 2) {
-				var tooltip = new Tooltip (display)
-				tooltip.setShowDelay(Duration.seconds(0))
-				tooltip.setStyle("-fx-font-size: 10pt;")
-				Tooltip.install(image, tooltip)
-			}
-		}
-		return image
-	}*/
 }
