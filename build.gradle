@@ -71,12 +71,13 @@ clean {
 }
 
 task copyApplication(type: Copy) {
-	from 'scripts'
+	from 'resources/Scripts'
 	into "$buildDir/libs"
 }
 
 task copyResources(type: Copy) {
 	from 'resources'
+	exclude 'Scripts'
 	into "$buildDir/libs/resources"
 }
 
