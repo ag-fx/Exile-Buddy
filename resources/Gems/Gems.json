@@ -103,8 +103,7 @@
 			"Scion"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -341,8 +340,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -428,8 +426,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -520,8 +517,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -602,8 +598,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -690,8 +685,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -780,8 +774,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -864,8 +857,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -965,8 +957,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -1129,8 +1120,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -1215,8 +1205,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -1297,8 +1286,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -1379,8 +1367,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -1472,8 +1459,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -1557,8 +1543,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -1648,8 +1633,7 @@
 			"Witch"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -1737,8 +1721,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -1974,8 +1957,7 @@
 			"Ranger"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -2126,8 +2108,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -2287,8 +2268,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -2376,8 +2356,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -2465,8 +2444,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -2629,8 +2607,7 @@
 			"Scion"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -2712,8 +2689,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -2865,8 +2841,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -3033,8 +3008,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -3125,8 +3099,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -3226,8 +3199,7 @@
 			"Scion"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -3318,8 +3290,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -3476,8 +3447,7 @@
 			"Duelist"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -3558,8 +3528,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -3640,8 +3609,7 @@
 			"Ranger"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -3721,8 +3689,7 @@
 			"Ranger"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -3893,8 +3860,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -4037,8 +4003,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -4134,8 +4099,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -4221,8 +4185,7 @@
 			"Duelist"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -4310,8 +4273,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -4401,8 +4363,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -4561,8 +4522,7 @@
 			"Duelist"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -4642,8 +4602,7 @@
 			"Ranger"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -4723,8 +4682,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -4805,8 +4763,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -4887,8 +4844,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -4974,8 +4930,7 @@
 			"Duelist"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -5129,8 +5084,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -5214,8 +5168,7 @@
 			"Ranger"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -5303,8 +5256,7 @@
 			"Marauder"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -5459,8 +5411,7 @@
 			"Scion"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -5546,8 +5497,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -5715,8 +5665,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -5798,8 +5747,7 @@
 			"Ranger"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -5879,8 +5827,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -5967,8 +5914,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -6120,8 +6066,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -6211,8 +6156,7 @@
 			"Duelist"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -6296,8 +6240,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -6380,8 +6323,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -6468,8 +6410,7 @@
 			"Witch"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -6557,8 +6498,7 @@
 			"Templar"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -6646,8 +6586,7 @@
 			"Witch"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -6735,8 +6674,7 @@
 			"Templar"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -6822,8 +6760,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -6910,8 +6847,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -7001,8 +6937,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -7091,8 +7026,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -7180,8 +7114,7 @@
 			"Witch"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -7351,8 +7284,7 @@
 			"Templar"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -7426,8 +7358,7 @@
 			"Templar"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -7514,8 +7445,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -7607,8 +7537,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -7696,8 +7625,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -7861,8 +7789,7 @@
 			"Witch"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -7957,8 +7884,7 @@
 			"Witch"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -8054,8 +7980,7 @@
 			"Ranger"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -8227,8 +8152,7 @@
 			"Witch"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -8317,8 +8241,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -8565,8 +8488,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -8734,8 +8656,7 @@
 			"Templar"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -8826,8 +8747,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -8994,8 +8914,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -9087,8 +9006,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -9175,8 +9093,7 @@
 			"Witch"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -9269,8 +9186,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -9358,8 +9274,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -9527,8 +9442,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -9621,8 +9535,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -9711,8 +9624,7 @@
 			"Templar"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -9799,8 +9711,7 @@
 			"Witch"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -9893,8 +9804,7 @@
 			"Scion"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -9987,8 +9897,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -10155,8 +10064,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -10321,8 +10229,7 @@
 			"Witch"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -10400,8 +10307,7 @@
 			"Witch"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -10482,8 +10388,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -10571,8 +10476,7 @@
 			"Scion"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -10659,8 +10563,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -10749,8 +10652,7 @@
 			"Witch"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -10839,8 +10741,7 @@
 			"Templar"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -10928,8 +10829,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -11018,8 +10918,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -11176,8 +11075,7 @@
 			"Templar"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -11263,8 +11161,7 @@
 			"Witch"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -11414,8 +11311,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -11500,8 +11396,7 @@
 			"Witch"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -11592,8 +11487,7 @@
 			"Witch"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -11766,8 +11660,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -11854,8 +11747,7 @@
 			"Templar"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -11943,8 +11835,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -12033,8 +11924,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -12197,8 +12087,7 @@
 			"Witch"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -12372,8 +12261,7 @@
 			"Templar"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -12463,8 +12351,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -12551,8 +12438,7 @@
 			"Templar"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -12641,8 +12527,7 @@
 			"Templar"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -12731,8 +12616,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -12821,8 +12705,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -12915,8 +12798,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -13003,8 +12885,7 @@
 			"Templar"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -13102,8 +12983,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -13192,8 +13072,7 @@
 			"Witch"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -13292,8 +13171,7 @@
 			"Witch"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -13397,8 +13275,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -13655,8 +13532,7 @@
 			"Templar"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -13745,8 +13621,7 @@
 			"Witch"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -13834,8 +13709,7 @@
 			"Witch"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -13923,8 +13797,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -14013,8 +13886,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -14107,8 +13979,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -14178,8 +14049,7 @@
 			"Templar"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -14259,8 +14129,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -14341,8 +14210,7 @@
 			"Scion"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -14514,8 +14382,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -14587,8 +14454,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -14664,8 +14530,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -14738,8 +14603,7 @@
 			"Marauder"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -14818,8 +14682,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -14901,8 +14764,7 @@
 			"Templar"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -14982,8 +14844,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -15071,8 +14932,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -15238,8 +15098,7 @@
 			"Templar"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -15327,8 +15186,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -15416,8 +15274,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -15499,8 +15356,7 @@
 			"Scion"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -15580,8 +15436,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -15738,8 +15593,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -15896,8 +15750,7 @@
 			"Scion"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -15988,8 +15841,7 @@
 			"Templar"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -16086,8 +15938,7 @@
 			"Templar"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -16175,8 +16026,7 @@
 			"Templar"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -16323,8 +16173,7 @@
 			"Marauder"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -16407,8 +16256,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -16489,8 +16337,7 @@
 			"Marauder"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -16574,8 +16421,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -16658,8 +16504,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -16751,8 +16596,7 @@
 			"Scion"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -16831,8 +16675,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -16913,8 +16756,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -17006,8 +16848,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -17173,8 +17014,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -17404,8 +17244,7 @@
 			"Templar"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -17491,8 +17330,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Intruders in Black",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -17573,8 +17411,7 @@
 			"Marauder"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -17654,8 +17491,7 @@
 			"Templar"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -17744,8 +17580,7 @@
 			"Templar"
 		  ],
 		  "quest": "Enemy at the Gate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -17829,8 +17664,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -17913,8 +17747,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -18010,8 +17843,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -18106,8 +17938,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking the Seal",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -18195,8 +18026,7 @@
 			"Marauder"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -18277,8 +18107,7 @@
 			"Marauder"
 		  ],
 		  "quest": "The Siren's Cadence",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -18358,8 +18187,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sever the Right Hand",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -18440,8 +18268,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -18522,8 +18349,7 @@
 			"Scion"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -18603,8 +18429,7 @@
 			"Templar"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -18692,8 +18517,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -18781,8 +18605,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Breaking Some Eggs",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -18872,8 +18695,7 @@
 			"Templar"
 		  ],
 		  "quest": "Lost in Love",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -20509,8 +20331,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -20782,8 +20603,7 @@
 			"Ranger"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -20880,8 +20700,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Eternal Nightmare",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -21266,8 +21085,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Eternal Nightmare",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -21431,8 +21249,7 @@
 			"Shadow"
 		  ],
 		  "quest": "A Fixture of Fate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -21527,8 +21344,7 @@
 			"Marauder"
 		  ],
 		  "quest": "Sharp and Cruel",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -21636,8 +21452,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Eternal Nightmare",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -21717,8 +21532,7 @@
 			"Scion"
 		  ],
 		  "quest": "A Fixture of Fate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -21920,8 +21734,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sharp and Cruel",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -22066,8 +21879,7 @@
 			"Scion"
 		  ],
 		  "quest": "Sharp and Cruel",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -22175,8 +21987,7 @@
 			"Shadow"
 		  ],
 		  "quest": "A Fixture of Fate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -22268,8 +22079,7 @@
 			"Ranger"
 		  ],
 		  "quest": "A Fixture of Fate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -22368,8 +22178,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Eternal Nightmare",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -22452,8 +22261,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Eternal Nightmare",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 4,
@@ -22534,8 +22342,7 @@
 			"Duelist"
 		  ],
 		  "quest": "A Fixture of Fate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -22639,8 +22446,7 @@
 			"Scion"
 		  ],
 		  "quest": "A Fixture of Fate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -22745,8 +22551,7 @@
 			"Marauder"
 		  ],
 		  "quest": "A Fixture of Fate",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 3,
@@ -22842,8 +22647,7 @@
 			"Scion"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -22939,8 +22743,7 @@
 			"Scion"
 		  ],
 		  "quest": "Mercy Mission",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -23134,8 +22937,7 @@
 			"Duelist"
 		  ],
 		  "quest": "Mercy Mission",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -23227,8 +23029,7 @@
 			"Shadow"
 		  ],
 		  "quest": "The Caged Brute",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -23320,8 +23121,7 @@
 			"Shadow"
 		  ],
 		  "quest": "Sharp and Cruel",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 2,
@@ -23426,8 +23226,7 @@
 			"Templar"
 		  ],
 		  "quest": "Mercy Mission",
-		  "type": "Quest",
-		  "vendor": null
+		  "type": "Quest"
 		},
 		{
 		  "act": 1,
@@ -23446,6 +23245,663 @@
 			"Duelist",
 			"Marauder",
 			"Templar"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Pierce Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Shadow",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Ranger"
+		  ],
+		  "quest": "Enemy at the Gate",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Shadow",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Point Blank Support",
+	"slot": "Green",
+	"tags": [
+	  "Projectile",
+	  "Attack",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Poison Support",
+	"slot": "Green",
+	"tags": [
+	  "Chaos",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow",
+			"Ranger"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Second Wind Support",
+	"slot": "Green",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow",
+			"Ranger"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Slower Projectiles Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Projectile"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Swift Affliction Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Swift Assembly Support",
+	"slot": "Green",
+	"tags": [
+	  "Support",
+	  "Trap",
+	  "Mine"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Shadow"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Scion"
 		  ],
 		  "quest": "Mercy Mission",
 		  "type": "Vendor",
