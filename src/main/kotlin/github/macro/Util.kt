@@ -13,14 +13,9 @@ import github.macro.build_info.gems.Gem
 import github.macro.build_info.gems.Slot
 import github.macro.build_info.gems.Slot.*
 import github.macro.config.Config
-import javafx.animation.KeyFrame
-import javafx.animation.Timeline
-import javafx.scene.control.Tooltip
-import javafx.util.Duration
 import org.apache.logging.log4j.LogManager
 import java.io.File
 import java.io.IOException
-import java.lang.reflect.Field
 
 /**
  * Created by Macro303 on 2020-Jan-13.
@@ -65,22 +60,12 @@ object Util {
 		}
 	}
 
-	fun slotToColour(slot: Slot?): String = if (Config.INSTANCE.useDarkMode) {
-		when (slot) {
-			RED -> "#BB4444"
-			GREEN -> "#44BB44"
-			BLUE -> "#4444BB"
-			WHITE -> "#BBBBBB"
-			else -> "#444444"
-		}
-	} else {
-		when (slot) {
-			RED -> "#DD2222"
-			GREEN -> "#22DD22"
-			BLUE -> "#2222DD"
-			WHITE -> "#222222"
-			else -> "#DDDDDD"
-		}
+	fun slotToColour(slot: Slot?): String = when (slot) {
+		RED -> "#C44CC4"
+		GREEN -> "#4CC44C"
+		BLUE -> "#4C4CC4"
+		WHITE -> if (Config.INSTANCE.useDarkMode) "#C4C4C4" else "#4C4C4C"
+		else -> if (Config.INSTANCE.useDarkMode) "#4C4C4C" else "#C4C4C4"
 	}
 
 	fun gemByName(name: String): Gem? = gems.firstOrNull {
@@ -94,6 +79,7 @@ object Util {
 	fun equipmentByName(name: String): EquipmentInfo? = equipment.firstOrNull {
 		it.name.equals(name, ignoreCase = true)
 	}
+
 	internal fun getClassGems(classTag: ClassTag): List<Gem?> = when (classTag) {
 		SCION -> listOf("Spectral Throw", "Onslaught Support")
 		MARAUDER -> listOf("Heavy Strike", "Ruthless Support")
