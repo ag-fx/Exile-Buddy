@@ -73,12 +73,12 @@ class BuildGemsDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : St
 	override fun deserialize(parser: JsonParser, ctx: DeserializationContext?): BuildGems? {
 		val node: JsonNode = parser.codec.readTree(parser)
 
-		val amourLinks = node["Armour"].map { Util.gemByName(it.asText()) }.chunked(6).first()
-		val helmetLinks = node["Helmet"].map { Util.gemByName(it.asText()) }.chunked(4).first()
-		val gloveLinks = node["Gloves"].map { Util.gemByName(it.asText()) }.chunked(4).first()
-		val bootLinks = node["Boots"].map { Util.gemByName(it.asText()) }.chunked(4).first()
-		val weapon1Links = node["Weapon 1"].map { Util.gemByName(it.asText()) }.chunked(3).first()
-		val weapon2Links = node["Weapon 2"].map { Util.gemByName(it.asText()) }.chunked(3).first()
+		val amourLinks = node["Armour"].map { Util.gemByName(it.asText()) }.chunked(6).firstOrNull() ?: emptyList()
+		val helmetLinks = node["Helmet"].map { Util.gemByName(it.asText()) }.chunked(4).firstOrNull() ?: emptyList()
+		val gloveLinks = node["Gloves"].map { Util.gemByName(it.asText()) }.chunked(4).firstOrNull() ?: emptyList()
+		val bootLinks = node["Boots"].map { Util.gemByName(it.asText()) }.chunked(4).firstOrNull() ?: emptyList()
+		val weapon1Links = node["Weapon 1"].map { Util.gemByName(it.asText()) }.chunked(3).firstOrNull() ?: emptyList()
+		val weapon2Links = node["Weapon 2"].map { Util.gemByName(it.asText()) }.chunked(3).firstOrNull() ?: emptyList()
 		val updates = node["Updates"].map {
 			val oldGem = Util.gemByName(it["Old Gem"].asText())
 			val newGem = Util.gemByName(it["New Gem"].asText())
