@@ -12,6 +12,7 @@ import javafx.scene.shape.StrokeLineCap
 import javafx.scene.shape.StrokeLineJoin
 import javafx.scene.shape.StrokeType
 import javafx.scene.text.TextAlignment
+import javafx.util.Duration
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
 import java.io.File
@@ -109,8 +110,9 @@ class GemPane(val build: Build, var gem: Gem?) : BorderPane() {
 						style {
 							fontSize = 10.pt
 						}
+						showDelay = Duration(0.0)
+						hideDelay = Duration(0.0)
 					}
-					Util.hackTooltipStartTiming(tooltip)
 				}
 			}
 		}

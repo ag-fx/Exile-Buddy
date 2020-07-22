@@ -6,8 +6,6 @@ import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer
-import github.macro.build_info.BuildDeserializer
-import github.macro.build_info.gems.reward.RewardDeserializer
 import javafx.beans.property.SimpleIntegerProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
@@ -65,7 +63,7 @@ class IngredientDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : S
 		val level = node["level"]?.asInt()
 		val quality = node["quality"]?.asDouble()
 		val ingredientType = IngredientType.value(node["type"].asText())
-		if (ingredientType == null){
+		if (ingredientType == null) {
 			LOGGER.warn("Invalid Ingredient Type: ${node["type"].asText()}")
 			return null
 		}

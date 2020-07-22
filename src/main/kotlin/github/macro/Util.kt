@@ -94,22 +94,6 @@ object Util {
 	fun equipmentByName(name: String): EquipmentInfo? = equipment.firstOrNull {
 		it.name.equals(name, ignoreCase = true)
 	}
-
-	internal fun hackTooltipStartTiming(tooltip: Tooltip) {
-		try {
-			val fieldBehavior: Field = tooltip.javaClass.getDeclaredField("BEHAVIOR")
-			fieldBehavior.isAccessible = true
-			val objBehavior: Any = fieldBehavior.get(tooltip)
-			val fieldTimer: Field = objBehavior.javaClass.getDeclaredField("activationTimer")
-			fieldTimer.isAccessible = true
-			val objTimer = fieldTimer.get(objBehavior) as Timeline
-			objTimer.keyFrames.clear()
-			objTimer.keyFrames.add(KeyFrame(Duration(0.0)))
-		} catch (e: Exception) {
-			e.printStackTrace()
-		}
-	}
-
 	internal fun getClassGems(classTag: ClassTag): List<Gem?> = when (classTag) {
 		SCION -> listOf("Spectral Throw", "Onslaught Support")
 		MARAUDER -> listOf("Heavy Strike", "Ruthless Support")

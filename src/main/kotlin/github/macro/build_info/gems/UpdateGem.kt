@@ -2,8 +2,7 @@ package github.macro.build_info.gems
 
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
-import tornadofx.getValue
-import tornadofx.setValue
+import tornadofx.*
 
 /**
  * Created by Macro303 on 2020-Jan-13.

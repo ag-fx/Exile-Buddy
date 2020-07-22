@@ -9,10 +9,10 @@
 Show what Gems to link and update as you progress as well as include how to get them.
 
 ## Built Using
- - [OracleJDK: 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+ - [AdoptOpenJDK: 11](https://adoptopenjdk.net/)
  - [Gradle: 6.5.1](https://gradle.org/)
  - [kotlin-stdlib-jdk8: 1.3.72](https://kotlinlang.org/)
- - [tornadofx: 1.7.20](https://github.com/edvin/tornadofx)
+ - [tornadofx: 2.0.0-SNAPSHOT](https://github.com/edvin/tornadofx)
  - [jackson-databind: 2.11.1](https://github.com/FasterXML/jackson)
  - [jackson-dataformat-yaml: 2.11.1](https://github.com/FasterXML/jackson-dataformats-text)
  - [jackson-datatype-jdk8: 2.11.1](https://github.com/FasterXML/jackson-modules-java8)
