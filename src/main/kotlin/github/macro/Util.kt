@@ -9,6 +9,7 @@ import com.fasterxml.jackson.datatype.jdk8.Jdk8Module
 import github.macro.build_info.ClassTag
 import github.macro.build_info.ClassTag.*
 import github.macro.build_info.equipment.EquipmentInfo
+import github.macro.build_info.gems.Acquisition
 import github.macro.build_info.gems.Gem
 import github.macro.build_info.gems.Slot
 import github.macro.build_info.gems.Slot.*
@@ -49,6 +50,14 @@ object Util {
 			emptyList<Gem>()
 		}
 	}
+	val missingGem = Gem(
+		name = "Missing",
+		slot = ERROR,
+		tags = emptyList(),
+		isVaal = false,
+		isAwakened = false,
+		acquisition = Acquisition(emptyList(), emptyList())
+	)
 	val equipment: List<EquipmentInfo> by lazy {
 		try {
 			JSON_MAPPER.readValue(
@@ -61,7 +70,7 @@ object Util {
 	}
 
 	fun slotToColour(slot: Slot?): String = when (slot) {
-		RED -> "#C44CC4"
+		RED -> "#C44C4C"
 		GREEN -> "#4CC44C"
 		BLUE -> "#4C4CC4"
 		WHITE -> if (Config.INSTANCE.useDarkMode) "#C4C4C4" else "#4C4C4C"

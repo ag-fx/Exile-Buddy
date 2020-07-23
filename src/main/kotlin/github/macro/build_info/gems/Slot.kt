@@ -7,7 +7,8 @@ enum class Slot {
 	GREEN,
 	BLUE,
 	RED,
-	WHITE;
+	WHITE,
+	ERROR;
 
 	companion object {
 		fun value(name: String): Slot? = values().firstOrNull {

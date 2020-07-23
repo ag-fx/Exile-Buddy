@@ -1,29 +1,26 @@
 package github.macro.ui
 
 import github.macro.Util
-import github.macro.build_info.Ascendency
 import github.macro.build_info.Build
 import github.macro.build_info.BuildGems
-import github.macro.build_info.ClassTag
-import javafx.collections.FXCollections
+import github.macro.ui.viewer.BuildViewer
 import javafx.geometry.Pos
 import javafx.scene.layout.Priority
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
-import java.io.File
-import java.io.IOException
 
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
 class Selector : View() {
-	private val builds = FXCollections.observableArrayList<Build>()
-	private val ascendencyList = FXCollections.observableArrayList<Ascendency>()
+	private val model by inject<UIModel>()
 
 	override val root = borderpane {
 		paddingAll = 10.0
 		top {
+			paddingAll = 5.0
 			hbox(spacing = 5.0, alignment = Pos.CENTER) {
+				paddingAll = 5.0
 				separator {
 					isVisible = false
 					hgrow = Priority.ALWAYS
@@ -38,9 +35,12 @@ class Selector : View() {
 			}
 		}
 		center {
+			paddingAll = 5.0
 			vbox(spacing = 5.0, alignment = Pos.CENTER) {
+				paddingAll = 5.0
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
-					val buildCombobox = combobox<Build>(values = builds) {
+					paddingAll = 5.0
+					val buildCombobox = combobox<Build>(property = model.selectedBuildProperty, values = model.builds) {
 						promptText = "Build"
 						hgrow = Priority.ALWAYS
 						maxWidth = Double.MAX_VALUE
@@ -51,10 +51,10 @@ class Selector : View() {
 					button(text = "Select") {
 						minWidth = 100.0
 						action {
-							LOGGER.info("Viewing Build: ${buildCombobox.selectedItem?.display()}")
+							LOGGER.info("Viewing Build: ${model.selectedBuild.display()}")
 							val scope = Scope()
-							setInScope(UIModel(buildCombobox.selectedItem), scope)
-							find<Viewer>(scope).openWindow(owner = null, resizable = false)
+							setInScope(model, scope)
+							find<BuildViewer>(scope).openWindow(owner = null, resizable = false)
 							close()
 						}
 						disableWhen {
@@ -63,6 +63,7 @@ class Selector : View() {
 					}
 				}
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
+					paddingAll = 5.0
 					val versionTextfield = textfield {
 						promptText = "PoE Version"
 					}
@@ -70,10 +71,10 @@ class Selector : View() {
 						promptText = "Build Name"
 						hgrow = Priority.ALWAYS
 					}
-					val classCombobox = combobox(values = ClassTag.values().asList()) {
+					val classCombobox = combobox(values = model.classes) {
 						promptText = "Class"
 					}
-					val ascendencyCombobox = combobox(values = ascendencyList) {
+					val ascendencyCombobox = combobox(values = model.ascendencies) {
 						promptText = "Ascendency"
 						disableWhen {
 							classCombobox.valueProperty().isNull
@@ -81,8 +82,8 @@ class Selector : View() {
 					}
 					classCombobox.setOnAction {
 						ascendencyCombobox.selectionModel.clearSelection()
-						if (classCombobox.value != null)
-							ascendencyList.setAll(Ascendency.values(classCombobox.value))
+						if (classCombobox.selectedItem != null)
+							model.selectedClass(classCombobox.selectedItem!!)
 					}
 					button(text = "Create") {
 						minWidth = 100.0
@@ -105,9 +106,10 @@ class Selector : View() {
 							)
 							LOGGER.info("Creating Build: ${info.display()}")
 							info.save()
+							model.selectedBuild = info
 							val scope = Scope()
-							setInScope(UIModel(info), scope)
-							find<Viewer>(scope).openWindow(owner = null, resizable = false)
+							setInScope(model, scope)
+							find<BuildViewer>(scope).openWindow(owner = null, resizable = false)
 							close()
 						}
 						disableWhen {
@@ -123,18 +125,7 @@ class Selector : View() {
 	}
 
 	init {
-		val folder = File("builds")
-		if (!folder.exists())
-			folder.mkdirs()
-		folder.walkTopDown().forEach {
-			if (it.isDirectory)
-				return@forEach
-			try {
-				builds.add(Util.YAML_MAPPER.readValue(it, Build::class.java))
-			} catch (ioe: IOException) {
-				LOGGER.error("Unable to Load Build: ${it.nameWithoutExtension} | $ioe")
-			}
-		}
+		model.loadBuilds()
 	}
 
 	companion object {
