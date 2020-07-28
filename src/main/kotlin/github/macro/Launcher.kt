@@ -2,7 +2,9 @@ package github.macro
 
 import github.macro.config.Config
 import github.macro.ui.Selector
+import javafx.scene.image.Image
 import javafx.scene.text.FontWeight
+import javafx.stage.Stage
 import org.apache.logging.log4j.Level
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
@@ -21,6 +23,7 @@ class Launcher : App(Selector::class, Styles::class) {
 		}
 		FX.locale = Locale.ENGLISH
 		reloadStylesheetsOnFocus()
+		addStageIcon(Image(Launcher::class.java.getResource("logo.png").toExternalForm()))
 	}
 
 	private fun checkLogLevels() {

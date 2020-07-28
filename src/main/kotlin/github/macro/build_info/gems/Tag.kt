@@ -3,7 +3,7 @@ package github.macro.build_info.gems
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-enum class GemTag {
+enum class Tag {
 	WARCRY,
 	CHAOS,
 	AOE,
@@ -41,7 +41,7 @@ enum class GemTag {
 	SLAM;
 
 	companion object {
-		fun value(name: String): GemTag? = values().firstOrNull {
+		fun value(name: String): Tag? = values().firstOrNull {
 			it.name.replace("_", " ").equals(name, ignoreCase = true)
 		}
 	}

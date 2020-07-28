@@ -41,14 +41,15 @@ class UIModel : ViewModel() {
 		val folder = File("builds")
 		if (!folder.exists())
 			folder.mkdirs()
-		builds.addAll(folder.walkTopDown().filterNot { it.isDirectory }.mapNotNull {
+		folder.listFiles()?.filterNot { it.isDirectory }?.mapNotNullTo(builds) {
 			try {
 				Util.YAML_MAPPER.readValue(it, Build::class.java)
 			} catch (ioe: IOException) {
 				LOGGER.error("Unable to Load Build: ${it.nameWithoutExtension} | $ioe")
 				null
 			}
-		})
+		}
+		builds.sortWith(compareBy(Build::version, Build::name, Build::isHardcore))
 	}
 
 	fun selectedClass(classTag: ClassTag) {

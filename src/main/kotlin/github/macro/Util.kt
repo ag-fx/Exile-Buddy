@@ -8,11 +8,9 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module
 import github.macro.build_info.ClassTag
 import github.macro.build_info.ClassTag.*
-import github.macro.build_info.equipment.EquipmentInfo
+import github.macro.build_info.equipment.Equipment
 import github.macro.build_info.gems.Acquisition
 import github.macro.build_info.gems.Gem
-import github.macro.build_info.gems.Slot
-import github.macro.build_info.gems.Slot.*
 import github.macro.config.Config
 import org.apache.logging.log4j.LogManager
 import java.io.File
@@ -42,7 +40,7 @@ object Util {
 		mapper.registerModule(Jdk8Module())
 		mapper
 	}
-	val gems: List<Gem> by lazy {
+	val GEM_LIST: List<Gem> by lazy {
 		try {
 			JSON_MAPPER.readValue(File("resources/Gems", "Gems.json"), object : TypeReference<List<Gem>>() {})
 		} catch (ioe: IOException) {
@@ -50,46 +48,58 @@ object Util {
 			emptyList<Gem>()
 		}
 	}
-	val missingGem = Gem(
+	val MISSING_GEM = Gem(
 		name = "Missing",
-		slot = ERROR,
+		slot = github.macro.build_info.gems.Slot.ERROR,
 		tags = emptyList(),
 		isVaal = false,
 		isAwakened = false,
 		acquisition = Acquisition(emptyList(), emptyList())
 	)
-	val equipment: List<EquipmentInfo> by lazy {
+	val EQUIPMENT_LIST: List<Equipment> by lazy {
 		try {
 			JSON_MAPPER.readValue(
 				File("resources/Equipment", "Equipment.json"),
-				object : TypeReference<List<EquipmentInfo>>() {})
+				object : TypeReference<List<Equipment>>() {})
 		} catch (ioe: IOException) {
 			LOGGER.error("Unable to Load Equipment: $ioe")
-			emptyList<EquipmentInfo>()
+			emptyList<Equipment>()
 		}
 	}
+	val MISSING_EQUIPMENT = Equipment(
+		name = "Missing",
+		slot = github.macro.build_info.equipment.Slot.ERROR,
+		level = 0,
+		quality = 0.0
+	)
 
-	fun slotToColour(slot: Slot?): String = when (slot) {
-		RED -> "#C44C4C"
-		GREEN -> "#4CC44C"
-		BLUE -> "#4C4CC4"
-		WHITE -> if (Config.INSTANCE.useDarkMode) "#C4C4C4" else "#4C4C4C"
+	fun slotToColour(slot: github.macro.build_info.gems.Slot?): String = when (slot) {
+		github.macro.build_info.gems.Slot.RED -> "#C44C4C"
+		github.macro.build_info.gems.Slot.GREEN -> "#4CC44C"
+		github.macro.build_info.gems.Slot.BLUE -> "#4C4CC4"
+		github.macro.build_info.gems.Slot.WHITE -> if (Config.INSTANCE.useDarkMode) "#C4C4C4" else "#4C4C4C"
 		else -> if (Config.INSTANCE.useDarkMode) "#4C4C4C" else "#C4C4C4"
 	}
 
-	fun gemByName(name: String): Gem? = gems.firstOrNull {
-		if (it.isVaal)
-			return@firstOrNull "Vaal ${it.name}".equals(name, ignoreCase = true)
-		if (it.isAwakened)
-			return@firstOrNull "Awakened ${it.name}".equals(name, ignoreCase = true)
-		return@firstOrNull it.name.equals(name, ignoreCase = true)
+	fun gemByName(name: String?): Gem {
+		name ?: return MISSING_GEM
+		return GEM_LIST.firstOrNull {
+			if (it.isVaal)
+				return@firstOrNull "Vaal ${it.name}".equals(name, ignoreCase = true)
+			if (it.isAwakened)
+				return@firstOrNull "Awakened ${it.name}".equals(name, ignoreCase = true)
+			return@firstOrNull it.name.equals(name, ignoreCase = true)
+		} ?: MISSING_GEM
 	}
 
-	fun equipmentByName(name: String): EquipmentInfo? = equipment.firstOrNull {
-		it.name.equals(name, ignoreCase = true)
+	fun equipmentByName(name: String?): Equipment{
+		name ?: return MISSING_EQUIPMENT
+		return EQUIPMENT_LIST.firstOrNull {
+			it.name.equals(name, ignoreCase = true)
+		} ?: MISSING_EQUIPMENT
 	}
 
-	internal fun getClassGems(classTag: ClassTag): List<Gem?> = when (classTag) {
+	internal fun getClassGems(classTag: ClassTag): List<Gem> = when (classTag) {
 		SCION -> listOf("Spectral Throw", "Onslaught Support")
 		MARAUDER -> listOf("Heavy Strike", "Ruthless Support")
 		RANGER -> listOf("Burning Arrow", "Pierce Support")
@@ -98,4 +108,6 @@ object Util {
 		TEMPLAR -> listOf("Glacial Hammer", "Elemental Proliferation Support")
 		SHADOW -> listOf("Viper Strike", "Lesser Poison Support")
 	}.plus("Empower Support").map { gemByName(it) }
+
+	fun Enum<*>.cleanName(): String = this.name.split("_").joinToString(" ") { it.toLowerCase().capitalize() }
 }

@@ -32,10 +32,6 @@ class Acquisition(
 		this.rewards = FXCollections.observableList(rewards)
 		this.crafting = FXCollections.observableList(crafting)
 	}
-
-	override fun toString(): String {
-		return "Acquisition(rewards=$rewards, crafting=$crafting)"
-	}
 }
 
 class AcquisitionDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<Acquisition?>(vc) {
@@ -44,15 +40,9 @@ class AcquisitionDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : 
 	override fun deserialize(parser: JsonParser, ctx: DeserializationContext): Acquisition? {
 		val node: JsonNode = parser.readValueAsTree()
 
-		val rewards = ArrayList<Reward>()
-		node["rewards"].mapTo(rewards) { Util.JSON_MAPPER.treeToValue(it, Reward::class.java) }
-		val crafting = ArrayList<List<Ingredient>>()
-		node["crafting"].mapTo(crafting) { ingredients ->
-			val ingredientList = ArrayList<Ingredient>()
-			ingredients.mapTo(ingredientList) {
-				Util.JSON_MAPPER.treeToValue(it, Ingredient::class.java)
-			}
-			ingredientList
+		val rewards = node["rewards"].map { Util.JSON_MAPPER.treeToValue(it, Reward::class.java) }
+		val crafting = node["crafting"].map { ingredients ->
+			ingredients.map { Util.JSON_MAPPER.treeToValue(it, Ingredient::class.java) }
 		}
 
 		return Acquisition(rewards = rewards, crafting = crafting)

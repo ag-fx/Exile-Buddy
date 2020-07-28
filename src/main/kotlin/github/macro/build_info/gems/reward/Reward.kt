@@ -49,10 +49,6 @@ class Reward(
 		this.rewardType = rewardType
 		this.vendor = vendor
 	}
-
-	override fun toString(): String {
-		return "Reward(act=$act, classes=$classes, quest='$quest', type=$rewardType, vendor='$vendor')"
-	}
 }
 
 class RewardDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<Reward?>(vc) {

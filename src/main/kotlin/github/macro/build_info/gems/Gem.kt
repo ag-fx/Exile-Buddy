@@ -23,7 +23,7 @@ import java.io.IOException
 class Gem(
 	name: String,
 	slot: Slot,
-	tags: List<GemTag>,
+	tags: List<Tag>,
 	isVaal: Boolean,
 	isAwakened: Boolean,
 	acquisition: Acquisition
@@ -34,7 +34,7 @@ class Gem(
 	val slotProperty = SimpleObjectProperty<Slot>()
 	var slot by slotProperty
 
-	val tagsProperty = SimpleListProperty<GemTag>()
+	val tagsProperty = SimpleListProperty<Tag>()
 	var tags by tagsProperty
 
 	val isVaalProperty = SimpleBooleanProperty()
@@ -64,10 +64,6 @@ class Gem(
 		val suffix = if (isVaal) " [Vaal]" else if (isAwakened) " [Awakened]" else ""
 		return name + suffix
 	}
-
-	override fun toString(): String {
-		return "GemInfo(name='$name', slot=$slot, tags=$tags, isVaal=$isVaal, isAwakened=$isAwakened, acquisition=$acquisition)"
-	}
 }
 
 class GemDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<Gem?>(vc) {
@@ -83,13 +79,13 @@ class GemDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeser
 			return null
 		}
 		val tags = node["tags"].mapNotNull {
-			val temp = GemTag.value(it.asText())
+			val temp = Tag.value(it.asText())
 			if (temp == null)
 				LOGGER.info("Invalid Gem Tag: ${it.asText()}")
 			temp
 		}.sorted()
-		val isVaal = if (node.has("isVaal")) node["isVaal"].asBoolean(false) else false
-		val isAwakened = if (node.has("isAwakened")) node["isAwakened"].asBoolean(false) else false
+		val isVaal = node["isVaal"]?.asBoolean(false) ?: false
+		val isAwakened = node["isAwakened"]?.asBoolean(false) ?: false
 
 		val acquisition = Util.JSON_MAPPER.treeToValue(node["acquisition"], Acquisition::class.java)
 

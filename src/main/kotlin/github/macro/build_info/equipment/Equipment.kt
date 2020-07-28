@@ -7,7 +7,7 @@ import tornadofx.*
 /**
  * Created by Macro303 on 2020-Jan-16.
  */
-class EquipmentInfo(
+class Equipment(
 	name: String,
 	slot: Slot,
 	level: Int?,

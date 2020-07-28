@@ -12,7 +12,6 @@ import com.fasterxml.jackson.databind.deser.std.StdDeserializer
 import com.fasterxml.jackson.databind.ser.std.StdSerializer
 import github.macro.Util
 import github.macro.build_info.gems.Gem
-import github.macro.build_info.gems.UpdateGem
 import javafx.beans.property.SimpleListProperty
 import javafx.collections.FXCollections
 import tornadofx.*
@@ -24,47 +23,38 @@ import java.io.IOException
 @JsonDeserialize(using = BuildGemsDeserializer::class)
 @JsonSerialize(using = BuildGemsSerializer::class)
 class BuildGems(
-	armourLinks: List<Gem?>,
-	helmetLinks: List<Gem?>,
-	gloveLinks: List<Gem?>,
-	bootLinks: List<Gem?>,
-	weapon1Links: List<Gem?>,
-	weapon2Links: List<Gem?>,
-	updates: List<UpdateGem>
+	weapons: List<Gem>,
+	armour: List<Gem>,
+	helmet: List<Gem>,
+	gloves: List<Gem>,
+	boots: List<Gem>,
+	updates: List<Update>
 ) {
-	val armourLinksProperty = SimpleListProperty<Gem?>()
-	var armourLinks by armourLinksProperty
+	val weaponsProperty = SimpleListProperty<Gem>()
+	var weapons by weaponsProperty
 
-	val helmetLinksProperty = SimpleListProperty<Gem?>()
-	var helmetLinks by helmetLinksProperty
+	val armourProperty = SimpleListProperty<Gem>()
+	var armour by armourProperty
 
-	val gloveLinksProperty = SimpleListProperty<Gem?>()
-	var gloveLinks by gloveLinksProperty
+	val helmetProperty = SimpleListProperty<Gem>()
+	var helmet by helmetProperty
 
-	val bootLinksProperty = SimpleListProperty<Gem?>()
-	var bootLinks by bootLinksProperty
+	val glovesProperty = SimpleListProperty<Gem>()
+	var gloves by glovesProperty
 
-	val weapon1LinksProperty = SimpleListProperty<Gem?>()
-	var weapon1Links by weapon1LinksProperty
+	val bootsProperty = SimpleListProperty<Gem>()
+	var boots by bootsProperty
 
-	val weapon2LinksProperty = SimpleListProperty<Gem?>()
-	var weapon2Links by weapon2LinksProperty
-
-	val updatesProperty = SimpleListProperty<UpdateGem>()
+	val updatesProperty = SimpleListProperty<Update>()
 	var updates by updatesProperty
 
 	init {
-		this.armourLinks = FXCollections.observableList(armourLinks)
-		this.helmetLinks = FXCollections.observableList(helmetLinks)
-		this.gloveLinks = FXCollections.observableList(gloveLinks)
-		this.bootLinks = FXCollections.observableList(bootLinks)
-		this.weapon1Links = FXCollections.observableList(weapon1Links)
-		this.weapon2Links = FXCollections.observableList(weapon2Links)
+		this.weapons = FXCollections.observableList(weapons)
+		this.armour = FXCollections.observableList(armour)
+		this.helmet = FXCollections.observableList(helmet)
+		this.gloves = FXCollections.observableList(gloves)
+		this.boots = FXCollections.observableList(boots)
 		this.updates = FXCollections.observableList(updates)
-	}
-
-	override fun toString(): String {
-		return "GemBuild(armourLinks=$armourLinks, helmetLinks=$helmetLinks, gloveLinks=$gloveLinks, bootLinks=$bootLinks, weapon1Links=$weapon1Links, weapon2Links=$weapon2Links, updates=$updates)"
 	}
 }
 
@@ -73,26 +63,19 @@ class BuildGemsDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : St
 	override fun deserialize(parser: JsonParser, ctx: DeserializationContext?): BuildGems? {
 		val node: JsonNode = parser.codec.readTree(parser)
 
-		val amourLinks = node["Armour"].map { Util.gemByName(it.asText()) }.chunked(6).firstOrNull() ?: emptyList()
-		val helmetLinks = node["Helmet"].map { Util.gemByName(it.asText()) }.chunked(4).firstOrNull() ?: emptyList()
-		val gloveLinks = node["Gloves"].map { Util.gemByName(it.asText()) }.chunked(4).firstOrNull() ?: emptyList()
-		val bootLinks = node["Boots"].map { Util.gemByName(it.asText()) }.chunked(4).firstOrNull() ?: emptyList()
-		val weapon1Links = node["Weapon 1"].map { Util.gemByName(it.asText()) }.chunked(3).firstOrNull() ?: emptyList()
-		val weapon2Links = node["Weapon 2"].map { Util.gemByName(it.asText()) }.chunked(3).firstOrNull() ?: emptyList()
-		val updates = node["Updates"].map {
-			val oldGem = Util.gemByName(it["Old Gem"].asText())
-			val newGem = Util.gemByName(it["New Gem"].asText())
-			val reason = it["Reason"].asText()
-			UpdateGem(oldGem, newGem, reason)
-		}
+		val weapons = node["Weapons"]?.map { Util.gemByName(it.asText()) }?.chunked(6)?.firstOrNull() ?: emptyList()
+		val armour = node["Armour"]?.map { Util.gemByName(it.asText()) }?.chunked(6)?.firstOrNull() ?: emptyList()
+		val helmet = node["Helmet"]?.map { Util.gemByName(it.asText()) }?.chunked(4)?.firstOrNull() ?: emptyList()
+		val gloves = node["Gloves"]?.map { Util.gemByName(it.asText()) }?.chunked(4)?.firstOrNull() ?: emptyList()
+		val boots = node["Boots"]?.map { Util.gemByName(it.asText()) }?.chunked(4)?.firstOrNull() ?: emptyList()
+		val updates = node["Updates"]?.map { Util.YAML_MAPPER.treeToValue(it, Update::class.java) } ?: emptyList()
 
 		return BuildGems(
-			armourLinks = amourLinks,
-			helmetLinks = helmetLinks,
-			gloveLinks = gloveLinks,
-			bootLinks = bootLinks,
-			weapon1Links = weapon1Links,
-			weapon2Links = weapon2Links,
+			weapons = weapons,
+			armour = armour,
+			helmet = helmet,
+			gloves = gloves,
+			boots = boots,
 			updates = updates
 		)
 	}
@@ -103,21 +86,12 @@ class BuildGemsSerializer @JvmOverloads constructor(t: Class<BuildGems>? = null)
 	@Throws(IOException::class, JsonProcessingException::class)
 	override fun serialize(value: BuildGems, parser: JsonGenerator, provider: SerializerProvider?) {
 		parser.writeStartObject()
-		parser.writeObjectField("Armour", value.armourLinks.map { it?.getFullname() })
-		parser.writeObjectField("Helmet", value.helmetLinks.map { it?.getFullname() })
-		parser.writeObjectField("Gloves", value.gloveLinks.map { it?.getFullname() })
-		parser.writeObjectField("Boots", value.bootLinks.map { it?.getFullname() })
-		parser.writeObjectField("Weapon 1", value.weapon1Links.map { it?.getFullname() })
-		parser.writeObjectField("Weapon 2", value.weapon2Links.map { it?.getFullname() })
-		parser.writeArrayFieldStart("Updates")
-		value.updates.forEach { update ->
-			parser.writeStartObject()
-			parser.writeStringField("Old Gem", update.oldGem?.getFullname())
-			parser.writeStringField("New Gem", update.newGem?.getFullname())
-			parser.writeStringField("Reason", update.reason)
-			parser.writeEndObject()
-		}
-		parser.writeEndArray()
+		parser.writeObjectField("Weapons", value.weapons.map { it.getFullname() })
+		parser.writeObjectField("Armour", value.armour.map { it.getFullname() })
+		parser.writeObjectField("Helmet", value.helmet.map { it.getFullname() })
+		parser.writeObjectField("Gloves", value.gloves.map { it.getFullname() })
+		parser.writeObjectField("Boots", value.boots.map { it.getFullname() })
+		parser.writeObjectField("Updates", value.updates)
 		parser.writeEndObject()
 	}
 }

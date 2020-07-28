@@ -73,11 +73,17 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 
 		colourProperty.value = Paint.valueOf(Util.slotToColour(gem.slot))
 
-		backVisibilityProperty.value = build.buildGems.updates.any { it.newGem?.equals(gem) ?: false }
+		backVisibilityProperty.value = build.gems.updates.any {
+			it.new == gem && it.new != Util.MISSING_GEM
+		}
 
-		newVisibilityProperty.value = build.buildGems.updates.any { it.oldGem?.equals(gem) ?: false }
+		newVisibilityProperty.value = build.gems.updates.any {
+			it.old == gem && it.old != Util.MISSING_GEM
+		}
 
-		reasonProperty.value = build.buildGems.updates.firstOrNull { it.oldGem?.equals(gem) ?: false }?.reason
+		reasonProperty.value = build.gems.updates.firstOrNull {
+			it.old == gem && it.old != Util.MISSING_GEM
+		}?.reason
 	}
 
 	companion object {
@@ -112,8 +118,8 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 					isFocusTraversable = false
 					action {
 						setNewGem(
-							build.buildGems.updates.firstOrNull { it.newGem?.equals(gem) ?: false }?.oldGem
-								?: Util.missingGem
+							build.gems.updates.firstOrNull { it.new?.equals(gem) ?: false }?.old
+								?: Util.MISSING_GEM
 						)
 					}
 				}
@@ -127,8 +133,8 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 					isFocusTraversable = false
 					action {
 						setNewGem(
-							build.buildGems.updates.firstOrNull { it.oldGem?.equals(gem) ?: false }?.newGem
-								?: Util.missingGem
+							build.gems.updates.firstOrNull { it.old?.equals(gem) ?: false }?.new
+								?: Util.MISSING_GEM
 						)
 					}
 					tooltip(reason) {

@@ -46,10 +46,6 @@ class Ingredient(
 		this.quality = quality
 		this.ingredientType = ingredientType
 	}
-
-	override fun toString(): String {
-		return "Ingredient(name=$name, count=$count, level=$level, quality=$quality, type=$ingredientType)"
-	}
 }
 
 class IngredientDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<Ingredient?>(vc) {

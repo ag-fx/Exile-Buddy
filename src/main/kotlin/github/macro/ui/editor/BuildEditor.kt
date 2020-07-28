@@ -13,11 +13,11 @@ import tornadofx.*
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-class BuildEditor : View() {
+class BuildEditor : View("Exile Buddy") {
 	private val model: UIModel by inject()
 
 	override val root = borderpane {
-		prefWidth = 850.0
+		prefWidth = 900.0
 		prefHeight = 750.0
 		paddingAll = 10.0
 		top {
@@ -28,24 +28,30 @@ class BuildEditor : View() {
 					isVisible = false
 					hgrow = Priority.ALWAYS
 				}
-				val versionTextfield = textfield(model.selectedBuild.versionProperty) {
+				val versionTextfield = textfield {
 					promptText = "PoE Version"
+					text = model.selectedBuild.version
 				}
-				val nameTextfield = textfield(model.selectedBuild.nameProperty) {
+				val hardcoreCheckbox = checkbox("Hardcore") {
+					isSelected = model.selectedBuild.isHardcore
+				}
+				val nameTextfield = textfield {
 					promptText = "Build Name"
 					hgrow = Priority.ALWAYS
+					text = model.selectedBuild.name
 				}
-				val classCombobox = combobox(property = model.selectedBuild.classProperty, values = model.classes) {
+				val classCombobox = combobox(values = model.classes) {
 					promptText = "Class"
+					selectionModel.select(model.selectedBuild.classTag)
 				}
 				model.selectedClass(model.selectedBuild.classTag)
-				val ascendencyCombobox =
-					combobox(property = model.selectedBuild.ascendencyProperty, values = model.ascendencies) {
-						promptText = "Ascendency"
-						disableWhen {
-							classCombobox.valueProperty().isNull
-						}
+				val ascendencyCombobox = combobox(values = model.ascendencies) {
+					promptText = "Ascendency"
+					disableWhen {
+						classCombobox.valueProperty().isNull
 					}
+					selectionModel.select(model.selectedBuild.ascendency)
+				}
 				classCombobox.setOnAction {
 					ascendencyCombobox.selectionModel.clearSelection()
 					if (classCombobox.selectedItem != null)
@@ -54,12 +60,13 @@ class BuildEditor : View() {
 				button(text = "Save") {
 					minWidth = 100.0
 					action {
-						val oldName = model.selectedBuild.filename
+						model.selectedBuild.delete()
 						model.selectedBuild.version = versionTextfield.text
+						model.selectedBuild.isHardcore = hardcoreCheckbox.isSelected
 						model.selectedBuild.name = nameTextfield.text
 						model.selectedBuild.classTag = classCombobox.selectedItem!!
 						model.selectedBuild.ascendency = ascendencyCombobox.selectedItem!!
-						model.selectedBuild.rename(oldName)
+						model.selectedBuild.save()
 						LOGGER.info("Updating Build: ${model.selectedBuild.display()}")
 						val scope = Scope()
 						setInScope(model, scope)
@@ -88,63 +95,55 @@ class BuildEditor : View() {
 						hbarPolicy = ScrollPane.ScrollBarPolicy.NEVER
 						vbox(spacing = 5.0, alignment = Pos.TOP_CENTER) {
 							paddingAll = 5.0
-							label("Armour Gems")
+							label("Weapons")
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 6).forEach {
-									val temp = if (model.selectedBuild.buildGems.armourLinks.size > it)
-										model.selectedBuild.buildGems.armourLinks[it] ?: Util.missingGem
-									else Util.missingGem
+									val temp = if (model.selectedBuild.gems.weapons.size > it)
+										model.selectedBuild.gems.weapons[it] ?: Util.MISSING_GEM
+									else Util.MISSING_GEM
+									if (it == 3)
+										add(separator {})
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
-							label("Helmet Gems")
+							label("Armour")
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								(0 until 6).forEach {
+									val temp = if (model.selectedBuild.gems.armour.size > it)
+										model.selectedBuild.gems.armour[it] ?: Util.MISSING_GEM
+									else Util.MISSING_GEM
+									add(GemEditorPane(model.selectedBuild, temp))
+								}
+							}
+							label("Helmet")
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
-									val temp = if (model.selectedBuild.buildGems.helmetLinks.size > it)
-										model.selectedBuild.buildGems.helmetLinks[it] ?: Util.missingGem
-									else Util.missingGem
+									val temp = if (model.selectedBuild.gems.helmet.size > it)
+										model.selectedBuild.gems.helmet[it] ?: Util.MISSING_GEM
+									else Util.MISSING_GEM
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
-							label("Glove Gems")
+							label("Gloves")
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
-									val temp = if (model.selectedBuild.buildGems.gloveLinks.size > it)
-										model.selectedBuild.buildGems.gloveLinks[it] ?: Util.missingGem
-									else Util.missingGem
+									val temp = if (model.selectedBuild.gems.gloves.size > it)
+										model.selectedBuild.gems.gloves[it] ?: Util.MISSING_GEM
+									else Util.MISSING_GEM
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
-							label("Boot Gems")
+							label("Boots")
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
-									val temp = if (model.selectedBuild.buildGems.bootLinks.size > it)
-										model.selectedBuild.buildGems.bootLinks[it] ?: Util.missingGem
-									else Util.missingGem
-									add(GemEditorPane(model.selectedBuild, temp))
-								}
-							}
-							label("Weaspon 1 Gems")
-							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
-								paddingAll = 5.0
-								(0 until 3).forEach {
-									val temp = if (model.selectedBuild.buildGems.weapon1Links.size > it)
-										model.selectedBuild.buildGems.weapon1Links[it] ?: Util.missingGem
-									else Util.missingGem
-									add(GemEditorPane(model.selectedBuild, temp))
-								}
-							}
-							label("Weapon 2 Gems")
-							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
-								paddingAll = 5.0
-								(0 until 3).forEach {
-									val temp = if (model.selectedBuild.buildGems.weapon2Links.size > it)
-										model.selectedBuild.buildGems.weapon2Links[it] ?: Util.missingGem
-									else Util.missingGem
+									val temp = if (model.selectedBuild.gems.boots.size > it)
+										model.selectedBuild.gems.boots[it] ?: Util.MISSING_GEM
+									else Util.MISSING_GEM
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
@@ -152,26 +151,50 @@ class BuildEditor : View() {
 					}
 				}
 				tab(text = "Equipment") {
-					isDisable = model.selectedBuild.equipment.isEmpty()
 					scrollpane(fitToWidth = true) {
 						hbarPolicy = ScrollPane.ScrollBarPolicy.NEVER
 						vbox(spacing = 5.0, alignment = Pos.TOP_CENTER) {
 							paddingAll = 5.0
-							model.selectedBuild.equipmentProperty.forEach { equipment ->
-								gridpane {
-									row {
-										label(text = equipment.name) {
-											alignment = Pos.CENTER
-											gridpaneConstraints {
-												columnSpan = 3
-											}
-										}
-									}
-									row {
-										label(text = equipment.slot.name)
-										label(text = equipment.level?.toString() ?: "Missing")
-										label(text = equipment.quality?.toString() ?: "Missing")
-									}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								model.selectedBuild.equipment.weapons.forEach {
+									label(it.name)
+								}
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								label(model.selectedBuild.equipment.armour.name)
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								label(model.selectedBuild.equipment.helmet.name)
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								label(model.selectedBuild.equipment.gloves.name)
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								label(model.selectedBuild.equipment.boots.name)
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								label(model.selectedBuild.equipment.belt.name)
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								label(model.selectedBuild.equipment.amulet.name)
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								model.selectedBuild.equipment.rings.forEach {
+									label(it.name)
+								}
+							}
+							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
+								paddingAll = 5.0
+								model.selectedBuild.equipment.flasks.forEach {
+									label(it.name)
 								}
 							}
 						}

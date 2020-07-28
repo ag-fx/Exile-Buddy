@@ -2,6 +2,7 @@ package github.macro.ui
 
 import github.macro.Util
 import github.macro.build_info.Build
+import github.macro.build_info.BuildEquipment
 import github.macro.build_info.BuildGems
 import github.macro.ui.viewer.BuildViewer
 import javafx.geometry.Pos
@@ -12,7 +13,7 @@ import tornadofx.*
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-class Selector : View() {
+class Selector : View("Exile Buddy") {
 	private val model by inject<UIModel>()
 
 	override val root = borderpane {
@@ -67,6 +68,7 @@ class Selector : View() {
 					val versionTextfield = textfield {
 						promptText = "PoE Version"
 					}
+					val hardcoreCheckbox = checkbox("Hardcore")
 					val nameTextfield = textfield {
 						promptText = "Build Name"
 						hgrow = Priority.ALWAYS
@@ -90,19 +92,29 @@ class Selector : View() {
 						action {
 							val info = Build(
 								version = versionTextfield.text,
+								isHardcore = hardcoreCheckbox.isSelected,
 								name = nameTextfield.text,
 								classTag = classCombobox.selectedItem!!,
 								ascendency = ascendencyCombobox.selectedItem!!,
-								buildGems = BuildGems(
-									armourLinks = emptyList(),
-									helmetLinks = emptyList(),
-									gloveLinks = emptyList(),
-									bootLinks = emptyList(),
-									weapon1Links = Util.getClassGems(classTag = classCombobox.selectedItem!!),
-									weapon2Links = emptyList(),
+								gems = BuildGems(
+									weapons = Util.getClassGems(classTag = classCombobox.selectedItem!!),
+									armour = emptyList(),
+									helmet = emptyList(),
+									gloves = emptyList(),
+									boots = emptyList(),
 									updates = emptyList()
 								),
-								equipment = emptyList()
+								equipment = BuildEquipment(
+									weapons = emptyList(),
+									armour = Util.MISSING_EQUIPMENT,
+									helmet = Util.MISSING_EQUIPMENT,
+									gloves = Util.MISSING_EQUIPMENT,
+									boots = Util.MISSING_EQUIPMENT,
+									belt = Util.MISSING_EQUIPMENT,
+									amulet = Util.MISSING_EQUIPMENT,
+									rings = emptyList(),
+									flasks = emptyList()
+								)
 							)
 							LOGGER.info("Creating Build: ${info.display()}")
 							info.save()
