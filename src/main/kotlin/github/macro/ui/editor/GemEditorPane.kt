@@ -111,41 +111,65 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 			}
 		}
 		bottom {
-			hbox(spacing = 5.0) {
-				button(text = "<<") {
-					visibleWhen(backVisibilityProperty)
-					hgrow = Priority.SOMETIMES
-					isFocusTraversable = false
-					action {
-						setNewGem(
-							build.gems.updates.firstOrNull { it.new?.equals(gem) ?: false }?.old
-								?: Util.MISSING_GEM
-						)
-					}
-				}
-				button("Edit") {
-					hgrow = Priority.ALWAYS
-					action {
-						LOGGER.info("Edit: $gem")
-					}
-				}
-				button(text = ">>") {
-					visibleWhen(newVisibilityProperty)
-					hgrow = Priority.SOMETIMES
-					isFocusTraversable = false
-					action {
-						setNewGem(
-							build.gems.updates.firstOrNull { it.old?.equals(gem) ?: false }?.new
-								?: Util.MISSING_GEM
-						)
-					}
-					tooltip(reason) {
-						style {
-							fontSize = 10.pt
+			vbox(spacing = 5.0) {
+				hbox(spacing = 5.0) {
+					button(text = "<<") {
+						visibleWhen(backVisibilityProperty)
+						hgrow = Priority.SOMETIMES
+						isFocusTraversable = false
+						action {
+							setNewGem(
+								build.gems.updates.firstOrNull { it.new?.equals(gem) ?: false }?.old
+									?: Util.MISSING_GEM
+							)
 						}
-						showDelay = Duration(0.0)
-						hideDelay = Duration(0.0)
-						textProperty().bind(reasonProperty)
+					}
+					separator {
+						isVisible = false
+						hgrow = Priority.ALWAYS
+					}
+					button(text = ">>") {
+						visibleWhen(newVisibilityProperty)
+						hgrow = Priority.SOMETIMES
+						isFocusTraversable = false
+						action {
+							setNewGem(
+								build.gems.updates.firstOrNull { it.old?.equals(gem) ?: false }?.new
+									?: Util.MISSING_GEM
+							)
+						}
+						tooltip(reason) {
+							style {
+								fontSize = 10.pt
+							}
+							showDelay = Duration(0.0)
+							hideDelay = Duration(0.0)
+							textProperty().bind(reasonProperty)
+						}
+					}
+				}
+				hbox(spacing = 5.0) {
+					button(text = "Delete") {
+						visibleWhen(backVisibilityProperty)
+						hgrow = Priority.SOMETIMES
+						isFocusTraversable = false
+						action {
+							LOGGER.info("Delete Update Gem")
+						}
+					}
+					button("Edit") {
+						hgrow = Priority.ALWAYS
+						action {
+							LOGGER.info("Edit: $gem")
+						}
+					}
+					button(text = "Add") {
+						visibleWhen(!newVisibilityProperty)
+						hgrow = Priority.SOMETIMES
+						isFocusTraversable = false
+						action {
+							LOGGER.info("Add Update Gem")
+						}
 					}
 				}
 			}

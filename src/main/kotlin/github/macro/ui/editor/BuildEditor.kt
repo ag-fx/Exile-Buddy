@@ -17,7 +17,7 @@ class BuildEditor : View("Exile Buddy") {
 	private val model: UIModel by inject()
 
 	override val root = borderpane {
-		prefWidth = 900.0
+		prefWidth = 1000.0
 		prefHeight = 750.0
 		paddingAll = 10.0
 		top {
