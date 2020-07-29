@@ -65,7 +65,7 @@ class BuildEditor : View("Exile Buddy") {
 					text = model.selectedBuild.name
 				}
 				button(text = "Save") {
-					addClass(Styles.fixedButton)
+					addClass(Styles.sizedButton)
 					action {
 						controller.saveBuild(
 							oldView = this@BuildEditor,

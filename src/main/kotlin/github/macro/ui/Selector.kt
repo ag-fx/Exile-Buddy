@@ -54,7 +54,7 @@ class Selector : View("Exile Buddy") {
 						}
 					}
 					button(text = "Select") {
-						addClass(Styles.fixedButton)
+						addClass(Styles.sizedButton)
 						action {
 							controller.viewBuild(oldView = this@Selector)
 						}
@@ -94,7 +94,7 @@ class Selector : View("Exile Buddy") {
 								hgrow = Priority.ALWAYS
 							}
 							button(text = "Create") {
-								addClass(Styles.fixedButton)
+								addClass(Styles.sizedButton)
 								action {
 									controller.createBuild(
 										oldView = this@Selector,

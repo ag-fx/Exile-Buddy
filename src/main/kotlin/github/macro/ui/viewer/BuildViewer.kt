@@ -45,19 +45,19 @@ class BuildViewer : View("Exile Buddy") {
 						isVisible = false
 					}
 					button(text = "Copy") {
-						addClass(Styles.fixedButton)
+						addClass(Styles.sizedButton)
 						action {
 							controller.copyBuild(oldView = this@BuildViewer)
 						}
 					}
 					button(text = "Edit") {
-						addClass(Styles.fixedButton)
+						addClass(Styles.sizedButton)
 						action {
 							controller.editBuild(oldView = this@BuildViewer)
 						}
 					}
 					button(text = "Delete") {
-						addClass(Styles.fixedButton)
+						addClass(Styles.sizedButton)
 						action {
 							controller.deleteBuild(oldView = this@BuildViewer)
 						}

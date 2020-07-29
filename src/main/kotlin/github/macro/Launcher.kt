@@ -47,9 +47,8 @@ class Styles : Stylesheet() {
 			fontSize = 18.px
 			fontWeight = FontWeight.BOLD
 		}
-		fixedButton {
+		sizedButton {
 			prefWidth = 100.px
-			maxWidth = Double.MAX_VALUE.px
 		}
 	}
 
@@ -58,6 +57,6 @@ class Styles : Stylesheet() {
 
 		val title by cssclass()
 		val subtitle by cssclass()
-		val fixedButton by cssclass()
+		val sizedButton by cssclass()
 	}
 }

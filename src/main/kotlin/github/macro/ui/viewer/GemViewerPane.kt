@@ -93,11 +93,11 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 	private fun initialize() {
 		paddingAll = 5.0
 		top {
-			hbox {
+			hbox(spacing = 5.0, alignment = Pos.CENTER) {
+				paddingAll = 5.0
 				imageview(imageUrlProperty, lazyload = true) {
 					fitHeight = 80.0
 					fitWidth = 80.0
-					alignment = Pos.CENTER
 				}
 			}
 		}
@@ -111,10 +111,9 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 			}
 		}
 		bottom {
-			hbox(spacing = 5.0) {
+			hbox(spacing = 5.0, alignment = Pos.CENTER) {
 				button(text = "<<") {
 					visibleWhen(backVisibilityProperty)
-					hgrow = Priority.SOMETIMES
 					isFocusTraversable = false
 					action {
 						setNewGem(
@@ -129,7 +128,6 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 				}
 				button(text = ">>") {
 					visibleWhen(newVisibilityProperty)
-					hgrow = Priority.SOMETIMES
 					isFocusTraversable = false
 					action {
 						setNewGem(
@@ -139,7 +137,7 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 					}
 					tooltip(reason) {
 						style {
-							fontSize = 10.pt
+							fontSize = 12.px
 						}
 						showDelay = Duration(0.0)
 						hideDelay = Duration(0.0)

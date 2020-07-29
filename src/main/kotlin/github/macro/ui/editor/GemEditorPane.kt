@@ -36,11 +36,11 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 	val colourProperty = SimpleObjectProperty<Paint>()
 	var colour by colourProperty
 
-	val backVisibilityProperty = SimpleBooleanProperty()
-	var backVisibility by backVisibilityProperty
+	val previousProperty = SimpleBooleanProperty()
+	var previous by previousProperty
 
-	val newVisibilityProperty = SimpleBooleanProperty()
-	var newVisibility by newVisibilityProperty
+	val nextProperty = SimpleBooleanProperty()
+	var next by nextProperty
 
 	val reasonProperty = SimpleStringProperty()
 	var reason by reasonProperty
@@ -73,11 +73,11 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 
 		colourProperty.value = Paint.valueOf(Util.slotToColour(gem.slot))
 
-		backVisibilityProperty.value = build.gems.updates.any {
+		previousProperty.value = build.gems.updates.any {
 			(it.new == gem) && it.new != Util.MISSING_GEM
 		}
 
-		newVisibilityProperty.value = build.gems.updates.any {
+		nextProperty.value = build.gems.updates.any {
 			it.old == gem && it.old != Util.MISSING_GEM
 		}
 
@@ -93,11 +93,10 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 	private fun initialize() {
 		paddingAll = 5.0
 		top {
-			hbox {
+			hbox(spacing = 5.0, alignment = Pos.CENTER) {
 				imageview(imageUrlProperty, lazyload = true) {
 					fitHeight = 80.0
 					fitWidth = 80.0
-					alignment = Pos.CENTER
 				}
 			}
 		}
@@ -111,11 +110,10 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 			}
 		}
 		bottom {
-			vbox(spacing = 5.0) {
-				hbox(spacing = 5.0) {
+			vbox(spacing = 5.0, alignment = Pos.CENTER) {
+				hbox(spacing = 5.0, alignment = Pos.CENTER) {
 					button(text = "<<") {
-						visibleWhen(backVisibilityProperty)
-						hgrow = Priority.SOMETIMES
+						visibleWhen(previousProperty)
 						isFocusTraversable = false
 						action {
 							setNewGem(
@@ -129,8 +127,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 						hgrow = Priority.ALWAYS
 					}
 					button(text = ">>") {
-						visibleWhen(newVisibilityProperty)
-						hgrow = Priority.SOMETIMES
+						visibleWhen(nextProperty)
 						isFocusTraversable = false
 						action {
 							setNewGem(
@@ -140,7 +137,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 						}
 						tooltip(reason) {
 							style {
-								fontSize = 10.pt
+								fontSize = 12.px
 							}
 							showDelay = Duration(0.0)
 							hideDelay = Duration(0.0)
@@ -148,27 +145,25 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 						}
 					}
 				}
-				hbox(spacing = 5.0) {
-					button(text = "Delete") {
-						visibleWhen(backVisibilityProperty)
-						hgrow = Priority.SOMETIMES
-						isFocusTraversable = false
+				hbox(spacing = 5.0, alignment = Pos.CENTER) {
+					button(text = "Add") {
+						visibleWhen(!nextProperty)
 						action {
-							LOGGER.info("Delete Update Gem")
+							LOGGER.info("Add Update Gem")
 						}
 					}
 					button("Edit") {
-						hgrow = Priority.ALWAYS
+						visibleWhen {
+							nameProperty.isNotEqualTo("Missing")
+						}
 						action {
 							LOGGER.info("Edit: $gem")
 						}
 					}
-					button(text = "Add") {
-						visibleWhen(!newVisibilityProperty)
-						hgrow = Priority.SOMETIMES
-						isFocusTraversable = false
+					button(text = "Delete") {
+						visibleWhen(previousProperty)
 						action {
-							LOGGER.info("Add Update Gem")
+							LOGGER.info("Delete Update Gem")
 						}
 					}
 				}
