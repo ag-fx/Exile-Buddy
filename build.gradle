@@ -3,7 +3,6 @@ plugins {
 	id 'org.jetbrains.kotlin.jvm' version '1.3.72'
 	id 'com.github.ben-manes.versions' version '0.29.0'
 	id 'org.openjfx.javafxplugin' version '0.0.9'
-	id 'org.beryx.jlink' version '2.17.2'
 }
 
 repositories {
@@ -61,61 +60,8 @@ jar {
 	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
-jlink {
-	launcher {
-		name = 'Exile-Buddy'
-	}
-}
-
 run {
 	standardInput = System.in
-}
-
-clean {
-	delete 'release'
-}
-
-task copyApplication(type: Copy) {
-	from 'resources/Scripts'
-	into "$buildDir/libs"
-}
-
-task copyResources(type: Copy) {
-	from 'resources'
-	exclude 'Scripts'
-	exclude 'docs'
-	into "$buildDir/libs/resources"
-}
-
-task fullRelease(type: Zip) {
-	dependsOn 'jlink', 'copyApplication', 'copyResources'
-
-	from "$buildDir/libs"
-	include '**/*'
-	archiveFileName = 'Exile-Buddy.zip'
-	destinationDir(file('release'))
-}
-
-task applicationRelease(type: Zip) {
-	dependsOn 'jlink', 'copyApplication'
-
-	from "$buildDir/libs"
-	exclude 'resources'
-	archiveFileName = 'Exile-Buddy-Application.zip'
-	destinationDir(file('release'))
-}
-
-task resourcesRelease(type: Zip) {
-	dependsOn 'copyResources'
-
-	from "$buildDir/libs/resources"
-	include '**/*'
-	archiveFileName = 'Exile-Buddy-Resources.zip'
-	destinationDir(file('release'))
-}
-
-task release {
-	dependsOn 'fullRelease', 'applicationRelease', 'resourcesRelease'
 }
 
 def isNonStable = { String version ->
