@@ -1,11 +1,14 @@
 package github.macro.ui
 
-import github.macro.Util
+import github.macro.Launcher
+import github.macro.Styles
+import github.macro.build_info.Ascendency
 import github.macro.build_info.Build
-import github.macro.build_info.BuildEquipment
-import github.macro.build_info.BuildGems
-import github.macro.ui.viewer.BuildViewer
+import github.macro.build_info.ClassTag
 import javafx.geometry.Pos
+import javafx.scene.control.CheckBox
+import javafx.scene.control.ComboBox
+import javafx.scene.control.TextField
 import javafx.scene.layout.Priority
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
@@ -14,24 +17,26 @@ import tornadofx.*
  * Created by Macro303 on 2020-Jan-13.
  */
 class Selector : View("Exile Buddy") {
+	private val controller by inject<UIController>()
 	private val model by inject<UIModel>()
+
+	private var versionTextField: TextField by singleAssign()
+	private var nameTextField: TextField by singleAssign()
+	private var classComboBox: ComboBox<ClassTag> by singleAssign()
+	private var ascendencyComboBox: ComboBox<Ascendency> by singleAssign()
 
 	override val root = borderpane {
 		paddingAll = 10.0
 		top {
 			paddingAll = 5.0
-			hbox(spacing = 5.0, alignment = Pos.CENTER) {
+			vbox(spacing = 5.0, alignment = Pos.TOP_CENTER) {
 				paddingAll = 5.0
-				separator {
-					isVisible = false
-					hgrow = Priority.ALWAYS
+				imageview(Launcher::class.java.getResource("logo.png").toExternalForm(), lazyload = true) {
+					fitWidth = 390.0
+					fitHeight = 280.0
 				}
 				label(text = "Exile Buddy") {
-					id = "title"
-				}
-				separator {
-					isVisible = false
-					hgrow = Priority.ALWAYS
+					addClass(Styles.title)
 				}
 			}
 		}
@@ -39,96 +44,74 @@ class Selector : View("Exile Buddy") {
 			paddingAll = 5.0
 			vbox(spacing = 5.0, alignment = Pos.CENTER) {
 				paddingAll = 5.0
+				separator()
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
 					paddingAll = 5.0
 					val buildCombobox = combobox<Build>(property = model.selectedBuildProperty, values = model.builds) {
 						promptText = "Build"
 						hgrow = Priority.ALWAYS
-						maxWidth = Double.MAX_VALUE
 						cellFormat {
-							text = it.display()
+							text = it.display
 						}
 					}
 					button(text = "Select") {
-						minWidth = 100.0
+						addClass(Styles.fixedButton)
 						action {
-							LOGGER.info("Viewing Build: ${model.selectedBuild.display()}")
-							val scope = Scope()
-							setInScope(model, scope)
-							find<BuildViewer>(scope).openWindow(owner = null, resizable = false)
-							close()
+							controller.viewBuild(oldView = this@Selector)
 						}
 						disableWhen {
 							buildCombobox.valueProperty().isNull
 						}
 					}
 				}
+				separator()
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
 					paddingAll = 5.0
-					val versionTextfield = textfield {
-						promptText = "PoE Version"
-					}
-					val hardcoreCheckbox = checkbox("Hardcore")
-					val nameTextfield = textfield {
-						promptText = "Build Name"
-						hgrow = Priority.ALWAYS
-					}
-					val classCombobox = combobox(values = model.classes) {
-						promptText = "Class"
-					}
-					val ascendencyCombobox = combobox(values = model.ascendencies) {
-						promptText = "Ascendency"
-						disableWhen {
-							classCombobox.valueProperty().isNull
+					vbox(spacing = 5.0, alignment = Pos.CENTER) {
+						paddingAll = 5.0
+						hbox(spacing = 5.0, alignment = Pos.CENTER) {
+							paddingAll = 5.0
+							versionTextField = textfield {
+								promptText = "PoE Version"
+							}
+							classComboBox = combobox(values = model.classes) {
+								promptText = "Class"
+							}
+							ascendencyComboBox = combobox(values = model.ascendencies) {
+								promptText = "Ascendency"
+								disableWhen {
+									classComboBox.valueProperty().isNull
+								}
+							}
+							classComboBox.setOnAction {
+								ascendencyComboBox.selectionModel.clearSelection()
+								controller.updateClass(classComboBox.selectedItem!!)
+							}
 						}
-					}
-					classCombobox.setOnAction {
-						ascendencyCombobox.selectionModel.clearSelection()
-						if (classCombobox.selectedItem != null)
-							model.selectedClass(classCombobox.selectedItem!!)
-					}
-					button(text = "Create") {
-						minWidth = 100.0
-						action {
-							val info = Build(
-								version = versionTextfield.text,
-								isHardcore = hardcoreCheckbox.isSelected,
-								name = nameTextfield.text,
-								classTag = classCombobox.selectedItem!!,
-								ascendency = ascendencyCombobox.selectedItem!!,
-								gems = BuildGems(
-									weapons = Util.getClassGems(classTag = classCombobox.selectedItem!!),
-									armour = emptyList(),
-									helmet = emptyList(),
-									gloves = emptyList(),
-									boots = emptyList(),
-									updates = emptyList()
-								),
-								equipment = BuildEquipment(
-									weapons = emptyList(),
-									armour = Util.MISSING_EQUIPMENT,
-									helmet = Util.MISSING_EQUIPMENT,
-									gloves = Util.MISSING_EQUIPMENT,
-									boots = Util.MISSING_EQUIPMENT,
-									belt = Util.MISSING_EQUIPMENT,
-									amulet = Util.MISSING_EQUIPMENT,
-									rings = emptyList(),
-									flasks = emptyList()
-								)
-							)
-							LOGGER.info("Creating Build: ${info.display()}")
-							info.save()
-							model.selectedBuild = info
-							val scope = Scope()
-							setInScope(model, scope)
-							find<BuildViewer>(scope).openWindow(owner = null, resizable = false)
-							close()
-						}
-						disableWhen {
-							versionTextfield.textProperty().isEmpty
-								.or(nameTextfield.textProperty().length().lessThanOrEqualTo(3))
-								.or(classCombobox.valueProperty().isNull)
-								.or(ascendencyCombobox.valueProperty().isNull)
+						hbox(spacing = 5.0, alignment = Pos.CENTER) {
+							paddingAll = 5.0
+							nameTextField = textfield {
+								promptText = "Build Name"
+								hgrow = Priority.ALWAYS
+							}
+							button(text = "Create") {
+								addClass(Styles.fixedButton)
+								action {
+									controller.createBuild(
+										oldView = this@Selector,
+										version = versionTextField.text,
+										name = nameTextField.text,
+										classTag = classComboBox.selectedItem!!,
+										ascendency = ascendencyComboBox.selectedItem!!
+									)
+								}
+								disableWhen {
+									versionTextField.textProperty().isEmpty
+										.or(nameTextField.textProperty().length().lessThanOrEqualTo(3))
+										.or(classComboBox.valueProperty().isNull)
+										.or(ascendencyComboBox.valueProperty().isNull)
+								}
+							}
 						}
 					}
 				}
@@ -137,7 +120,7 @@ class Selector : View("Exile Buddy") {
 	}
 
 	init {
-		model.loadBuilds()
+		controller.loadBuilds()
 	}
 
 	companion object {

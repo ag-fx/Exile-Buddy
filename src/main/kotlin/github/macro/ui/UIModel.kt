@@ -49,7 +49,7 @@ class UIModel : ViewModel() {
 				null
 			}
 		}
-		builds.sortWith(compareBy(Build::version, Build::name, Build::isHardcore))
+		builds.sortWith(compareBy(Build::version, Build::name))
 	}
 
 	fun selectedClass(classTag: ClassTag) {

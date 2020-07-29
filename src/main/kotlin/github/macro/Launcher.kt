@@ -38,15 +38,27 @@ class Launcher : App(Selector::class, Styles::class) {
 }
 
 class Styles : Stylesheet() {
+
 	init {
 		title {
-			fontSize = 35.pt
+			fontSize = 36.px
 			fontWeight = FontWeight.BOLD
+		}
+		subtitle {
+			fontSize = 18.px
+			fontWeight = FontWeight.BOLD
+		}
+		fixedButton {
+			prefWidth = 100.px
+			maxWidth = Double.MAX_VALUE.px
 		}
 	}
 
 	companion object {
 		private val LOGGER = LogManager.getLogger(Styles::class.java)
-		val title by cssid()
+
+		val title by cssclass()
+		val subtitle by cssclass()
+		val fixedButton by cssclass()
 	}
 }

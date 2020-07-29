@@ -1,10 +1,10 @@
 package github.macro.ui.viewer
 
+import github.macro.Styles
 import github.macro.Util
-import github.macro.build_info.Build
-import github.macro.ui.Selector
+import github.macro.Util.cleanName
+import github.macro.ui.UIController
 import github.macro.ui.UIModel
-import github.macro.ui.editor.BuildEditor
 import javafx.geometry.Pos
 import javafx.scene.control.ScrollPane
 import javafx.scene.control.TabPane
@@ -16,7 +16,8 @@ import tornadofx.*
  * Created by Macro303 on 2020-Jan-13.
  */
 class BuildViewer : View("Exile Buddy") {
-	private val model: UIModel by inject()
+	private val controller by inject<UIController>()
+	private val model by inject<UIModel>()
 
 	override val root = borderpane {
 		prefWidth = 700.0
@@ -24,68 +25,44 @@ class BuildViewer : View("Exile Buddy") {
 		paddingAll = 10.0
 		top {
 			paddingAll = 5.0
-			hbox(spacing = 5.0, alignment = Pos.CENTER) {
+			vbox(spacing = 5.0, alignment = Pos.CENTER) {
 				paddingAll = 5.0
-				separator {
-					isVisible = false
-					hgrow = Priority.ALWAYS
+				label(text = model.selectedBuild.name) {
+					addClass(Styles.subtitle)
 				}
-				label(text = "Exile Buddy") {
-					id = "title"
-				}
-				separator {
-					isVisible = false
-					hgrow = Priority.ALWAYS
-				}
-				vbox(spacing = 5.0, alignment = Pos.CENTER) {
+				hbox(spacing = 5.0, alignment = Pos.CENTER) {
 					paddingAll = 5.0
-					label(text = model.selectedBuild.display())
-					hbox(spacing = 5.0, alignment = Pos.CENTER) {
-						paddingAll = 5.0
-						button(text = "Copy") {
-							action {
-								val copiedBuild = Build(
-									version = model.selectedBuild.version,
-									isHardcore = model.selectedBuild.isHardcore,
-									name = model.selectedBuild.name + " Copy",
-									classTag = model.selectedBuild.classTag,
-									ascendency = model.selectedBuild.ascendency,
-									gems = model.selectedBuild.gems,
-									equipment = model.selectedBuild.equipment
-								)
-								copiedBuild.save()
-								LOGGER.info("Changing Build: ${model.selectedBuild.display()} => ${copiedBuild.display()}")
-								val scope = Scope()
-								model.selectedBuild = copiedBuild
-								setInScope(model, scope)
-								find<BuildViewer>(scope).openWindow(owner = null, resizable = false)
-								close()
-							}
-						}
-						button(text = "Edit") {
-							action {
-								LOGGER.info("Editing Build: ${model.selectedBuild.display()}")
-								val scope = Scope()
-								setInScope(model, scope)
-								find<BuildEditor>(scope).openWindow(owner = null, resizable = false)
-								close()
-							}
-						}
-						button(text = "Delete") {
-							action {
-								val temp = model.selectedBuild
-								model.selectedBuild = null
-								temp.delete()
-								LOGGER.info("Deleting Build: ${temp.display()}")
-								find<Selector>().openWindow(owner = null, resizable = false)
-								close()
-							}
+					separator{
+						isVisible = false
+					}
+					label(text = model.selectedBuild.version){
+						addClass(Styles.subtitle)
+					}
+					separator()
+					label(text = "${model.selectedBuild.classTag.cleanName()}/${model.selectedBuild.ascendency.cleanName()}") {
+						addClass(Styles.subtitle)
+					}
+					separator{
+						isVisible = false
+					}
+					button(text = "Copy") {
+						addClass(Styles.fixedButton)
+						action {
+							controller.copyBuild(oldView = this@BuildViewer)
 						}
 					}
-				}
-				separator {
-					isVisible = false
-					hgrow = Priority.ALWAYS
+					button(text = "Edit") {
+						addClass(Styles.fixedButton)
+						action {
+							controller.editBuild(oldView = this@BuildViewer)
+						}
+					}
+					button(text = "Delete") {
+						addClass(Styles.fixedButton)
+						action {
+							controller.deleteBuild(oldView = this@BuildViewer)
+						}
+					}
 				}
 			}
 		}
@@ -98,7 +75,9 @@ class BuildViewer : View("Exile Buddy") {
 						hbarPolicy = ScrollPane.ScrollBarPolicy.NEVER
 						vbox(spacing = 5.0, alignment = Pos.TOP_CENTER) {
 							paddingAll = 5.0
-							label("Weapons")
+							label("Weapons") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 6).forEach {
@@ -106,11 +85,13 @@ class BuildViewer : View("Exile Buddy") {
 										model.selectedBuild.gems.weapons[it] ?: Util.MISSING_GEM
 									else Util.MISSING_GEM
 									if (it == 3)
-										add(separator {})
+										add(separator())
 									add(GemViewerPane(model.selectedBuild, temp))
 								}
 							}
-							label("Armour")
+							label("Armour") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 6).forEach {
@@ -120,7 +101,9 @@ class BuildViewer : View("Exile Buddy") {
 									add(GemViewerPane(model.selectedBuild, temp))
 								}
 							}
-							label("Helmet")
+							label("Helmet") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
@@ -130,7 +113,9 @@ class BuildViewer : View("Exile Buddy") {
 									add(GemViewerPane(model.selectedBuild, temp))
 								}
 							}
-							label("Gloves")
+							label("Gloves") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
@@ -140,7 +125,9 @@ class BuildViewer : View("Exile Buddy") {
 									add(GemViewerPane(model.selectedBuild, temp))
 								}
 							}
-							label("Boots")
+							label("Boots") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
@@ -209,8 +196,7 @@ class BuildViewer : View("Exile Buddy") {
 
 	override fun onDock() {
 		currentWindow?.setOnCloseRequest {
-			LOGGER.info("Closing Build: ${model.selectedBuild.display()}")
-			find<Selector>().openWindow(owner = null, resizable = false)
+			controller.selectBuild(this@BuildViewer)
 		}
 	}
 

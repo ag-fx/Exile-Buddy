@@ -28,7 +28,6 @@ import java.io.IOException
 @JsonSerialize(using = BuildSerializer::class)
 class Build(
 	version: String,
-	isHardcore: Boolean,
 	name: String,
 	classTag: ClassTag,
 	ascendency: Ascendency,
@@ -37,9 +36,6 @@ class Build(
 ) {
 	val versionProperty = SimpleStringProperty()
 	var version by versionProperty
-
-	val isHardcoreProperty = SimpleBooleanProperty()
-	var isHardcore by isHardcoreProperty
 
 	val nameProperty = SimpleStringProperty()
 	var name by nameProperty
@@ -58,7 +54,6 @@ class Build(
 
 	init {
 		this.version = version
-		this.isHardcore = isHardcore
 		this.name = name
 		this.classTag = classTag
 		this.ascendency = ascendency
@@ -67,10 +62,10 @@ class Build(
 	}
 
 	val filename: String
-		get() = "{$version${if (isHardcore) "-HC" else ""}}_${name.replace(" ", "_")}.yaml"
+		get() = "{$version}_${name.replace(" ", "_")}.yaml"
 
-	fun display(): String =
-		"{$version${if (isHardcore) "-HC" else ""}} $name [${classTag.cleanName()}/${ascendency.cleanName()}]"
+	val display: String
+		get() = "{$version} $name [${classTag.cleanName()}/${ascendency.cleanName()}]"
 
 	fun save() {
 		try {
@@ -101,7 +96,6 @@ class BuildDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDes
 		val node: JsonNode = parser.codec.readTree(parser)
 
 		val version = node["Version"].asText()
-		val isHardcore = node["Hardcore"]?.asBoolean() ?: false
 		val name = node["Name"].asText()
 		val classTag = ClassTag.value(node["Class"].asText())
 		if (classTag == null) {
@@ -118,7 +112,6 @@ class BuildDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDes
 
 		return Build(
 			version = version,
-			isHardcore = isHardcore,
 			name = name,
 			classTag = classTag,
 			ascendency = ascendency,
@@ -138,7 +131,6 @@ class BuildSerializer @JvmOverloads constructor(t: Class<Build>? = null) : StdSe
 	override fun serialize(value: Build, parser: JsonGenerator, provider: SerializerProvider?) {
 		parser.writeStartObject()
 		parser.writeStringField("Version", value.version)
-		parser.writeBooleanField("Hardcore", value.isHardcore)
 		parser.writeStringField("Name", value.name)
 		parser.writeStringField("Class", value.classTag.name)
 		parser.writeStringField("Ascendency", value.ascendency.name)

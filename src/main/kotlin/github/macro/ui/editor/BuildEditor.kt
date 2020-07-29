@@ -1,11 +1,14 @@
 package github.macro.ui.editor
 
+import github.macro.Styles
 import github.macro.Util
+import github.macro.build_info.Ascendency
+import github.macro.build_info.ClassTag
+import github.macro.ui.UIController
 import github.macro.ui.UIModel
 import github.macro.ui.viewer.BuildViewer
 import javafx.geometry.Pos
-import javafx.scene.control.ScrollPane
-import javafx.scene.control.TabPane
+import javafx.scene.control.*
 import javafx.scene.layout.Priority
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
@@ -14,7 +17,13 @@ import tornadofx.*
  * Created by Macro303 on 2020-Jan-13.
  */
 class BuildEditor : View("Exile Buddy") {
-	private val model: UIModel by inject()
+	private val controller by inject<UIController>()
+	private val model by inject<UIModel>()
+
+	private var versionTextField by singleAssign<TextField>()
+	private var classComboBox by singleAssign<ComboBox<ClassTag>>()
+	private var ascendencyComboBox by singleAssign<ComboBox<Ascendency>>()
+	private var nameTextField by singleAssign<TextField>()
 
 	override val root = borderpane {
 		prefWidth = 1000.0
@@ -28,56 +37,47 @@ class BuildEditor : View("Exile Buddy") {
 					isVisible = false
 					hgrow = Priority.ALWAYS
 				}
-				val versionTextfield = textfield {
+				versionTextField = textfield {
 					promptText = "PoE Version"
 					text = model.selectedBuild.version
 				}
-				val hardcoreCheckbox = checkbox("Hardcore") {
-					isSelected = model.selectedBuild.isHardcore
-				}
-				val nameTextfield = textfield {
-					promptText = "Build Name"
-					hgrow = Priority.ALWAYS
-					text = model.selectedBuild.name
-				}
-				val classCombobox = combobox(values = model.classes) {
+				classComboBox = combobox(values = model.classes) {
 					promptText = "Class"
 					selectionModel.select(model.selectedBuild.classTag)
 				}
 				model.selectedClass(model.selectedBuild.classTag)
-				val ascendencyCombobox = combobox(values = model.ascendencies) {
+				ascendencyComboBox = combobox(values = model.ascendencies) {
 					promptText = "Ascendency"
 					disableWhen {
-						classCombobox.valueProperty().isNull
+						classComboBox.valueProperty().isNull
 					}
 					selectionModel.select(model.selectedBuild.ascendency)
 				}
-				classCombobox.setOnAction {
-					ascendencyCombobox.selectionModel.clearSelection()
-					if (classCombobox.selectedItem != null)
-						model.selectedClass(classCombobox.selectedItem!!)
+				classComboBox.setOnAction {
+					ascendencyComboBox.selectionModel.clearSelection()
+					controller.updateClass(classComboBox.selectedItem!!)
+				}
+				nameTextField = textfield {
+					promptText = "Build Name"
+					hgrow = Priority.ALWAYS
+					text = model.selectedBuild.name
 				}
 				button(text = "Save") {
-					minWidth = 100.0
+					addClass(Styles.fixedButton)
 					action {
-						model.selectedBuild.delete()
-						model.selectedBuild.version = versionTextfield.text
-						model.selectedBuild.isHardcore = hardcoreCheckbox.isSelected
-						model.selectedBuild.name = nameTextfield.text
-						model.selectedBuild.classTag = classCombobox.selectedItem!!
-						model.selectedBuild.ascendency = ascendencyCombobox.selectedItem!!
-						model.selectedBuild.save()
-						LOGGER.info("Updating Build: ${model.selectedBuild.display()}")
-						val scope = Scope()
-						setInScope(model, scope)
-						find<BuildViewer>(scope).openWindow(owner = null, resizable = false)
-						close()
+						controller.saveBuild(
+							oldView = this@BuildEditor,
+							version = versionTextField.text,
+							name = nameTextField.text,
+							classTag = classComboBox.selectedItem!!,
+							ascendency = ascendencyComboBox.selectedItem!!
+						)
 					}
 					disableWhen {
-						versionTextfield.textProperty().isEmpty
-							.or(nameTextfield.textProperty().length().lessThanOrEqualTo(3))
-							.or(classCombobox.valueProperty().isNull)
-							.or(ascendencyCombobox.valueProperty().isNull)
+						versionTextField.textProperty().isEmpty
+							.or(nameTextField.textProperty().length().lessThanOrEqualTo(3))
+							.or(classComboBox.valueProperty().isNull)
+							.or(ascendencyComboBox.valueProperty().isNull)
 					}
 				}
 				separator {
@@ -95,7 +95,9 @@ class BuildEditor : View("Exile Buddy") {
 						hbarPolicy = ScrollPane.ScrollBarPolicy.NEVER
 						vbox(spacing = 5.0, alignment = Pos.TOP_CENTER) {
 							paddingAll = 5.0
-							label("Weapons")
+							label("Weapons") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 6).forEach {
@@ -103,11 +105,13 @@ class BuildEditor : View("Exile Buddy") {
 										model.selectedBuild.gems.weapons[it] ?: Util.MISSING_GEM
 									else Util.MISSING_GEM
 									if (it == 3)
-										add(separator {})
+										add(separator())
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
-							label("Armour")
+							label("Armour") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 6).forEach {
@@ -117,7 +121,9 @@ class BuildEditor : View("Exile Buddy") {
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
-							label("Helmet")
+							label("Helmet") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
@@ -127,7 +133,9 @@ class BuildEditor : View("Exile Buddy") {
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
-							label("Gloves")
+							label("Gloves") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
@@ -137,7 +145,9 @@ class BuildEditor : View("Exile Buddy") {
 									add(GemEditorPane(model.selectedBuild, temp))
 								}
 							}
-							label("Boots")
+							label("Boots") {
+								addClass(Styles.subtitle)
+							}
 							hbox(spacing = 5.0, alignment = Pos.CENTER_LEFT) {
 								paddingAll = 5.0
 								(0 until 4).forEach {
@@ -206,8 +216,8 @@ class BuildEditor : View("Exile Buddy") {
 
 	override fun onDock() {
 		currentWindow?.setOnCloseRequest {
-			LOGGER.info("Closing Build: ${model.selectedBuild.display()}")
-			find<BuildViewer>().openWindow(owner = null, resizable = false)
+			LOGGER.info("Closing Build: ${model.selectedBuild.display}")
+			controller.viewBuild(this@BuildEditor)
 		}
 	}
 
