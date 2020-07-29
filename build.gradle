@@ -85,6 +85,7 @@ task copyApplication(type: Copy) {
 task copyResources(type: Copy) {
 	from 'resources'
 	exclude 'Scripts'
+	exclude 'docs'
 	into "$buildDir/libs/resources"
 }
 
