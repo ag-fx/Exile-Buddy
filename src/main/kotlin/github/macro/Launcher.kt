@@ -4,7 +4,6 @@ import github.macro.config.Config
 import github.macro.ui.Selector
 import javafx.scene.image.Image
 import javafx.scene.text.FontWeight
-import javafx.stage.Stage
 import org.apache.logging.log4j.Level
 import org.apache.logging.log4j.LogManager
 import tornadofx.*

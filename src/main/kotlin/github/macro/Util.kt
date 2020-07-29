@@ -92,7 +92,7 @@ object Util {
 		} ?: MISSING_GEM
 	}
 
-	fun equipmentByName(name: String?): Equipment{
+	fun equipmentByName(name: String?): Equipment {
 		name ?: return MISSING_EQUIPMENT
 		return EQUIPMENT_LIST.firstOrNull {
 			it.name.equals(name, ignoreCase = true)

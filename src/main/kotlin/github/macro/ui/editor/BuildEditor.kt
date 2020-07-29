@@ -6,9 +6,11 @@ import github.macro.build_info.Ascendency
 import github.macro.build_info.ClassTag
 import github.macro.ui.UIController
 import github.macro.ui.UIModel
-import github.macro.ui.viewer.BuildViewer
 import javafx.geometry.Pos
-import javafx.scene.control.*
+import javafx.scene.control.ComboBox
+import javafx.scene.control.ScrollPane
+import javafx.scene.control.TabPane
+import javafx.scene.control.TextField
 import javafx.scene.layout.Priority
 import org.apache.logging.log4j.LogManager
 import tornadofx.*

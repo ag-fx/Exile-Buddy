@@ -6,7 +6,6 @@ import github.macro.build_info.Ascendency
 import github.macro.build_info.Build
 import github.macro.build_info.ClassTag
 import javafx.geometry.Pos
-import javafx.scene.control.CheckBox
 import javafx.scene.control.ComboBox
 import javafx.scene.control.TextField
 import javafx.scene.layout.Priority
@@ -32,8 +31,8 @@ class Selector : View("Exile Buddy") {
 			vbox(spacing = 5.0, alignment = Pos.TOP_CENTER) {
 				paddingAll = 5.0
 				imageview(Launcher::class.java.getResource("logo.png").toExternalForm(), lazyload = true) {
-					fitWidth = 390.0
-					fitHeight = 280.0
+					fitWidth = 320.0
+					fitHeight = 240.0
 				}
 				label(text = "Exile Buddy") {
 					addClass(Styles.title)

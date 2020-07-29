@@ -8,7 +8,6 @@ import github.macro.ui.UIModel
 import javafx.geometry.Pos
 import javafx.scene.control.ScrollPane
 import javafx.scene.control.TabPane
-import javafx.scene.layout.Priority
 import org.apache.logging.log4j.LogManager
 import tornadofx.*
 
@@ -32,17 +31,17 @@ class BuildViewer : View("Exile Buddy") {
 				}
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
 					paddingAll = 5.0
-					separator{
+					separator {
 						isVisible = false
 					}
-					label(text = model.selectedBuild.version){
+					label(text = model.selectedBuild.version) {
 						addClass(Styles.subtitle)
 					}
 					separator()
 					label(text = "${model.selectedBuild.classTag.cleanName()}/${model.selectedBuild.ascendency.cleanName()}") {
 						addClass(Styles.subtitle)
 					}
-					separator{
+					separator {
 						isVisible = false
 					}
 					button(text = "Copy") {
