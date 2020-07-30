@@ -26,6 +26,8 @@ class Selector : View("Exile Buddy") {
 	private var ascendencyComboBox: ComboBox<Ascendency> by singleAssign()
 
 	override val root = borderpane {
+		prefWidth = 500.0
+		prefHeight = 550.0
 		paddingAll = 10.0
 		top {
 			paddingAll = 5.0
