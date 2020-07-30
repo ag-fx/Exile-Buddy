@@ -26,8 +26,8 @@ $ gradlew clean run
 ```
 
 ## Screenshots
-![Selector-Light](https://raw.githubusercontent.com/Macro303/Exile-Buddy/main/resources/docs/Screen-1-Light.png)
-![Selector-Dark](https://raw.githubusercontent.com/Macro303/Exile-Buddy/main/resources/docs/Screen-1-Dark.png)
+![Selector-Light](https://raw.githubusercontent.com/Macro303/Exile-Buddy/JDK11/resources/docs/Screen-1-Light.png)
+![Selector-Dark](https://raw.githubusercontent.com/Macro303/Exile-Buddy/JDK11/resources/docs/Screen-1-Dark.png)
 
 ## Socials
 [![Discord | The Playground](https://discord.com/api/v6/guilds/618581423070117932/widget.png?style=banner2)](https://discord.gg/nqGMeGg)
