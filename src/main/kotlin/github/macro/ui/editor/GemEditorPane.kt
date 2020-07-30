@@ -137,7 +137,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 						}
 						tooltip(reason) {
 							style {
-								fontSize = 12.px
+								fontSize = 14.px
 							}
 							showDelay = Duration(0.0)
 							hideDelay = Duration(0.0)
@@ -146,7 +146,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 					}
 				}
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
-					button(text = "Add") {
+					button("Add") {
 						visibleWhen(!nextProperty)
 						action {
 							LOGGER.info("Add Update Gem")
@@ -160,7 +160,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 							LOGGER.info("Edit: $gem")
 						}
 					}
-					button(text = "Delete") {
+					button("Del") {
 						visibleWhen(previousProperty)
 						action {
 							LOGGER.info("Delete Update Gem")

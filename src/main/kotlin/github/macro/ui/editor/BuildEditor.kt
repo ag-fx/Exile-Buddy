@@ -2,6 +2,7 @@ package github.macro.ui.editor
 
 import github.macro.Styles
 import github.macro.Util
+import github.macro.Util.cleanName
 import github.macro.build_info.Ascendency
 import github.macro.build_info.ClassTag
 import github.macro.ui.UIController
@@ -45,11 +46,17 @@ class BuildEditor : View("Exile Buddy") {
 				}
 				classComboBox = combobox(values = model.classes) {
 					promptText = "Class"
+					cellFormat {
+						text = it.cleanName()
+					}
 					selectionModel.select(model.selectedBuild.classTag)
 				}
 				model.selectedClass(model.selectedBuild.classTag)
 				ascendencyComboBox = combobox(values = model.ascendencies) {
 					promptText = "Ascendency"
+					cellFormat {
+						text = it.cleanName()
+					}
 					disableWhen {
 						classComboBox.valueProperty().isNull
 					}

@@ -3,6 +3,7 @@ package github.macro
 import github.macro.config.Config
 import github.macro.ui.Selector
 import javafx.scene.image.Image
+import javafx.scene.text.Font
 import javafx.scene.text.FontWeight
 import org.apache.logging.log4j.Level
 import org.apache.logging.log4j.LogManager
@@ -17,8 +18,8 @@ class Launcher : App(Selector::class, Styles::class) {
 		checkLogLevels()
 		LOGGER.info("Welcome to Exile Buddy")
 		if (Config.INSTANCE.useDarkMode) {
-			importStylesheet(Launcher::class.java.getResource("Modena-Dark.css").toExternalForm())
-//		    importStylesheet(Launcher::class.java.getResource("Custom-Dark.css").toExternalForm())
+//			importStylesheet(Launcher::class.java.getResource("Modena-Dark.css").toExternalForm())
+			importStylesheet(Launcher::class.java.getResource("Custom-Dark.css").toExternalForm())
 		}
 		FX.locale = Locale.ENGLISH
 		reloadStylesheetsOnFocus()
@@ -37,14 +38,27 @@ class Launcher : App(Selector::class, Styles::class) {
 }
 
 class Styles : Stylesheet() {
+	private val customFont = Font.loadFont(Launcher::class.java.getResource("Overlock-Regular.ttf").openStream(), 12.0)
+	private val titleFont = Font.loadFont(Launcher::class.java.getResource("Acme-Regular.ttf").openStream(), 12.0)
+	private val buttonFont = Font.loadFont(Launcher::class.java.getResource("OverlockSC-Regular.ttf").openStream(), 12.0)
 
 	init {
+		root {
+			fontFamily = customFont.family
+			fontSize = 14.px
+		}
+		button {
+			fontFamily = buttonFont.family
+			fontSize = 14.px
+		}
 		title {
+			fontFamily = customFont.family
 			fontSize = 36.px
 			fontWeight = FontWeight.BOLD
 		}
 		subtitle {
-			fontSize = 18.px
+			fontFamily = customFont.family
+			fontSize = 21.px
 			fontWeight = FontWeight.BOLD
 		}
 		sizedButton {

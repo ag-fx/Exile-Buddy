@@ -27,7 +27,7 @@ class BuildViewer : View("Exile Buddy") {
 			vbox(spacing = 5.0, alignment = Pos.CENTER) {
 				paddingAll = 5.0
 				label(text = model.selectedBuild.name) {
-					addClass(Styles.subtitle)
+					addClass(Styles.title)
 				}
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
 					paddingAll = 5.0

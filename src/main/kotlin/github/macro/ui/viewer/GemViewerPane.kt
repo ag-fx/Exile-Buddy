@@ -137,7 +137,7 @@ class GemViewerPane(val build: Build, gem: Gem) : BorderPane() {
 					}
 					tooltip(reason) {
 						style {
-							fontSize = 12.px
+							fontSize = 14.px
 						}
 						showDelay = Duration(0.0)
 						hideDelay = Duration(0.0)

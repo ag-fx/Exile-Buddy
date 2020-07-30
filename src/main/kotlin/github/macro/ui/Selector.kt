@@ -2,6 +2,7 @@ package github.macro.ui
 
 import github.macro.Launcher
 import github.macro.Styles
+import github.macro.Util.cleanName
 import github.macro.build_info.Ascendency
 import github.macro.build_info.Build
 import github.macro.build_info.ClassTag
@@ -75,9 +76,15 @@ class Selector : View("Exile Buddy") {
 							}
 							classComboBox = combobox(values = model.classes) {
 								promptText = "Class"
+								cellFormat {
+									text = it.cleanName()
+								}
 							}
 							ascendencyComboBox = combobox(values = model.ascendencies) {
 								promptText = "Ascendency"
+								cellFormat {
+									text = it.cleanName()
+								}
 								disableWhen {
 									classComboBox.valueProperty().isNull
 								}
