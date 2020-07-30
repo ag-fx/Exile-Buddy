@@ -37,6 +37,11 @@ class Launcher : App(Selector::class, Styles::class) {
 	}
 }
 
+fun main(vararg args: String) {
+	println("Launching Application")
+	launch<Launcher>(*args)
+}
+
 class Styles : Stylesheet() {
 	private val fontBold = Font.loadFont(Launcher::class.java.getResource("fonts/Fontin-Bold.otf").openStream(), 12.0)
 	private val fontRegular = Font.loadFont(Launcher::class.java.getResource("fonts/Fontin-Regular.otf").openStream(), 12.0)
