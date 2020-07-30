@@ -1,58 +1,5 @@
 [
   {
-	"name": "Added Chaos Damage Support",
-	"slot": "Blue",
-	"tags": [
-	  "Chaos",
-	  "Support"
-	],
-	"acquisition": {
-	  "divinationCards": [],
-	  "quests": [],
-	  "vendors": []
-	}
-  },
-  {
-	"name": "Added Lightning Damage Support",
-	"slot": "Blue",
-	"tags": [
-	  "Lightning",
-	  "Support"
-	],
-	"acquisition": {
-	  "divinationCards": [],
-	  "quests": [],
-	  "vendors": []
-	}
-  },
-  {
-	"name": "Arcane Surge Support",
-	"slot": "Blue",
-	"tags": [
-	  "Support",
-	  "Spell",
-	  "Duration"
-	],
-	"acquisition": {
-	  "divinationCards": [],
-	  "quests": [],
-	  "vendors": []
-	}
-  },
-  {
-	"name": "Blasphemy Support",
-	"slot": "Blue",
-	"tags": [
-	  "Support",
-	  "Aura"
-	],
-	"acquisition": {
-	  "divinationCards": [],
-	  "quests": [],
-	  "vendors": []
-	}
-  },
-  {
 	"name": "Blastchain Mine Support",
 	"slot": "Blue",
 	"tags": [
