@@ -38,26 +38,26 @@ class Launcher : App(Selector::class, Styles::class) {
 }
 
 class Styles : Stylesheet() {
-	private val customFont = Font.loadFont(Launcher::class.java.getResource("Overlock-Regular.ttf").openStream(), 12.0)
-	private val titleFont = Font.loadFont(Launcher::class.java.getResource("Acme-Regular.ttf").openStream(), 12.0)
-	private val buttonFont = Font.loadFont(Launcher::class.java.getResource("OverlockSC-Regular.ttf").openStream(), 12.0)
+	private val fontBold = Font.loadFont(Launcher::class.java.getResource("fonts/Fontin-Bold.otf").openStream(), 12.0)
+	private val fontRegular = Font.loadFont(Launcher::class.java.getResource("fonts/Fontin-Regular.otf").openStream(), 12.0)
+	private val fontSmallCaps = Font.loadFont(Launcher::class.java.getResource("fonts/Fontin-SmallCaps.otf").openStream(), 12.0)
 
 	init {
 		root {
-			fontFamily = customFont.family
+			fontFamily = fontRegular.family
 			fontSize = 14.px
 		}
 		button {
-			fontFamily = buttonFont.family
+			fontFamily = fontSmallCaps.family
 			fontSize = 14.px
 		}
 		title {
-			fontFamily = customFont.family
+			fontFamily = fontBold.family
 			fontSize = 36.px
 			fontWeight = FontWeight.BOLD
 		}
 		subtitle {
-			fontFamily = customFont.family
+			fontFamily = fontBold.family
 			fontSize = 21.px
 			fontWeight = FontWeight.BOLD
 		}
