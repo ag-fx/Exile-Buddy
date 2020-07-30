@@ -24,10 +24,11 @@ Show what Gems to link and update as you progress as well as include how to get 
 ```bash
 $ gradlew clean run
 ```
-
 ## Screenshots
+<details><summary>Selection Screen</summary><p>
 <img src="https://raw.githubusercontent.com/Macro303/Exile-Buddy/JDK11/resources/docs/Screen-1-Light.png" align="left" width="300" height="330" alt="Selection Screen - Light"/>
 <img src="https://raw.githubusercontent.com/Macro303/Exile-Buddy/JDK11/resources/docs/Screen-1-Dark.png" align="left" width="300" height="330" alt="Selection Screen - Dark"/>
+</p></details>
 
 ## Socials
 [![Discord | The Playground](https://discord.com/api/v6/guilds/618581423070117932/widget.png?style=banner2)](https://discord.gg/nqGMeGg)
