@@ -54,7 +54,7 @@ class Styles : Stylesheet() {
 		}
 		button {
 			fontFamily = fontSmallCaps.family
-			fontSize = 14.px
+			fontSize = 13.px
 		}
 		title {
 			fontFamily = fontBold.family
