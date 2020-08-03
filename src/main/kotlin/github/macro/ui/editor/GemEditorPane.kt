@@ -161,7 +161,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 						}
 					}
 					button("Del") {
-						visibleWhen(previousProperty)
+						visibleWhen(previousProperty.or(nextProperty))
 						action {
 							LOGGER.info("Delete Update Gem")
 						}
