@@ -1,7 +1,7 @@
 package github.macro
 
 import github.macro.config.Config
-import github.macro.ui.Selector
+import github.macro.ui.BuildSelector
 import javafx.scene.image.Image
 import javafx.scene.text.Font
 import javafx.scene.text.FontWeight
@@ -13,7 +13,7 @@ import java.util.*
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-class Launcher : App(Selector::class, Styles::class) {
+class Launcher : App(BuildSelector::class, Styles::class) {
 	init {
 		checkLogLevels()
 		LOGGER.info("Welcome to Exile Buddy")

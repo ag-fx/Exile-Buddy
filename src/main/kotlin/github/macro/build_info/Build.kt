@@ -83,6 +83,10 @@ class Build(
 		}
 	}
 
+	override fun toString(): String {
+		return "Build(versionProperty=$versionProperty, nameProperty=$nameProperty, classProperty=$classProperty, ascendencyProperty=$ascendencyProperty, gemsProperty=$gemsProperty, equipmentProperty=$equipmentProperty)"
+	}
+
 	companion object {
 		private val LOGGER = LogManager.getLogger(Build::class.java)
 	}

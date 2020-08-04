@@ -56,6 +56,22 @@ class BuildGems(
 		this.boots = FXCollections.observableList(boots)
 		this.updates = FXCollections.observableList(updates)
 	}
+
+	fun getUsedGems(): List<Gem> {
+		val used = ArrayList<Gem>()
+		used.addAll(weapons.filterNot { it == Util.MISSING_GEM })
+		used.addAll(armour.filterNot { it == Util.MISSING_GEM })
+		used.addAll(helmet.filterNot { it == Util.MISSING_GEM })
+		used.addAll(gloves.filterNot { it == Util.MISSING_GEM })
+		used.addAll(boots.filterNot { it == Util.MISSING_GEM })
+		used.addAll(updates.map { it.old }.filterNot { it == Util.MISSING_GEM })
+		used.addAll(updates.map { it.new }.filterNot { it == Util.MISSING_GEM })
+		return used
+	}
+
+	override fun toString(): String {
+		return "BuildGems(weaponsProperty=$weaponsProperty, armourProperty=$armourProperty, helmetProperty=$helmetProperty, glovesProperty=$glovesProperty, bootsProperty=$bootsProperty, updatesProperty=$updatesProperty)"
+	}
 }
 
 class BuildGemsDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<BuildGems?>(vc) {

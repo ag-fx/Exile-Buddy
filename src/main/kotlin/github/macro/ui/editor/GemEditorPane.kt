@@ -1,8 +1,10 @@
 package github.macro.ui.editor
 
 import github.macro.Util
-import github.macro.build_info.Build
+import github.macro.build_info.Update
 import github.macro.build_info.gems.Gem
+import github.macro.ui.GemSelector
+import github.macro.ui.UIModel
 import javafx.beans.property.SimpleBooleanProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
@@ -23,7 +25,7 @@ import java.io.File
 /**
  * Created by Macro303 on 2020-Jan-14.
  */
-class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
+class GemEditorPane(val model: UIModel, gem: Gem) : BorderPane() {
 	val gemProperty = SimpleObjectProperty<Gem>()
 	var gem by gemProperty
 
@@ -73,15 +75,15 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 
 		colourProperty.value = Paint.valueOf(Util.slotToColour(gem.slot))
 
-		previousProperty.value = build.gems.updates.any {
+		previousProperty.value = model.selectedBuild.gems.updates.any {
 			(it.new == gem) && it.new != Util.MISSING_GEM
 		}
 
-		nextProperty.value = build.gems.updates.any {
+		nextProperty.value = model.selectedBuild.gems.updates.any {
 			it.old == gem && it.old != Util.MISSING_GEM
 		}
 
-		reasonProperty.value = build.gems.updates.firstOrNull {
+		reasonProperty.value = model.selectedBuild.gems.updates.firstOrNull {
 			it.old == gem && it.old != Util.MISSING_GEM
 		}?.reason
 	}
@@ -117,7 +119,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 						isFocusTraversable = false
 						action {
 							setNewGem(
-								build.gems.updates.firstOrNull { it.new?.equals(gem) ?: false }?.old
+								model.selectedBuild.gems.updates.firstOrNull { it.new?.equals(gem) ?: false }?.old
 									?: Util.MISSING_GEM
 							)
 						}
@@ -131,7 +133,7 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 						isFocusTraversable = false
 						action {
 							setNewGem(
-								build.gems.updates.firstOrNull { it.old?.equals(gem) ?: false }?.new
+								model.selectedBuild.gems.updates.firstOrNull { it.old?.equals(gem) ?: false }?.new
 									?: Util.MISSING_GEM
 							)
 						}
@@ -147,23 +149,83 @@ class GemEditorPane(val build: Build, gem: Gem) : BorderPane() {
 				}
 				hbox(spacing = 5.0, alignment = Pos.CENTER) {
 					button("Add") {
-						visibleWhen(!nextProperty)
+						visibleWhen(nextProperty.not().and(gemProperty.isEqualTo(Util.MISSING_GEM).not()))
 						action {
-							LOGGER.info("Add Update Gem")
+							val scope = Scope()
+							setInScope(model, scope)
+							find<GemSelector>(scope).openModal(block = true, resizable = false)
+							if (model.selectedGem != Util.MISSING_GEM) {
+								model.selectedBuild.gems.updates.add(
+									Update(gem, model.selectedGem, "Reason not Implemented")
+								)
+								setNewGem(model.selectedGem)
+							}
 						}
 					}
 					button("Edit") {
-						visibleWhen {
-							nameProperty.isNotEqualTo("Missing")
+						disableWhen {
+							true.toProperty()
 						}
 						action {
-							LOGGER.info("Edit: $gem")
+							val scope = Scope()
+							setInScope(model, scope)
+							find<GemSelector>(scope).openModal(block = true, resizable = false)
+							if (model.selectedGem != Util.MISSING_GEM) {
+								model.selectedBuild.gems.weapons.replaceAll {
+									if (it == gem)
+										return@replaceAll model.selectedGem
+									return@replaceAll it
+								}
+								model.selectedBuild.gems.armour.replaceAll {
+									if (it == gem)
+										return@replaceAll model.selectedGem
+									return@replaceAll it
+								}
+								model.selectedBuild.gems.helmet.replaceAll {
+									if (it == gem)
+										return@replaceAll model.selectedGem
+									return@replaceAll it
+								}
+								model.selectedBuild.gems.gloves.replaceAll {
+									if (it == gem)
+										return@replaceAll model.selectedGem
+									return@replaceAll it
+								}
+								model.selectedBuild.gems.boots.replaceAll {
+									if (it == gem)
+										return@replaceAll model.selectedGem
+									return@replaceAll it
+								}
+								model.selectedBuild.gems.updates.filter { it.old == gem }
+									.forEach { it.old = model.selectedGem }
+								model.selectedBuild.gems.updates.filter { it.new == gem }
+									.forEach { it.new = model.selectedGem }
+								setNewGem(model.selectedGem)
+							}
 						}
 					}
 					button("Del") {
 						visibleWhen(previousProperty.or(nextProperty))
 						action {
-							LOGGER.info("Delete Update Gem")
+							var update = model.selectedBuild.gems.updates.firstOrNull { it.new == gem }
+							if (update != null) {
+								LOGGER.info("Found New Update: $update")
+								model.selectedBuild.gems.updates.remove(update)
+								val refresh = model.selectedBuild.gems.updates.firstOrNull { it.old == gem }
+								if (refresh != null)
+									refresh.old = update.old
+								setNewGem(update.old)
+							} else {
+								update = model.selectedBuild.gems.updates.firstOrNull { it.old == gem }
+								if (update != null) {
+									LOGGER.info("Found Old Update: $update")
+									model.selectedBuild.gems.updates.remove(update)
+									val refresh = model.selectedBuild.gems.updates.firstOrNull { it.new == gem }
+									if (refresh != null)
+										refresh.new = update.new
+									setNewGem(update.new)
+								}
+							}
 						}
 					}
 				}

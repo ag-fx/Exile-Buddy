@@ -16,7 +16,7 @@ import tornadofx.*
 /**
  * Created by Macro303 on 2020-Jan-13.
  */
-class Selector : View("Exile Buddy") {
+class BuildSelector : View("Exile Buddy") {
 	private val controller by inject<UIController>()
 	private val model by inject<UIModel>()
 
@@ -59,7 +59,7 @@ class Selector : View("Exile Buddy") {
 					button(text = "Select") {
 						addClass(Styles.sizedButton)
 						action {
-							controller.viewBuild(oldView = this@Selector)
+							controller.viewBuild(oldView = this@BuildSelector)
 						}
 						disableWhen {
 							buildCombobox.valueProperty().isNull
@@ -106,7 +106,7 @@ class Selector : View("Exile Buddy") {
 								addClass(Styles.sizedButton)
 								action {
 									controller.createBuild(
-										oldView = this@Selector,
+										oldView = this@BuildSelector,
 										version = versionTextField.text,
 										name = nameTextField.text,
 										classTag = classComboBox.selectedItem!!,
@@ -132,6 +132,6 @@ class Selector : View("Exile Buddy") {
 	}
 
 	companion object {
-		private val LOGGER = LogManager.getLogger(Selector::class.java)
+		private val LOGGER = LogManager.getLogger(BuildSelector::class.java)
 	}
 }

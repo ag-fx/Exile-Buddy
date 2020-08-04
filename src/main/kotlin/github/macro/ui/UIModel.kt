@@ -4,6 +4,7 @@ import github.macro.Util
 import github.macro.build_info.Ascendency
 import github.macro.build_info.Build
 import github.macro.build_info.ClassTag
+import github.macro.build_info.gems.Gem
 import javafx.beans.property.SimpleListProperty
 import javafx.beans.property.SimpleObjectProperty
 import javafx.collections.FXCollections
@@ -28,11 +29,19 @@ class UIModel : ViewModel() {
 	val selectedBuildProperty = SimpleObjectProperty<Build>()
 	var selectedBuild by selectedBuildProperty
 
+	val gemsProperty = SimpleListProperty<Gem>()
+	var gems by gemsProperty
+
+	val selectedGemProperty = SimpleObjectProperty<Gem>()
+	var selectedGem by selectedGemProperty
+
 	init {
 		this.builds = FXCollections.observableArrayList()
 		this.classes = FXCollections.observableList(ClassTag.values().toList())
 		this.ascendencies = FXCollections.observableArrayList()
 		this.selectedBuild = null
+		this.gems = FXCollections.observableArrayList(Util.GEM_LIST)
+		this.selectedGem = null
 		LOGGER.info("Initialize Model")
 	}
 

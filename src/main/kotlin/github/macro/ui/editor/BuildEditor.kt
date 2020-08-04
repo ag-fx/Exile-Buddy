@@ -115,7 +115,7 @@ class BuildEditor : View("Exile Buddy") {
 									else Util.MISSING_GEM
 									if (it == 3)
 										add(separator())
-									add(GemEditorPane(model.selectedBuild, temp))
+									add(GemEditorPane(model, temp))
 								}
 							}
 							label("Armour") {
@@ -127,7 +127,7 @@ class BuildEditor : View("Exile Buddy") {
 									val temp = if (model.selectedBuild.gems.armour.size > it)
 										model.selectedBuild.gems.armour[it] ?: Util.MISSING_GEM
 									else Util.MISSING_GEM
-									add(GemEditorPane(model.selectedBuild, temp))
+									add(GemEditorPane(model, temp))
 								}
 							}
 							label("Helmet") {
@@ -139,7 +139,7 @@ class BuildEditor : View("Exile Buddy") {
 									val temp = if (model.selectedBuild.gems.helmet.size > it)
 										model.selectedBuild.gems.helmet[it] ?: Util.MISSING_GEM
 									else Util.MISSING_GEM
-									add(GemEditorPane(model.selectedBuild, temp))
+									add(GemEditorPane(model, temp))
 								}
 							}
 							label("Gloves") {
@@ -151,7 +151,7 @@ class BuildEditor : View("Exile Buddy") {
 									val temp = if (model.selectedBuild.gems.gloves.size > it)
 										model.selectedBuild.gems.gloves[it] ?: Util.MISSING_GEM
 									else Util.MISSING_GEM
-									add(GemEditorPane(model.selectedBuild, temp))
+									add(GemEditorPane(model, temp))
 								}
 							}
 							label("Boots") {
@@ -163,7 +163,7 @@ class BuildEditor : View("Exile Buddy") {
 									val temp = if (model.selectedBuild.gems.boots.size > it)
 										model.selectedBuild.gems.boots[it] ?: Util.MISSING_GEM
 									else Util.MISSING_GEM
-									add(GemEditorPane(model.selectedBuild, temp))
+									add(GemEditorPane(model, temp))
 								}
 							}
 						}

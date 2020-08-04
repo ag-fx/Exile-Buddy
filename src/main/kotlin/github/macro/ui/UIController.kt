@@ -11,7 +11,7 @@ import tornadofx.*
  * Created by Macro303 on 2020-Jul-29.
  */
 class UIController : Controller() {
-	private val selectorView by inject<Selector>()
+	private val selectorView by inject<BuildSelector>()
 	private val buildViewerView by inject<BuildViewer>()
 	private val buildEditorView by inject<BuildEditor>()
 	private val model by inject<UIModel>()
@@ -29,7 +29,7 @@ class UIController : Controller() {
 	}
 
 	fun selectBuild(oldView: View) {
-		find<Selector>().openWindow(owner = null, resizable = false)
+		find<BuildSelector>().openWindow(owner = null, resizable = false)
 		oldView.close()
 	}
 

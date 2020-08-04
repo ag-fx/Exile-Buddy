@@ -72,6 +72,10 @@ class BuildEquipment(
 		this.rings = FXCollections.observableList(rings)
 		this.flasks = FXCollections.observableList(flasks)
 	}
+
+	override fun toString(): String {
+		return "BuildEquipment(weaponsProperty=$weaponsProperty, armourProperty=$armourProperty, helmetProperty=$helmetProperty, glovesProperty=$glovesProperty, bootsProperty=$bootsProperty, beltProperty=$beltProperty, amuletProperty=$amuletProperty, ringsProperty=$ringsProperty, flasksProperty=$flasksProperty)"
+	}
 }
 
 class BuildEquipmentDeserializer @JvmOverloads constructor(vc: Class<*>? = null) :

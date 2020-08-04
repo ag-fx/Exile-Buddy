@@ -64,6 +64,10 @@ class Gem(
 		val suffix = if (isVaal) " [Vaal]" else if (isAwakened) " [Awakened]" else ""
 		return name + suffix
 	}
+
+	override fun toString(): String {
+		return "Gem(nameProperty=$nameProperty, slotProperty=$slotProperty, tagsProperty=$tagsProperty, isVaalProperty=$isVaalProperty, isAwakenedProperty=$isAwakenedProperty, acquisitionProperty=$acquisitionProperty)"
+	}
 }
 
 class GemDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<Gem?>(vc) {

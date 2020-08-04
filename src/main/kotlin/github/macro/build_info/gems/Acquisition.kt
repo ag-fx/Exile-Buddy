@@ -32,6 +32,10 @@ class Acquisition(
 		this.rewards = FXCollections.observableList(rewards)
 		this.crafting = FXCollections.observableList(crafting)
 	}
+
+	override fun toString(): String {
+		return "Acquisition(rewardsProperty=$rewardsProperty, craftingProperty=$craftingProperty)"
+	}
 }
 
 class AcquisitionDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<Acquisition?>(vc) {

@@ -31,4 +31,8 @@ class Equipment(
 		this.level = level
 		this.quality = quality
 	}
+
+	override fun toString(): String {
+		return "Equipment(nameProperty=$nameProperty, slotProperty=$slotProperty, levelProperty=$levelProperty, qualityProperty=$qualityProperty)"
+	}
 }

@@ -41,6 +41,10 @@ class Update(
 		this.new = new
 		this.reason = reason
 	}
+
+	override fun toString(): String {
+		return "Update(oldProperty=$oldProperty, newProperty=$newProperty, reasonProperty=$reasonProperty)"
+	}
 }
 
 class UpdateDeserializer @JvmOverloads constructor(vc: Class<*>? = null) : StdDeserializer<Update?>(vc) {
