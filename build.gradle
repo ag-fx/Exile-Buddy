@@ -15,7 +15,7 @@ repositories {
 }
 
 application {
-	mainClassName = "github.macro.Launcher"
+	mainClassName = "github.macro.LauncherKt"
 	applicationName = "Exile-Buddy"
 }
 
@@ -69,13 +69,39 @@ jar {
 
 runtime {
 	options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+	launcher {
+		noConsole = false
+	}
 }
 
 run {
 	standardInput = System.in
 }
 
-/*
+clean {
+	delete 'release'
+}
+
+task applicationCopy(type: Copy){
+	dependsOn 'runtimeZip'
+
+	from "$buildDir/image.zip"
+	destinationDir(file('release'))
+	rename 'image.zip', 'Exile-Buddy.zip'
+}
+
+task resourcesZip(type: Zip){
+	from 'resources'
+	exclude 'docs'
+	include '**/*'
+	archiveFileName = 'Exile-Buddy_resources.zip'
+	destinationDir(file('release'))
+}
+
+task release {
+	dependsOn 'resourcesZip', 'applicationCopy'
+}
+
 def isNonStable = { String version ->
 	def stableKeyword = ['RELEASE', 'FINAL', 'GA'].any { it -> version.toUpperCase().contains(it) }
 	def regex = /^[0-9,.v-]+(-r)?$/
@@ -105,4 +131,4 @@ dependencyUpdates {
 			}
 		}
 	}
-}*/
+}
