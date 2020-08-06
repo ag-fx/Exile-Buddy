@@ -44,7 +44,7 @@ object Util {
 		try {
 			JSON_MAPPER.readValue(File("resources/Gems", "Gems.json"), object : TypeReference<List<Gem>>() {})
 		} catch (ioe: IOException) {
-			LOGGER.error("Unable to Load Gems: $ioe")
+			LOGGER.warn("Unable to Load Gems: $ioe")
 			emptyList<Gem>()
 		}
 	}
@@ -62,7 +62,7 @@ object Util {
 				File("resources/Equipment", "Equipment.json"),
 				object : TypeReference<List<Equipment>>() {})
 		} catch (ioe: IOException) {
-			LOGGER.error("Unable to Load Equipment: $ioe")
+			LOGGER.warn("Unable to Load Equipment: $ioe")
 			emptyList<Equipment>()
 		}
 	}

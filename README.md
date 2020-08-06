@@ -13,9 +13,9 @@ Show what Gems to link and update as you progress as well as include how to get 
  - [Gradle: 6.5.1](https://gradle.org/)
  - [kotlin-stdlib-jdk8: 1.3.72](https://kotlinlang.org/)
  - [tornadofx: 2.0.0-SNAPSHOT](https://github.com/edvin/tornadofx)
- - [jackson-databind: 2.11.1](https://github.com/FasterXML/jackson)
- - [jackson-dataformat-yaml: 2.11.1](https://github.com/FasterXML/jackson-dataformats-text)
- - [jackson-datatype-jdk8: 2.11.1](https://github.com/FasterXML/jackson-modules-java8)
+ - [jackson-databind: 2.11.2(https://github.com/FasterXML/jackson)
+ - [jackson-dataformat-yaml: 2.11.2](https://github.com/FasterXML/jackson-dataformats-text)
+ - [jackson-datatype-jdk8: 2.11.2](https://github.com/FasterXML/jackson-modules-java8)
  - [log4j-api: 2.13.3](https://logging.apache.org/log4j/2.x/)
  - [log4j-core: 2.13.3 (Runtime)](https://logging.apache.org/log4j/2.x/)
  
