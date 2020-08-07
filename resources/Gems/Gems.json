@@ -26611,5 +26611,2548 @@
 		]
 	  ]
 	}
+  },
+  {
+	"name": "Faster Casting Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Spell"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Quest"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Feeding Frenzy Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion",
+	  "Duration"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Templar"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Summoner",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "High-Impact Mine Support",
+	"slot": "Blue",
+	"tags": [
+	  "Mine",
+	  "Support",
+	  "AoE",
+	  "Aura"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Ignite Proliferation Support",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "Support",
+	  "AoE"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 4,
+		  "classes": [
+			"Templar"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Quest"
+		},
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Vendor",
+		  "vendor": "Petarus and Vanja"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Immolate Support",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Quest"
+		},
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Vendor",
+		  "vendor": "Petarus and Vanja"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Increased Area of Effect Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "AoE"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Quest"
+		},
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Vendor",
+		  "vendor": "Petarus and Vanja"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Increased Critical Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Increased Critical Strikes Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ],
+		  "quest": "The Caged Brute",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Infernal Legion Support",
+	"slot": "Blue",
+	"tags": [
+	  "Fire",
+	  "AoE",
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch"
+		  ],
+		  "quest": "The Caged Brute",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Templar"
+		  ],
+		  "quest": "The Caged Brute",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Summoner",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Infused Channelling Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Channelling",
+	  "Duration"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Innervate Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Support",
+	  "Duration"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Shadow",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Intensify Support",
+	"slot": "Blue",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Item Rarity Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Lightning Penetration Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Meat Shield Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Templar"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Summoner",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Minefield Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Mine"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Quest"
+		},
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Vendor",
+		  "vendor": "Petarus and Vanja"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Minion Damage Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch"
+		  ],
+		  "quest": "The Caged Brute",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Caged Brute",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Summoner",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Minion Life Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Summoner",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Minion Speed Support",
+	"slot": "Blue",
+	"tags": [
+	  "Movement",
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Quest"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Summoner",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Physical to Lightning Support",
+	"slot": "Blue",
+	"tags": [
+	  "Lightning",
+	  "Physical",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Power Charge On Critical Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ],
+		  "quest": "Sharp and Cruel",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 2,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Scion"
+		  ],
+		  "quest": "The Root of the Problem",
+		  "type": "Vendor",
+		  "vendor": "Yeena"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Spell Cascade Support",
+	"slot": "Blue",
+	"tags": [
+	  "AoE",
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Spell Echo Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Quest"
+		},
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Vendor",
+		  "vendor": "Petarus and Vanja"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Summon Phantasm Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support",
+	  "Minion"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Scion"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Mercy Mission",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Summoner",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Swiftbrand Support",
+	"slot": "Blue",
+	"tags": [
+	  "Brand",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Templar"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Quest"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Clarissa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Unbound Ailments Support",
+	"slot": "Blue",
+	"tags": [
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Scion"
+		  ],
+		  "quest": "The Caged Brute",
+		  "type": "Quest"
+		},
+		{
+		  "act": 1,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Caged Brute",
+		  "type": "Vendor",
+		  "vendor": "Nessa"
+		},
+		{
+		  "act": 3,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "A Fixture of Fate",
+		  "type": "Vendor",
+		  "vendor": "Siosa"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
+  },
+  {
+	"name": "Unleash Support",
+	"slot": "Blue",
+	"tags": [
+	  "Spell",
+	  "Support"
+	],
+	"acquisition": {
+	  "rewards": [
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Quest"
+		},
+		{
+		  "act": 4,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "The Eternal Nightmare",
+		  "type": "Vendor",
+		  "vendor": "Petarus and Vanja"
+		},
+		{
+		  "act": 6,
+		  "classes": [
+			"Witch",
+			"Shadow",
+			"Ranger",
+			"Duelist",
+			"Marauder",
+			"Templar",
+			"Scion"
+		  ],
+		  "quest": "Fallen from Grace",
+		  "type": "Vendor",
+		  "vendor": "Lilly Roth"
+		}
+	  ],
+	  "crafting": [
+		[
+		  {
+			"count": 9,
+			"name": "Gift of the Gemling",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 7,
+			"name": "Dialla's Subjugation",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 6,
+			"name": "The Fox",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 13,
+			"name": "The Cataclysm",
+			"type": "Divination Card"
+		  }
+		],
+		[
+		  {
+			"count": 3,
+			"name": "Gemcutter's Promise",
+			"type": "Divination Card"
+		  }
+		]
+	  ]
+	}
   }
 ]
